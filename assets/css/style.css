@@ -7,7 +7,20 @@
     border: none;
 }
 
-/* font style import test */
+body {
+    font-family: 'Fanwood Text', serif;
+}
+
+/* logo and header styling */
 h1 {
     font-family: 'quattrocento sans', sans-serif;
+    font-size: 250%;
+    letter-spacing: 1px;
+    font-weight: bolder;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
