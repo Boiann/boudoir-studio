@@ -14,11 +14,16 @@ body {
 /* logo and header styling */
 #logo {
     font-family: 'quattrocento sans', sans-serif;
-    font-size: 200%;
+    font-size: 150%;
     font-weight: 700;
     letter-spacing: 3px;
     text-decoration: none;
     color: #26282D;
+}
+
+#logo:hover {
+    color: #881100;
+    text-decoration: underline;
 }
 
 header {
@@ -31,7 +36,7 @@ header {
 /* Navigation menu styling */
 #navigation {
     font-weight: 300;
-    font-size: 175%;
+    font-size: 150%;
 }
 
 #navigation li {
@@ -44,4 +49,10 @@ header {
 #navigation a {
     text-decoration: none;
     color: #26282D;
+    font-weight: 700;
+}
+
+#navigation a:hover {
+    color: #881100;
+    text-decoration: underline;
 }
