@@ -56,3 +56,13 @@ header {
     color: #881100;
     text-decoration: underline;
 }
+
+/* Hero image */
+
+#hero-img {
+    background: url(../images/hero_image2.jpg) no-repeat center center;
+    background-size: cover;
+    height: 750px;
+    width: 100%;
+    display: flex;
+}
