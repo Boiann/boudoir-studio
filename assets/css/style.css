@@ -102,11 +102,20 @@ header {
     text-align: center;
 }
 
-/* Bottom banner styling */
+/* Mission statement styling */
 
-#bottom-banner {
+.mission-statement {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* Mission statement banner styling */
+
+#statement-banner {
     text-align: center;
     color: #881100;
     text-transform: uppercase;
     font-size: 150%;
 }
+
