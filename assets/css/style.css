@@ -59,7 +59,7 @@ header {
 
 /* Hero image */
 
-.hero {
+.hero-section {
     position: relative;
     height: 750px;
     width: 100%;
@@ -72,7 +72,7 @@ header {
     width: 100%;
 }
 
-/* Cover text */
+/* Cover text styling */
 
 #cover-text {
     background-color: rgba(136, 17, 0, .6);
@@ -102,3 +102,11 @@ header {
     text-align: center;
 }
 
+/* Bottom banner styling */
+
+#bottom-banner {
+    text-align: center;
+    color: #881100;
+    text-transform: uppercase;
+    font-size: 150%;
+}
