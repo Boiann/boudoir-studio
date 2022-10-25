@@ -59,10 +59,46 @@ header {
 
 /* Hero image */
 
+.hero {
+    position: relative;
+    height: 750px;
+    width: 100%;
+}
+
 #hero-img {
     background: url(../images/hero_image2.jpg) no-repeat center center;
     background-size: cover;
     height: 750px;
     width: 100%;
-    display: flex;
 }
+
+/* Cover text */
+
+#cover-text {
+    background-color: rgba(136, 17, 0, .6);
+    width: fit-content;
+    height: fit-content;
+
+    padding: 75px 75px;
+
+    position: absolute;
+    right: 250px;
+    top: 75px;
+
+    border-radius: 25%;
+}    
+
+#cover-text h2 {
+    font-size: 250%;
+    text-transform: uppercase;
+}
+
+#cover-text h3 {
+    font-size: 200%;
+}
+
+#cover-text h2, h3 {
+    color: #fff;
+    text-align: center;
+}
+
