@@ -136,7 +136,6 @@ h3 {
 #m-statement-bottom-img {
     width: 500px;
     height: 100%;
-    margin-right: 15px;
 }
 
 /* Mission statement "What is Boudoir" flex & styling */
@@ -171,4 +170,25 @@ h3 {
 
 #boudoir-history h2, #boudoir-why-consider h2 {
     color: #881100;
+}
+
+/* Mission statement "Why consider us for Boudoir Photography Session?" flex & styling */
+
+#m-statement-bottom {
+    display: flex;
+    flex-direction: row;
+}
+
+#boudoir-why-us {
+    font-size: 200%;
+    text-align: center;
+    margin: 250px 50px;
+}
+
+#boudoir-why-us h2 {
+    color: #881100;
+}
+
+#boudoir-why-us strong {
+    font-weight: bolder;
 }
