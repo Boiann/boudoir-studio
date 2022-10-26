@@ -125,12 +125,12 @@ h3 {
 #m-statement-top-img {
     width: 500px;
     height: 100%;
-    margin-left: 15px;
 }
 
 #m-statement-middle-img {
     width: 700px;
     height: 100%;
+    margin-top: 4px;
 }
 
 #m-statement-bottom-img {
@@ -143,6 +143,8 @@ h3 {
 #m-statement-top {
     display: flex;
     flex-direction: row-reverse;
+    border: 5px solid #881100;
+    margin-left: 15px;
 }
 
 #what-is-boudoir {
@@ -160,6 +162,8 @@ h3 {
 #m-statement-middle {
     display: flex;
     flex-direction: row;
+    border: 5px solid #881100;
+    margin-left: 15px;
 }
 
 #boudoir-history, #boudoir-why-consider {
@@ -177,6 +181,8 @@ h3 {
 #m-statement-bottom {
     display: flex;
     flex-direction: row;
+    border: 5px solid #881100;
+    margin-left: 15px;
 }
 
 #boudoir-why-us {
