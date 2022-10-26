@@ -85,8 +85,6 @@ header {
     position: absolute;
     right: 250px;
     top: 75px;
-
-    border-radius: 25%;
 }
 
 #cover-text h2 {
@@ -106,7 +104,7 @@ h3 {
 
 /* Mission statement styling */
 
-.mission-statement {
+.mission-statement-main {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -124,30 +122,39 @@ h3 {
 
 /* Mission statement images styling */
 
-#boudoir-what-img, #boudoir-why-img {
+#m-statement-top-img {
     width: 500px;
     height: 100%;
     margin-left: 15px;
 }
 
-#boudoir-middle-img {
+#m-statement-middle-img {
     width: 800px;
     height: 100%;
 }
 
-/* Mission statement flex styling */
+#m-statement-bottom-img {
+    width: 500px;
+    height: 100%;
+    margin-right: 15px;
+}
 
-#boudoir-what {
+/* Mission statement "What is Boudoir" flex & styling */
+
+#m-statement-top {
     display: flex;
     flex-direction: row-reverse;
 }
 
-#boudoir-what-text {
+#what-is-boudoir {
     font-size: 200%;
     text-align: center;
     margin: 250px 50px;
 }
 
-#boudoir-what-text h2 {
+#what-is-boudoir h2 {
     color: #881100;
 }
+
+/* Mission statement "Boudoir history and Why consider it" flex & styling */
+
