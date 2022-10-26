@@ -129,7 +129,7 @@ h3 {
 }
 
 #m-statement-middle-img {
-    width: 800px;
+    width: 700px;
     height: 100%;
 }
 
@@ -158,3 +158,17 @@ h3 {
 
 /* Mission statement "Boudoir history and Why consider it" flex & styling */
 
+#m-statement-middle {
+    display: flex;
+    flex-direction: row;
+}
+
+#boudoir-history, #boudoir-why-consider {
+    font-size: 150%;
+    text-align: center;
+    margin: 75px 15px;
+}
+
+#boudoir-history h2, #boudoir-why-consider h2 {
+    color: #881100;
+}
