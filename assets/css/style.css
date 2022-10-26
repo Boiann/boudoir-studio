@@ -125,15 +125,14 @@ h3 {
 /* Mission statement images styling */
 
 #boudoir-what-img, #boudoir-why-img {
-    display: block;
     width: 500px;
-    height: auto;
+    height: 100%;
+    margin-left: 15px;
 }
 
 #boudoir-middle-img {
-    display:block;
     width: 800px;
-    height: auto;
+    height: 100%;
 }
 
 /* Mission statement flex styling */
