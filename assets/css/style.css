@@ -120,3 +120,17 @@ h3 {
     text-transform: uppercase;
     font-size: 150%;
 }
+
+/* Mission statement images styling */
+
+#boudoir-what-img, #boudoir-why-img {
+    display: block;
+    width: 500px;
+    height: auto;
+}
+
+#boudoir-middle-img {
+    display:block;
+    width: 800px;
+    height: auto;
+}
