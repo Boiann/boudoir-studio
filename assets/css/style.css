@@ -267,6 +267,13 @@ h3 {
     margin: 20px auto;
 }
 
+#form h4 {
+    text-align: center;
+    color: #26282D;
+    text-transform: uppercase;
+    margin: 20px auto;
+}
+
 /* OR - comes in between map and form parts of contact section */
 
 #or {
