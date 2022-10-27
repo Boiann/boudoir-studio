@@ -292,6 +292,10 @@ h3 {
     font-size: 15px;
 }
 
+.text-input:hover {
+    background-color: rgba(136, 17, 0, .3);
+}
+
 #textid {
     color: #26282D;
     font-size: 125%;
@@ -308,6 +312,13 @@ h3 {
     font-size: 15px;
 }
 
+#txarea:hover {
+    background-color: rgba(136, 17, 0, .3);
+}
+
+#txarea:hover::placeholder {
+    color: #26282D;
+}
 
 .submit-button {
     border: 2px solid #881100;
@@ -317,6 +328,10 @@ h3 {
     color: #26282D;
     font-size: 100%;
     margin-bottom: 15px;
+}
+
+.submit-button:hover {
+    background-color: rgba(136, 17, 0, .3);
 }
 
 /* OR - comes in between map and form parts of contact section */
