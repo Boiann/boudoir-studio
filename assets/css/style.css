@@ -166,13 +166,15 @@ h3 {
     margin-left: 15px;
 }
 
-#boudoir-history, #boudoir-why-consider {
+#boudoir-history,
+#boudoir-why-consider {
     font-size: 150%;
     text-align: center;
     margin: 75px 15px;
 }
 
-#boudoir-history h2, #boudoir-why-consider h2 {
+#boudoir-history h2,
+#boudoir-why-consider h2 {
     color: #881100;
 }
 
@@ -263,4 +265,14 @@ h3 {
     text-transform: uppercase;
     font-size: 150%;
     margin: 20px auto;
+}
+
+/* OR - comes in between map and form parts of contact section */
+
+#or {
+    text-align: center;
+    color: #881100;
+    text-transform: uppercase;
+    font-size: 250%;
+    margin: auto 10px auto 10px;
 }
