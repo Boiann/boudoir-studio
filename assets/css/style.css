@@ -209,7 +209,7 @@ h3 {
     border: 5px solid #881100;
 }
 
-/* Map styling */
+/* Map, address and open times styling */
 
 #map {
     display: flex;
@@ -217,6 +217,11 @@ h3 {
     border: 5px solid #881100;
     height: 500px;
     width: 50em;
+}
+
+#map iframe {
+    width: 50em;
+    height: 350px;
 }
 
 #map h2 {
@@ -227,6 +232,21 @@ h3 {
     margin: 20px auto;
 }
 
+#mapaddress {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    color: #26282D;
+    text-transform: uppercase;
+    margin: 20px auto;
+    justify-content: space-evenly;
+}
+
+#mapaddress ul {
+    list-style: none;
+}
+
+/* Form styling */
 
 #form {
     flex-direction: column;
