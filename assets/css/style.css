@@ -71,6 +71,7 @@ header {
     height: 750px;
     width: 100%;
     background-attachment: fixed;
+    margin-left: 15px;
 }
 
 /* Cover text styling */
@@ -143,7 +144,6 @@ h3 {
 #m-statement-top {
     display: flex;
     flex-direction: row-reverse;
-    border: 5px solid #881100;
     margin-left: 15px;
 }
 
@@ -162,7 +162,6 @@ h3 {
 #m-statement-middle {
     display: flex;
     flex-direction: row;
-    border: 5px solid #881100;
     margin-left: 15px;
 }
 
@@ -183,7 +182,6 @@ h3 {
 #m-statement-bottom {
     display: flex;
     flex-direction: row;
-    border: 5px solid #881100;
     margin-left: 15px;
 }
 
@@ -198,7 +196,7 @@ h3 {
 }
 
 #boudoir-why-us strong {
-    color: rgba(136, 17, 0, .6);
+    color: rgba(136, 17, 0, .9);
 }
 
 /* Contact section ( form and contact) flex styling */
@@ -208,7 +206,6 @@ h3 {
     flex-direction: row;
     justify-content: space-between;
     margin-left: 15px;
-    border: 5px solid #881100;
 }
 
 /* Map, address and open times styling */
@@ -216,7 +213,7 @@ h3 {
 #map {
     display: flex;
     flex-direction: column;
-    border: 5px solid #881100;
+    border: 2px solid #881100;
     height: 500px;
     width: 50em;
 }
@@ -254,7 +251,7 @@ h3 {
     flex-direction: column;
     width: 50em;
     height: 500px;
-    border: 5px solid #881100;
+    border: 2px solid #881100;
     display: flex;
     padding-left: 15px;
 }
