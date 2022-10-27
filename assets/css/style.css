@@ -130,7 +130,7 @@ h3 {
 #m-statement-middle-img {
     width: 700px;
     height: 100%;
-    margin-top: 4px;
+    align-self: center;
 }
 
 #m-statement-bottom-img {
@@ -196,5 +196,51 @@ h3 {
 }
 
 #boudoir-why-us strong {
-    font-weight: bolder;
+    color: rgba(136, 17, 0, .6);
+}
+
+/* Contact section ( form and contact) flex styling */
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 15px;
+    border: 5px solid #881100;
+}
+
+/* Map styling */
+
+#map {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid #881100;
+    height: 500px;
+    width: 50em;
+}
+
+#map h2 {
+    text-align: center;
+    color: #881100;
+    text-transform: uppercase;
+    font-size: 150%;
+    margin: 20px auto;
+}
+
+
+#form {
+    flex-direction: column;
+    width: 50em;
+    height: 500px;
+    border: 5px solid #881100;
+    display: flex;
+    padding-left: 15px;
+}
+
+#form h2 {
+    text-align: center;
+    color: #881100;
+    text-transform: uppercase;
+    font-size: 150%;
+    margin: 20px auto;
 }
