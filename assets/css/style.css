@@ -9,8 +9,8 @@
 
 body {
     font-family: 'Fanwood Text', serif;
-    margin-right: 45px;
-    margin-left: 60px;
+    margin-right: 145px;
+    margin-left: 160px;
 }
 
 /* logo and header styling */
@@ -206,9 +206,8 @@ h3 {
 .contact {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding-top: 50px;
-    margin-left: 5px;
 }
 
 /* Map, address and open times styling */
@@ -218,11 +217,11 @@ h3 {
     flex-direction: column;
     border: 2px solid #881100;
     height: 500px;
-    width: 39em;
+    width: 40em;
 }
 
 #map iframe {
-    width: 39em;
+    width: auto;
     height: 350px;
 }
 
@@ -253,11 +252,10 @@ h3 {
 
 #form {
     flex-direction: column;
-    width: 39em;
+    width: 40em;
     height: 500px;
     border: 2px solid #881100;
     display: flex;
-    padding-left: 15px;
 }
 
 #form h2 {
@@ -277,7 +275,7 @@ h3 {
 }
 
 .form-inputs {
-    width: 39em;
+    width: auto;
     height: 400px;
     text-align: left;
     display: flex;
@@ -307,11 +305,10 @@ h3 {
     resize: none;
     border: 2px solid #881100;
     border-radius: 5px;
-    width: 39em;
+    width: auto;
     height: fit-content;
     margin-right: 15px;
     font-size: 15px;
-    text-align: center;
 }
 
 #txarea:hover {
@@ -320,7 +317,6 @@ h3 {
 
 #txarea:hover::placeholder {
     color: #26282D;
-    text-align: center;
 }
 
 .submit-button {
@@ -353,18 +349,19 @@ h3 {
 footer {
     display: flex;
     flex-direction: column;
-    height: 250px;
+    height: 350px;
     width: 100%;
 }
 
 .socials {
-    margin: 25px auto;
-    display: inline-flex;
+    margin: 75px 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 .socials li {
     list-style: none;
-    margin: 25px 125px;
+    margin: 25px 25px;
 }
 
 .socials i {
@@ -380,6 +377,7 @@ footer {
 
 footer h2 {
     text-align: center;
+    text-transform: uppercase;
     margin-top: 50px;
     color: #26282D;
 }
@@ -389,17 +387,5 @@ footer h2 {
     justify-content: space-between;
     display: inline-flex;
     padding-bottom: 15px;
-}
-
-footer h2 {
-    text-align: center;
-    margin-top: 50px;
-    color: #26282D;
-}
-
-#copyright {
-    text-align: center;
-    justify-content: space-between;
-    display: inline-flex;
-    padding-bottom: 15px;
+    font-weight: 700;
 }
