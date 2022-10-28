@@ -206,8 +206,9 @@ h3 {
 .contact {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    /* margin-left: 15px; */
+    justify-content: space-evenly;
+    padding-top: 50px;
+    margin-left: 5px;
 }
 
 /* Map, address and open times styling */
@@ -217,11 +218,11 @@ h3 {
     flex-direction: column;
     border: 2px solid #881100;
     height: 500px;
-    width: 50em;
+    width: 39em;
 }
 
 #map iframe {
-    width: 50em;
+    width: 39em;
     height: 350px;
 }
 
@@ -230,7 +231,7 @@ h3 {
     color: #881100;
     text-transform: uppercase;
     font-size: 150%;
-    margin: 20px auto;
+    margin: 10px auto;
 }
 
 #mapaddress {
@@ -239,19 +240,20 @@ h3 {
     text-align: center;
     color: #26282D;
     text-transform: uppercase;
+    font-weight: 700;
     margin: 20px auto;
-    justify-content: space-evenly;
 }
 
 #mapaddress ul {
     list-style: none;
+    margin: 0 25px;
 }
 
 /* Form styling */
 
 #form {
     flex-direction: column;
-    width: 50em;
+    width: 39em;
     height: 500px;
     border: 2px solid #881100;
     display: flex;
@@ -275,7 +277,7 @@ h3 {
 }
 
 .form-inputs {
-    width: 45em;
+    width: 39em;
     height: 400px;
     text-align: left;
     display: flex;
@@ -305,10 +307,11 @@ h3 {
     resize: none;
     border: 2px solid #881100;
     border-radius: 5px;
-    width: 100%;
+    width: 39em;
     height: fit-content;
     margin-right: 15px;
     font-size: 15px;
+    text-align: center;
 }
 
 #txarea:hover {
@@ -317,6 +320,7 @@ h3 {
 
 #txarea:hover::placeholder {
     color: #26282D;
+    text-align: center;
 }
 
 .submit-button {
@@ -327,6 +331,7 @@ h3 {
     color: #26282D;
     font-size: 100%;
     margin-bottom: 15px;
+    text-align: center;
 }
 
 .submit-button:hover {
@@ -339,8 +344,8 @@ h3 {
     text-align: center;
     color: #881100;
     text-transform: uppercase;
-    font-size: 250%;
-    margin: auto 10px auto 10px;
+    font-size: 200%;
+    margin: auto 5px auto 5px;
 }
 
 /* Footer styling */
