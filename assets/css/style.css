@@ -366,8 +366,11 @@ footer {
     font-size: 250%;
     border-radius: 5px;
     padding: 10px 15px;
-    background: rgba(136, 17, 0, .3);
     color: #26282D;
+}
+
+.socials i:hover {
+    background: rgba(136, 17, 0, .7);
 }
 
 footer h2 {
