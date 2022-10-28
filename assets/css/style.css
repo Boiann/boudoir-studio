@@ -369,3 +369,29 @@ footer {
     background: rgba(136, 17, 0, .3);
     color: #26282D;
 }
+
+footer h2 {
+    text-align: center;
+    margin-top: 50px;
+    color: #26282D;
+}
+
+#copyright {
+    text-align: center;
+    justify-content: space-between;
+    display: inline-flex;
+    padding-bottom: 15px;
+}
+
+footer h2 {
+    text-align: center;
+    margin-top: 50px;
+    color: #26282D;
+}
+
+#copyright {
+    text-align: center;
+    justify-content: space-between;
+    display: inline-flex;
+    padding-bottom: 15px;
+}
