@@ -9,6 +9,8 @@
 
 body {
     font-family: 'Fanwood Text', serif;
+    margin-right: 45px;
+    margin-left: 60px;
 }
 
 /* logo and header styling */
@@ -71,7 +73,7 @@ header {
     height: 750px;
     width: 100%;
     background-attachment: fixed;
-    margin-left: 15px;
+    /* margin-left: 15px; */
 }
 
 /* Cover text styling */
@@ -144,7 +146,7 @@ h3 {
 #m-statement-top {
     display: flex;
     flex-direction: row-reverse;
-    margin-left: 15px;
+    /* margin-left: 15px; */
 }
 
 #what-is-boudoir {
@@ -162,7 +164,7 @@ h3 {
 #m-statement-middle {
     display: flex;
     flex-direction: row;
-    margin-left: 15px;
+    /* margin-left: 15px; */
 }
 
 #boudoir-history,
@@ -182,7 +184,7 @@ h3 {
 #m-statement-bottom {
     display: flex;
     flex-direction: row;
-    margin-left: 15px;
+    /* margin-left: 15px; */
 }
 
 #boudoir-why-us {
@@ -205,7 +207,7 @@ h3 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-left: 15px;
+    /* margin-left: 15px; */
 }
 
 /* Map, address and open times styling */
