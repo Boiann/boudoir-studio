@@ -342,3 +342,30 @@ h3 {
     font-size: 250%;
     margin: auto 10px auto 10px;
 }
+
+/* Footer styling */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 100%;
+}
+
+.socials {
+    margin: 25px auto;
+    display: inline-flex;
+}
+
+.socials li {
+    list-style: none;
+    margin: 25px 125px;
+}
+
+.socials i {
+    font-size: 250%;
+    border-radius: 5px;
+    padding: 10px 15px;
+    background: rgba(136, 17, 0, .3);
+    color: #26282D;
+}
