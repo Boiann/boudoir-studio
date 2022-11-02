@@ -73,7 +73,6 @@ header {
     height: 750px;
     width: 100%;
     background-attachment: fixed;
-    /* margin-left: 15px; */
 }
 
 /* Cover text styling */
@@ -120,14 +119,13 @@ h3 {
     color: #881100;
     text-transform: uppercase;
     font-size: 150%;
-    margin: 20px auto;
+    margin: 20px auto 0;
 }
 
 /* Mission statement images styling */
 
 #m-statement-top-img {
-    width: 500px;
-    height: 100%;
+    min-width: 60%;
 }
 
 #m-statement-middle-img {
@@ -146,13 +144,13 @@ h3 {
 #m-statement-top {
     display: flex;
     flex-direction: row-reverse;
-    /* margin-left: 15px; */
+    align-items: center;
+    margin: 20px auto;
 }
 
 #what-is-boudoir {
     font-size: 200%;
     text-align: center;
-    margin: 250px 50px;
 }
 
 #what-is-boudoir h2 {
@@ -164,7 +162,8 @@ h3 {
 #m-statement-middle {
     display: flex;
     flex-direction: row;
-    /* margin-left: 15px; */
+    align-items: center;
+    margin: 20px auto;
 }
 
 #boudoir-history,
