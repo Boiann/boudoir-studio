@@ -32,7 +32,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 25px 50px;
+    margin: 25px;
 }
 
 /* Navigation menu styling */
@@ -87,14 +87,11 @@ header {
 
 #cover-text {
     background-color: rgba(136, 17, 0, .6);
-    width: fit-content;
-    height: fit-content;
-
-    padding: 75px 75px;
-
+    padding: 25px;
     position: absolute;
-    right: 250px;
-    top: 75px;
+    right: 175px;
+    top: 200px;
+    border-radius: 30px;
 }
 
 #cover-text h2 {
@@ -188,6 +185,7 @@ h3 {
 #m-statement-bottom {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 #boudoir-why-us {
@@ -314,6 +312,7 @@ h3 {
     width: auto;
     height: fit-content;
     margin-right: 15px;
+    margin-top: 15px;
     font-size: 15px;
 }
 
@@ -328,13 +327,12 @@ h3 {
 .submit-button {
     border: 2px solid #881100;
     border-radius: 5px;
-    width: 15%;
     align-self: center;
     color: #26282D;
-    font-size: 110%;
-    margin: 1em 0 2em;
+    font-size: 125%;
+    margin: 15px auto 5px;
     text-align: center;
-    padding: 10px 5px;
+    padding: 5px 10px;
     font-family: 'quattrocento sans', sans-serif;
     font-weight: 700;
     cursor: pointer;
