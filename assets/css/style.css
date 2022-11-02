@@ -36,27 +36,35 @@ header {
 }
 
 /* Navigation menu styling */
-#navigation {
+
+.navigation {
     font-weight: 300;
     font-size: 150%;
 }
 
-#navigation li {
+.navigation li {
     display: inline;
     list-style-type: none;
     margin-right: 50px;
     letter-spacing: 3px;
 }
 
-#navigation a {
+.navigation a {
     text-decoration: none;
     color: #26282D;
     font-weight: 700;
 }
 
-#navigation a:hover {
+.navigation a:hover {
     color: #881100;
     text-decoration: underline;
+}
+
+#active {
+    color: #881100;
+    padding: 10px 15px;
+    background: rgba(136, 17, 0, .3);
+    border-radius: 15px;
 }
 
 /* Hero image */
@@ -286,6 +294,7 @@ h3 {
     width: 50%;
     height: 20px;
     font-size: 15px;
+    padding: 3px 3px;
 }
 
 .text-input:hover {
@@ -335,16 +344,6 @@ h3 {
     background-color: rgba(136, 17, 0, .3);
 }
 
-/* OR - comes in between map and form parts of contact section */
-
-#or {
-    text-align: center;
-    color: #881100;
-    text-transform: uppercase;
-    font-size: 200%;
-    margin: auto 5px auto 5px;
-}
-
 /* Footer styling */
 
 footer {
@@ -373,7 +372,7 @@ footer {
 }
 
 .socials i:hover {
-    background: rgba(136, 17, 0, .7);
+    background: rgba(136, 17, 0, .5);
 }
 
 footer h2 {
