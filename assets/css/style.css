@@ -1,9 +1,3 @@
-/* I will make a copy of this repository/project to facilitate changes to the content.
-   After thinking about it and being advised by my mentor and student support,
-   I think the content ( images ) might be inappropriate for educational setting and need to be changed.
-   The "Boudoir Studio" webpage with the current images will be developed separately from the project
-   intended for education and assessment. */
-
 @import url('https://fonts.googleapis.com/css2?family=Fanwood+Text:ital@0;1&family=Quattrocento+Sans:wght@400;700&display=swap');
 
 /* CSS style reset */
@@ -74,7 +68,7 @@ header {
 }
 
 #hero-img {
-    background: url(../images/hero_image2_original_crop.jpg) no-repeat center center;
+    background: url(../images/DSC_0091_Fotor.jpg) no-repeat center center;
     background-size: cover;
     height: 750px;
     width: 100%;
