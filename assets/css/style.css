@@ -129,14 +129,11 @@ h3 {
 }
 
 #m-statement-middle-img {
-    width: 700px;
-    height: 100%;
-    align-self: center;
+    min-width: 40%;
 }
 
 #m-statement-bottom-img {
-    width: 500px;
-    height: 100%;
+    min-width: 60%;
 }
 
 /* Mission statement "What is Boudoir" flex & styling */
@@ -170,7 +167,7 @@ h3 {
 #boudoir-why-consider {
     font-size: 150%;
     text-align: center;
-    margin: 75px 15px;
+    margin: auto 15px;
 }
 
 #boudoir-history h2,
@@ -183,13 +180,12 @@ h3 {
 #m-statement-bottom {
     display: flex;
     flex-direction: row;
-    /* margin-left: 15px; */
 }
 
 #boudoir-why-us {
     font-size: 200%;
     text-align: center;
-    margin: 250px 50px;
+    margin: 20px auto;
 }
 
 #boudoir-why-us h2 {
