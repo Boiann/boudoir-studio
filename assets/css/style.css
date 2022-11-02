@@ -9,8 +9,8 @@
 
 body {
     font-family: 'Fanwood Text', serif;
-    margin-right: 145px;
-    margin-left: 160px;
+    margin-right: 155px;
+    margin-left: 155px;
 }
 
 /* logo and header styling */
@@ -131,14 +131,17 @@ h3 {
 
 #m-statement-top-img {
     min-width: 55%;
+    border-radius: 20px;
 }
 
 #m-statement-middle-img {
     min-width: 40%;
+    border-radius: 20px;
 }
 
 #m-statement-bottom-img {
     min-width: 55%;
+    border-radius: 20px;
 }
 
 /* Mission statement "What is Boudoir" flex & styling */
@@ -170,7 +173,7 @@ h3 {
 
 #boudoir-history,
 #boudoir-why-consider {
-    font-size: 150%;
+    font-size: 200%;
     text-align: center;
     margin: auto 15px;
 }
@@ -220,11 +223,13 @@ h3 {
     height: 500px;
     width: 45em;
     margin-left: 10px;
+    border-radius: 20px;
 }
 
 #map iframe {
     width: auto;
     height: 350px;
+    border-radius: 20px;
 }
 
 #map h2 {
@@ -259,6 +264,7 @@ h3 {
     border: 2px solid #881100;
     display: flex;
     margin-right: 10px;
+    border-radius: 20px;
 }
 
 #form h2 {
