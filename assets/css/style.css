@@ -125,7 +125,7 @@ h3 {
 /* Mission statement images styling */
 
 #m-statement-top-img {
-    min-width: 60%;
+    min-width: 55%;
 }
 
 #m-statement-middle-img {
@@ -133,7 +133,7 @@ h3 {
 }
 
 #m-statement-bottom-img {
-    min-width: 60%;
+    min-width: 55%;
 }
 
 /* Mission statement "What is Boudoir" flex & styling */
@@ -185,7 +185,7 @@ h3 {
 #boudoir-why-us {
     font-size: 200%;
     text-align: center;
-    margin: 20px auto;
+    margin: auto 15px;
 }
 
 #boudoir-why-us h2 {
@@ -212,7 +212,8 @@ h3 {
     flex-direction: column;
     border: 2px solid #881100;
     height: 500px;
-    width: 40em;
+    width: 45em;
+    margin-left: 10px;
 }
 
 #map iframe {
@@ -247,10 +248,11 @@ h3 {
 
 #form {
     flex-direction: column;
-    width: 40em;
+    width: 45em;
     height: 500px;
     border: 2px solid #881100;
     display: flex;
+    margin-right: 10px;
 }
 
 #form h2 {
@@ -258,14 +260,14 @@ h3 {
     color: #881100;
     text-transform: uppercase;
     font-size: 150%;
-    margin: 20px auto;
+    margin: 20px auto 10px;
 }
 
 #form h4 {
     text-align: center;
     color: #26282D;
     text-transform: uppercase;
-    margin: 20px auto;
+    margin: 10px auto 10px;
     font-weight: 700;
 }
 
@@ -320,9 +322,13 @@ h3 {
     width: 15%;
     align-self: center;
     color: #26282D;
-    font-size: 100%;
-    margin-bottom: 15px;
+    font-size: 110%;
+    margin: 1em 0 2em;
     text-align: center;
+    padding: 10px 5px;
+    font-family: 'quattrocento sans', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
 }
 
 .submit-button:hover {
