@@ -429,10 +429,15 @@ footer h2 {
 
     #boudoir-why-us {
         font-size: 145%;
-    }     
+    }
+    
+    #cover-text {
+        right: 120px;
+        top: 200px;
+    }
 }
 
-/* For medium to small screens */
+/* For medium-large screens */
 
 @media screen and (max-width: 1200px) {
 
@@ -480,5 +485,29 @@ footer h2 {
 
     #boudoir-why-us {
         font-size: 125%;
-    }     
+    } 
+}
+
+/* For medium-small screens */
+
+@media screen and (max-width: 900px) {
+
+    #hero-img {
+        background: url(../images/DSC_0091_Fotor2nd_crop.jpg) no-repeat center center;
+    }
+
+    #cover-text {
+        padding: 15px;
+        right: 30px;
+        top: 15px;
+    }
+
+    #cover-text h2 {
+        font-size: 180%;
+        text-transform: uppercase;
+    }
+    
+    #cover-text h3 {
+        font-size: 150%;
+    }
 }
