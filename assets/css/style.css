@@ -393,3 +393,23 @@ footer h2 {
     padding-bottom: 15px;
     font-weight: 700;
 }
+
+/* Media Queries */
+
+/* For larger screens */
+
+@media screen and (max-width: 1600px) {
+    
+    #what-is-boudoir {
+        font-size: 170%;
+    }
+
+    #boudoir-history,
+    #boudoir-why-consider {
+    font-size: 165%;
+    }
+
+    #boudoir-why-us {
+        font-size: 170%;
+    }
+}
