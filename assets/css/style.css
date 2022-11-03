@@ -67,6 +67,10 @@ header {
     border-radius: 15px;
 }
 
+.navigation label, #hamburger {
+    display: none;
+}
+
 /* Hero image */
 
 .hero-section {
@@ -399,14 +403,14 @@ footer h2 {
 /* For larger screens */
 
 @media screen and (max-width: 1600px) {
-    
+
     #what-is-boudoir {
         font-size: 170%;
     }
 
     #boudoir-history,
     #boudoir-why-consider {
-    font-size: 165%;
+        font-size: 165%;
     }
 
     #boudoir-why-us {
@@ -424,13 +428,13 @@ footer h2 {
 
     #boudoir-history,
     #boudoir-why-consider {
-    font-size: 135%;
+        font-size: 135%;
     }
 
     #boudoir-why-us {
         font-size: 145%;
     }
-    
+
     #cover-text {
         right: 120px;
         top: 200px;
@@ -463,7 +467,7 @@ footer h2 {
         font-size: 200%;
         text-transform: uppercase;
     }
-    
+
     #cover-text h3 {
         font-size: 170%;
     }
@@ -480,12 +484,12 @@ footer h2 {
 
     #boudoir-history,
     #boudoir-why-consider {
-    font-size: 115%;
+        font-size: 115%;
     }
 
     #boudoir-why-us {
         font-size: 125%;
-    } 
+    }
 }
 
 /* For medium-small screens */
@@ -506,8 +510,56 @@ footer h2 {
         font-size: 180%;
         text-transform: uppercase;
     }
-    
+
     #cover-text h3 {
         font-size: 150%;
+    }
+
+    /* Hamburger menu  */
+
+    /* Show hamburger icon */
+
+    .navigation label {
+        display: inline-block;
+        color: #fff;
+        background: #881100;
+        font-size: 150%;
+        padding: 10px;
+        border-radius: 15px;
+    }
+
+    /* Toggle show/hide menu */
+
+    #hamitems {
+        display: none;
+    }
+
+    .navigation input:checked~#hamitems {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navigation {
+        display: flex;
+        align-items: center;
+        position: relative;
+        flex-direction: column;
+    }
+
+    .navigation li {
+        margin-right: 0;
+    }
+
+    #active {
+        color: #881100;
+        padding: 0;
+        background: #fff;
+        border-radius: 0;
+        text-decoration: underline;
+    }
+
+    .navigation a {
+        font-size: 120%;
     }
 }
