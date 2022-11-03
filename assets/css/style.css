@@ -431,3 +431,54 @@ footer h2 {
         font-size: 145%;
     }     
 }
+
+/* For medium to small screens */
+
+@media screen and (max-width: 1200px) {
+
+    body {
+        margin: 0 75px;
+    }
+
+    #logo {
+        font-size: 130%;
+        letter-spacing: 2px;
+    }
+
+    .navigation {
+        font-size: 130%;
+    }
+
+    .navigation li {
+        margin-right: 20px;
+        letter-spacing: 2px;
+    }
+
+    #cover-text h2 {
+        font-size: 200%;
+        text-transform: uppercase;
+    }
+    
+    #cover-text h3 {
+        font-size: 170%;
+    }
+
+    #cover-text {
+        position: absolute;
+        right: 150px;
+        top: 200px;
+    }
+
+    #what-is-boudoir {
+        font-size: 125%;
+    }
+
+    #boudoir-history,
+    #boudoir-why-consider {
+    font-size: 115%;
+    }
+
+    #boudoir-why-us {
+        font-size: 125%;
+    }     
+}
