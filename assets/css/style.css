@@ -413,3 +413,21 @@ footer h2 {
         font-size: 170%;
     }
 }
+
+/* For large to medium screens */
+
+@media screen and (max-width: 1400px) {
+
+    #what-is-boudoir {
+        font-size: 145%;
+    }
+
+    #boudoir-history,
+    #boudoir-why-consider {
+    font-size: 135%;
+    }
+
+    #boudoir-why-us {
+        font-size: 145%;
+    }     
+}
