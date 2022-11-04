@@ -11,6 +11,13 @@ body {
     font-family: 'Fanwood Text', serif;
     margin-right: 155px;
     margin-left: 155px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }
 
 /* logo and header styling */
