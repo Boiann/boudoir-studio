@@ -52,7 +52,7 @@ header {
 .navigation li {
     display: inline;
     list-style-type: none;
-    margin-right: 50px;
+    margin-right: 25px;
     letter-spacing: 3px;
 }
 
