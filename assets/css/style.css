@@ -524,7 +524,7 @@ footer h2 {
         color: #fff;
         background: #881100;
         font-size: 150%;
-        padding: 10px;
+        padding: 5px 12px;
         border-radius: 15px;
     }
 
@@ -561,5 +561,40 @@ footer h2 {
 
     .navigation a {
         font-size: 120%;
+    }
+
+    /* Mission statement flex styling */
+
+    #m-statement-top {
+        flex-direction: column;
+    }
+
+    #m-statement-middle {
+        flex-direction: column;
+    }
+
+    #m-statement-bottom {
+        flex-direction: column-reverse;
+    }
+
+    #what-is-boudoir {
+        padding-bottom: 15px;
+    }
+
+    #boudoir-history {
+        padding-bottom: 15px;
+    }
+
+    #boudoir-why-consider {
+        padding-top: 15px;
+    }
+
+    #boudoir-why-us {
+        padding-top: 15px;
+    }
+
+    #boudoir-history,
+    #boudoir-why-consider {
+        font-size: 125%;
     }
 }
