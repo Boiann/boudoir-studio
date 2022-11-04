@@ -80,12 +80,15 @@ header {
 }
 
 #hero-img {
-    background: url(../images/DSC_0091_Fotor.jpg) no-repeat center center;
+    background: url(../images/DSC_0091_Fotor_Hero_2nd_crop.jpg) no-repeat center center;
     background-size: cover;
     height: 750px;
     width: 100%;
     background-attachment: fixed;
 }
+
+/* Uploaded another crop of the hero image as to keep eyes in frame
+whilst website being responsive */
 
 /* Cover text styling */
 
@@ -93,7 +96,7 @@ header {
     background-color: rgba(136, 17, 0, .6);
     padding: 25px;
     position: absolute;
-    right: 175px;
+    right: 130px;
     top: 200px;
     border-radius: 30px;
 }
@@ -416,6 +419,10 @@ footer h2 {
     #boudoir-why-us {
         font-size: 170%;
     }
+
+    #cover-text {
+        right: 90px;
+    }
 }
 
 /* For large to medium screens */
@@ -436,7 +443,7 @@ footer h2 {
     }
 
     #cover-text {
-        right: 120px;
+        right: 30px;
         top: 200px;
     }
 }
@@ -474,7 +481,7 @@ footer h2 {
 
     #cover-text {
         position: absolute;
-        right: 150px;
+        right: 30px;
         top: 200px;
     }
 
@@ -497,13 +504,16 @@ footer h2 {
 @media screen and (max-width: 900px) {
 
     #hero-img {
-        background: url(../images/DSC_0091_Fotor2nd_crop.jpg) no-repeat center center;
+        background: url(../images/DSC_0091_Fotor_3rd_crop.jpg) no-repeat center center;
     }
 
+    /* Realised my img was to small and making problems with layout,
+       uploaded bigger one. */
+
     #cover-text {
-        padding: 15px;
-        right: 30px;
-        top: 15px;
+        padding: 10px;
+        right: 35px;
+        top: 25px;
     }
 
     #cover-text h2 {
@@ -515,6 +525,10 @@ footer h2 {
         font-size: 150%;
     }
 
+    header {
+        margin: 15px 5px;
+    }
+
     /* Hamburger menu  */
 
     /* Show hamburger icon */
@@ -523,7 +537,7 @@ footer h2 {
         display: inline-block;
         color: #fff;
         background: #881100;
-        font-size: 150%;
+        font-size: 110%;
         padding: 5px 12px;
         border-radius: 15px;
     }
@@ -596,5 +610,21 @@ footer h2 {
     #boudoir-history,
     #boudoir-why-consider {
         font-size: 125%;
+    }
+
+    /* Contact section styling */
+
+    .contact {
+        flex-direction: column;
+    }
+
+    #map {
+        width: auto;
+        height: auto;
+    }
+
+    #form {
+        width: auto;
+        height: auto;
     }
 }
