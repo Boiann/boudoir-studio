@@ -166,3 +166,7 @@ iframe {
 #span-hidden {
     visibility: hidden;
 }
+
+a {
+    text-decoration: none;
+}
