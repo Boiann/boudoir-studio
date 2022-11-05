@@ -11,8 +11,7 @@
 
 body {
     font-family: 'Fanwood Text', serif;
-    margin-right: 155px;
-    margin-left: 155px;
+    margin: 55px 155px;
 
     /* Hidden scrollbar */
 
@@ -98,3 +97,29 @@ footer h2 {
     }
 }
 
+/* New code for styling the text and videos in thanks page */
+
+#text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 55px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 250%;
+    color: #881100;
+}
+
+h2 {
+    color: #26282D;
+    font-size: 200%;
+    text-transform: uppercase;
+    padding: 35px 0;
+}
+
+h4 {
+    color: #26282D;
+    font-size: 150%;
+}
