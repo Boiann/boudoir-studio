@@ -11,7 +11,7 @@
 
 body {
     font-family: 'Fanwood Text', serif;
-    margin: 55px 155px;
+    margin: 35px 155px;
 
     /* Hidden scrollbar */
 
@@ -103,20 +103,20 @@ footer h2 {
     text-align: center;
     display: flex;
     flex-direction: column;
-    padding-bottom: 55px;
+    padding-bottom: 35px;
 }
 
 h1 {
     text-transform: uppercase;
-    font-size: 250%;
+    font-size: 220%;
     color: #881100;
 }
 
 h2 {
     color: #26282D;
-    font-size: 200%;
+    font-size: 180%;
     text-transform: uppercase;
-    padding: 35px 0;
+    padding: 25px 0;
 }
 
 h4 {
@@ -133,4 +133,29 @@ iframe {
     padding: 0 20px;
     width: 100%;
     height: 450px;
+}
+
+/* Added flip text animation to attract user to "Take me back to home" 
+   function */
+
+.waviy {
+    position: relative;
+}
+
+.waviy span {
+    /* position: relative; */
+    display: inline-block;
+    font-size: 40px;
+    color: #26282D;
+    text-transform: uppercase;
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i))
+}
+
+@keyframes flip {
+
+    0%,
+    80% {
+        transform: rotateY(360deg)
+    }
 }
