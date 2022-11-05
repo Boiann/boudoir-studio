@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Fanwood+Text:ital@0;1&family=Quattrocento+Sans:wght@400;700&display=swap');
+
+/* CSS style reset */
+* {
+    margin: 0%;
+    padding: 0%;
+    border: none;
+}
+
+body {
+    font-family: 'Fanwood Text', serif;
+    margin-right: 155px;
+    margin-left: 155px;
+
+    /* Hidden scrollbar */
+
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* Footer styling */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 25px;
+}
+
+.socials {
+    margin: 25px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.socials li {
+    list-style: none;
+    margin: 25px 25px;
+}
+
+.socials i {
+    font-size: 250%;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: #26282D;
+}
+
+.socials i:hover {
+    background: rgba(136, 17, 0, .5);
+}
+
+footer h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 50px;
+    color: #26282D;
+}
+
+#copyright {
+    text-align: center;
+    justify-content: space-between;
+    display: inline-flex;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 900px) {
+
+    body {
+        margin: 0 45px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    body {
+        margin: 0 25px;
+    }
+
+    .socials {
+        margin: 15px 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .socials li {
+        list-style: none;
+        margin: 10px 0;
+    }
+}
