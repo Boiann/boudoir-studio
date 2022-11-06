@@ -91,15 +91,18 @@ header {
 }
 
 #hero-img {
-    background: url(../images/DSC_0091_Fotor_Hero_2nd_crop.jpg) no-repeat center center;
+    background: url(../images/Hero_img_index.jpg) no-repeat center center;
     background-size: cover;
     height: 750px;
     width: 100%;
     background-attachment: fixed;
 }
 
-/* Uploaded another crop of the hero image as to keep eyes in frame
-whilst website being responsive */
+/* Like a true amateur ( I should've known better ), I forgot the goal is to keep same hero images
+   across the pages. Only change would be in color. And I forgot how and where I cropped/adjusted original image. 
+   If there is even a slight offset in cropping, even a few pixels, it would seem the images are jumping or twitching and that is bad UX. 
+   So I had to do it all over again, this time made sure I applied desired effects/crop for all three pages at once. Used Fotor Photo Editor.
+   Uploaded the images to the project. */
 
 /* Cover text styling */
 
@@ -518,11 +521,8 @@ footer h2 {
     }
 
     #hero-img {
-        background: url(../images/DSC_0091_Fotor_3rd_crop.jpg) no-repeat center center;
+        background: url(../images/Hero_img_index_resized.jpg) no-repeat center center;
     }
-
-    /* Realised my img was to small and making problems with layout,
-       uploaded bigger one. */
 
     #cover-text {
         padding: 10px;
