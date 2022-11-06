@@ -24,6 +24,45 @@ body::-webkit-scrollbar {
     display: none;
 }
 
+/* New code for styling the text and videos in thanks page */
+
+/* Moved the whole section of "New code above the media queries because it was making problems with adjusting iframe for
+responsiveness */
+
+#text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 220%;
+    color: #881100;
+}
+
+h2 {
+    color: #26282D;
+    font-size: 180%;
+    text-transform: uppercase;
+}
+
+h4 {
+    color: #26282D;
+    font-size: 150%;
+}
+
+#video {
+    display: flex;
+    justify-content: space-around;
+}
+
+iframe {
+    padding: 0 20px;
+    min-width: 50%;
+    height: 450px;
+}
 
 /* Footer styling */
 
@@ -69,10 +108,21 @@ footer h2 {
 
 /* Media queries */
 
+@media screen and (max-width: 1600px) {
+
+    iframe {
+        height: 400px;
+    }
+}
+
 @media screen and (max-width: 1400px) {
     
     body {
         margin: 25px 110px;
+    }
+
+    iframe {
+        height: 350px;
     }
 }
 
@@ -84,6 +134,7 @@ footer h2 {
 
     iframe {
         margin-bottom: 20px;
+        height: 500px;
     }
 
     body {
@@ -95,6 +146,10 @@ footer h2 {
 
     body {
         margin: 20px 45px;
+    }
+
+    iframe {
+        height: 400px;
     }
 }
 
@@ -116,43 +171,17 @@ footer h2 {
         list-style: none;
         margin: 10px 0;
     }
+
+    iframe {
+        height: 250px;
+    }
 }
 
-/* New code for styling the text and videos in thanks page */
+@media screen and (max-width: 400px) {
 
-#text {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 20px;
-}
-
-h1 {
-    text-transform: uppercase;
-    font-size: 220%;
-    color: #881100;
-}
-
-h2 {
-    color: #26282D;
-    font-size: 180%;
-    text-transform: uppercase;
-}
-
-h4 {
-    color: #26282D;
-    font-size: 150%;
-}
-
-#video {
-    display: flex;
-    justify-content: space-around;
-}
-
-iframe {
-    padding: 0 20px;
-    min-width: 50%;
-    height: 450px;
+    iframe {
+        height: 200px;
+    }
 }
 
 /* Added flip text animation to attract user to "Take me back to home" 
