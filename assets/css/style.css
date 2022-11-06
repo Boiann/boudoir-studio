@@ -23,7 +23,17 @@ body::-webkit-scrollbar {
     display: none;
 }
 
+#gallery #hero-img {
+    
+        background: url(../images/Hero_img_gallery.jpg) no-repeat center center;
+        background-size: cover;
+        height: 750px;
+        width: 100%;
+        background-attachment: fixed;
+    }
+
 /* logo and header styling */
+
 #logo {
     font-family: 'quattrocento sans', sans-serif;
     font-size: 150%;
@@ -522,6 +532,11 @@ footer h2 {
 
     #hero-img {
         background: url(../images/Hero_img_index_resized.jpg) no-repeat center center;
+    }
+
+    #gallery #hero-img {
+    
+        background: url(../images/Hero_img_gallery_resized.jpg) no-repeat center center;
     }
 
     #cover-text {
