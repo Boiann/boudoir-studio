@@ -23,15 +23,6 @@ body::-webkit-scrollbar {
     display: none;
 }
 
-#gallery #hero-img {
-    
-        background: url(../images/Hero_img_gallery.jpg) no-repeat center center;
-        background-size: cover;
-        height: 750px;
-        width: 100%;
-        background-attachment: fixed;
-    }
-
 /* logo and header styling */
 
 #logo {
@@ -108,11 +99,26 @@ header {
     background-attachment: fixed;
 }
 
-/* Like a true amateur ( I should've known better ), I forgot the goal is to keep same hero images
-   across the pages. Only change would be in color. And I forgot how and where I cropped/adjusted original image. 
-   If there is even a slight offset in cropping, even a few pixels, it would seem the images are jumping or twitching and that is bad UX. 
-   So I had to do it all over again, this time made sure I applied desired effects/crop for all three pages at once. Used Fotor Photo Editor.
-   Uploaded the images to the project. */
+#gallery #hero-img {
+    
+    background: url(../images/Hero_img_gallery.jpg) no-repeat center center;
+    background-size: cover;
+    height: 750px;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+#about #hero-img {
+    
+    background: url(../images/Hero_img_about.jpg) no-repeat center center;
+    background-size: cover;
+    height: 750px;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+/* Added body id to index and gallery page so I don't need to create separate css
+   file for gallery and about pages. */
 
 /* Cover text styling */
 
@@ -537,6 +543,11 @@ footer h2 {
     #gallery #hero-img {
     
         background: url(../images/Hero_img_gallery_resized.jpg) no-repeat center center;
+    }
+
+    #about #hero-img {
+    
+        background: url(../images/Hero_img_about_resized.jpg) no-repeat center center;
     }
 
     #cover-text {
