@@ -178,12 +178,13 @@ h3 {
 
 /* Mission statement banner styling */
 
-#statement-banner {
+.statement-banner {
     text-align: center;
     color: #881100;
     text-transform: uppercase;
     font-size: 150%;
     margin: 20px auto 0;
+    word-spacing: 7px;
 }
 
 /* Mission statement images styling */
