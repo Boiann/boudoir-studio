@@ -146,6 +146,33 @@ h3 {
     text-align: center;
 }
 
+/* Photo gallery styling */
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0 0;
+  }
+  
+  .column {
+    max-width: 50%;
+  }
+
+  .column-middle {
+    max-width: 50%;
+    padding: 0 35px;
+  }
+
+  .column-middle img {
+    width: 100%;
+    padding: 15px 0;
+  }
+
+  .column img {
+    width: 100%;
+    padding: 15px 0;
+  }
+
 /* Mission statement styling */
 
 .mission-statement-main {
