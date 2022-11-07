@@ -166,7 +166,13 @@ h3 {
   .column img, .column-middle img {
     width: 100%;
     padding: 15px 0;
+    transition: transform .8s;
   }
+
+  .column img:hover, .column-middle img:hover {
+    transform:scale(1.1);
+  }
+
 
 /* Mission statement styling */
 
