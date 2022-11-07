@@ -163,12 +163,7 @@ h3 {
     padding: 0 35px;
   }
 
-  .column-middle img {
-    width: 100%;
-    padding: 15px 0;
-  }
-
-  .column img {
+  .column img, .column-middle img {
     width: 100%;
     padding: 15px 0;
   }
@@ -275,7 +270,7 @@ h3 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-top: 50px;
+    padding-top: 25px;
 }
 
 /* Map, address and open times styling */
@@ -446,7 +441,7 @@ footer {
 footer h2 {
     text-align: center;
     text-transform: uppercase;
-    margin-top: 50px;
+    margin-top: 25px;
     color: #26282D;
 }
 
@@ -696,6 +691,18 @@ footer h2 {
         height: auto;
         margin-right: 0;
     }
+
+    /* Photo gallery responsive styling */
+
+    .column-middle {
+        max-width: 50%;
+        padding: 0 15px;
+      }
+    
+      .column img, .column-middle img {
+        width: 100%;
+        padding: 5px 0;
+      }
 }
 
 /* For small screens */
@@ -724,6 +731,21 @@ footer h2 {
         right: 0;
         top: 25px;
     }
+
+    /* Photo gallery responsive styling */
+    
+    .row {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .column, .column-middle {
+        max-width: 90%;
+        padding: 0 15px;
+      }
+
+      /* I would like to keep the images displayed in column a little bit smaller 
+         in width as not to be exact width as hero image, that is why max-width is 90% */
 }
 
 /* For extra small screens */
