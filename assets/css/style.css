@@ -195,9 +195,27 @@ h3 {
     padding: 0 30px;
   }
 
-  #photographer img, #makeup img, #hair img {
+  .team img {
     width: 100%;
     border-radius: 20px;
+    padding-top: 15px;
+  }
+
+  .team h4 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 150%;
+  }
+
+  .team h2 {
+    font-weight: 700;
+    font-size: 200%;
+    color: #881100;
+  }
+
+  .team p {
+    font-size: 125%;
+    text-align: center;
   }
 
 /* Mission statement styling */
