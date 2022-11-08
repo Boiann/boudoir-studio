@@ -220,6 +220,46 @@ h3 {
     text-align: center;
   }
 
+  /* Frequently asked questions section styling */
+  
+  details{
+    cursor: pointer;
+    text-align: center;
+    font-size: 130%;
+    padding-bottom: 5px;
+  }
+  
+  summary {
+    padding: .6em 1.3rem;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;  
+    color: #881100;
+    font-size: 150%;
+    font-weight: 700;
+  }
+  
+  summary::-webkit-details-marker {
+    display: none;
+  }
+
+  /* At first made a border to go all around opened faq question and answer,
+     decided it looks better with just a single border in the bottom */
+  
+  details[open] summary {
+      /* border-top: 1px solid #881100; */
+      /* border-left: 1px solid #881100;
+      border-right: 1px solid #881100; */
+  }
+  
+  details[open] div{
+    padding: .5em 1em;
+    border-bottom: 1px solid #881100;
+    /* border-left: 1px solid #881100;
+    border-right: 1px solid #881100; */
+  }
+
 /* Mission statement styling */
 
 .mission-statement-main {
