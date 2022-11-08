@@ -192,7 +192,7 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 30%;
+    width: 90%;
 }
 
 #makeup {
@@ -279,7 +279,6 @@ details[open] div {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding-top: 25px;
 }
 
 #review-container {
@@ -291,11 +290,11 @@ details[open] div {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 25%;
+    width: 100%;
 }
 
 .testimonials img {
-    width: 100%;
+    width: 60%;
     border-radius: 50%;
 }
 
@@ -310,6 +309,7 @@ details[open] div {
     font-size: 170%;
     padding-bottom: 5px;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .testimonials p {
@@ -320,7 +320,7 @@ details[open] div {
 
 #testimonials-banner {
     text-align: center;
-    padding: 25px 0 25px;
+    padding: 25px 0 45px;
     color: #881100;
     font-size: 200%;
     font-weight: 700;
@@ -752,119 +752,133 @@ footer h2 {
         margin: 15px 5px;
     }
 
-    /* Hamburger menu  */
+/* Hamburger menu  */
 
-    /* Show hamburger icon */
+/* Show hamburger icon */
 
-    .navigation label {
-        display: inline-block;
-        color: #fff;
-        background: #881100;
-        font-size: 110%;
-        padding: 5px 12px;
-        border-radius: 15px;
-    }
+.navigation label {
+    display: inline-block;
+    color: #fff;
+    background: #881100;
+    font-size: 110%;
+    padding: 5px 12px;
+    border-radius: 15px;
+}
 
-    /* Toggle show/hide menu */
+/* Toggle show/hide menu */
 
-    #hamitems {
-        display: none;
-    }
+#hamitems {
+    display: none;
+}
 
-    .navigation input:checked~#hamitems {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+.navigation input:checked~#hamitems {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-    .navigation {
-        display: flex;
-        align-items: center;
-        position: relative;
-        flex-direction: column;
-    }
+.navigation {
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+}
 
-    .navigation li {
-        margin-right: 0;
-    }
+.navigation li {
+    margin-right: 0;
+}
 
-    #active {
-        color: #881100;
-        padding: 0;
-        background: #fff;
-        border-radius: 0;
-        text-decoration: underline;
-    }
+#active {
+    color: #881100;
+    padding: 0;
+    background: #fff;
+    border-radius: 0;
+    text-decoration: underline;
+}
 
-    .navigation a {
-        font-size: 120%;
-    }
+.navigation a {
+    font-size: 120%;
+}
 
-    /* Mission statement flex styling */
+/* Mission statement flex styling */
 
-    #m-statement-top {
-        flex-direction: column;
-    }
+#m-statement-top {
+    flex-direction: column;
+}
 
-    #m-statement-middle {
-        flex-direction: column;
-    }
+#m-statement-middle {
+    flex-direction: column;
+}
 
-    #m-statement-bottom {
-        flex-direction: column-reverse;
-    }
+#m-statement-bottom {
+    flex-direction: column-reverse;
+}
 
-    #what-is-boudoir {
-        padding-bottom: 15px;
-    }
+#what-is-boudoir {
+    padding-bottom: 15px;
+}
 
-    #boudoir-history {
-        padding-bottom: 15px;
-    }
+#boudoir-history {
+    padding-bottom: 15px;
+}
 
-    #boudoir-why-consider {
-        padding-top: 15px;
-    }
+#boudoir-why-consider {
+    padding-top: 15px;
+}
 
-    #boudoir-why-us {
-        padding-top: 15px;
-    }
+#boudoir-why-us {
+    padding-top: 15px;
+}
 
-    #boudoir-history,
-    #boudoir-why-consider {
-        font-size: 125%;
-    }
+#boudoir-history,
+#boudoir-why-consider {
+    font-size: 125%;
+}
 
-    /* Contact section styling */
+/* Contact section styling */
 
-    .contact {
-        flex-direction: column;
-    }
+.contact {
+    flex-direction: column;
+}
 
-    #map {
-        width: auto;
-        height: auto;
-        margin-left: 0;
-    }
+#map {
+    width: auto;
+    height: auto;
+    margin-left: 0;
+}
 
-    #form {
-        width: auto;
-        height: auto;
-        margin-right: 0;
-    }
+#form {
+    width: auto;
+    height: auto;
+    margin-right: 0;
+}
 
-    /* Photo gallery responsive styling */
+/* Photo gallery responsive styling */
 
-    .column-middle {
-        max-width: 50%;
-        padding: 0 15px;
-    }
+.column-middle {
+    max-width: 50%;
+    padding: 0 15px;
+}
 
-    .column img,
-    .column-middle img {
-        width: 100%;
-        padding: 5px 0;
-    }
+.column img,
+.column-middle img {
+    width: 100%;
+    padding: 5px 0;
+}
+
+/* Team section responsive styling */
+
+.team {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0;
+}
+
+#photographer,
+#makeup,
+#hair {
+    padding-top: 25px;
+}
 }
 
 /* For small screens */
@@ -905,6 +919,15 @@ footer h2 {
     .column-middle {
         max-width: 90%;
         padding: 0 15px;
+    }
+
+    #review-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #review {
+        width: 70%;
     }
 
     /* I would like to keep the images displayed in column a little bit smaller 
