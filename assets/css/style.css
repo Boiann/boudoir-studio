@@ -198,7 +198,8 @@ h3 {
   .team img {
     width: 100%;
     border-radius: 20px;
-    padding-top: 15px;
+    /* removed padding-top to prevent distortion to imgs,
+    will aplly it to text above */
   }
 
   .team h4 {
@@ -211,6 +212,7 @@ h3 {
     font-weight: 700;
     font-size: 200%;
     color: #881100;
+    padding-bottom: 20px;
   }
 
   .team p {
