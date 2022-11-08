@@ -318,6 +318,16 @@ details[open] div {
     padding-bottom: 25px;
 }
 
+#testimonials-banner {
+    text-align: center;
+    padding: 25px 0 25px;
+    color: #881100;
+    font-size: 200%;
+    font-weight: 700;
+    text-decoration: underline;
+    text-transform: none;
+}
+
 /* Mission statement styling */
 
 .mission-statement-main {
