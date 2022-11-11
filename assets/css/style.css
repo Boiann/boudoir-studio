@@ -7,6 +7,10 @@
     border: none;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
     font-family: 'Fanwood Text', serif;
     margin-right: 155px;
@@ -623,20 +627,21 @@ footer h2 {
     display: none;
     position: fixed;
     bottom: 20px;
-    right: 30px;
+    right: 20px;
     z-index: 99;
     font-size: 18px;
-    border: none;
-    outline: none;
-    background-color: red;
+    background-color: rgba(136, 17, 0, .5);
     color: white;
     cursor: pointer;
     padding: 15px;
-    border-radius: 4px;
+    border-radius: 15px;
+    transition: 0.6s ease-in-out;
   }
   
   #myBtn:hover {
-    background-color: #555;
+    background-color: #881100;
+    font-size: 20px;
+    transition: 0.6s ease-in-out;
   }
 
 /* Media Queries */
@@ -824,10 +829,6 @@ footer h2 {
     padding: 5px 8px;
     background: rgba(136, 17, 0, .3);
     border-radius: 15px;
-}
-
-.navigation a {
-    /* font-size: 120%; */
 }
 
 /* Mission statement flex styling */
