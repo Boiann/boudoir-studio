@@ -83,7 +83,9 @@
                 <p>Early erotic photography, pin-up
                     girls, and Hollywood culture have
                     influenced the visual style of boudoir photography.
-                    Notable early artists of the form include <a href="https://en.wikipedia.org/wiki/Albert_Arthur_Allen" target="_blank">Albert Arthur Allen</a>, who photographed larger women against
+                    Notable early artists of the form include <a
+                        href="https://en.wikipedia.org/wiki/Albert_Arthur_Allen" target="_blank">Albert Arthur
+                        Allen</a>, who photographed larger women against
                     ornate backgrounds.
                 </p>
             </div>
@@ -188,6 +190,37 @@
             <p>Portfolio Project, not a real website</p>
         </div>
     </footer>
+
+    <!-- Scroll to top button and javascript copied from W3Schools -->
+
+    <!-- Scroll to top button -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <!-- Scroll to top javascript -->
+    <script>
+        // Get the button
+        let mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
 </body>
 
 </html>
