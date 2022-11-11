@@ -853,6 +853,10 @@ footer h2 {
     padding-bottom: 15px;
 }
 
+#m-statement-middle-img {
+    width: 80%;
+}
+
 #boudoir-why-consider {
     padding-top: 15px;
 }
@@ -910,6 +914,10 @@ footer h2 {
 #hair {
     padding-top: 25px;
 }
+
+.team img {
+    width: 80%;
+}
 }
 
 /* For small screens */
@@ -939,6 +947,10 @@ footer h2 {
         top: 25px;
     }
 
+    #m-statement-middle-img {
+        width: 90%;
+    }
+
     /* Photo gallery responsive styling */
 
     .row {
@@ -959,6 +971,10 @@ footer h2 {
 
     #review {
         width: 70%;
+    }
+
+    .team img {
+        width: 100%;
     }
 
     /* I would like to keep the images displayed in column a little bit smaller 
