@@ -993,4 +993,8 @@ footer h2 {
     body {
         margin: 0 10px;
     }
-}
+
+    #m-statement-middle-img {
+        width: 100%;
+    }
+} 
