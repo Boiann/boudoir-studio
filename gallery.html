@@ -20,26 +20,26 @@
 <body id="gallery">
 
     <header>
-        <a href="index.html" id="logo">
+        <a href="index.html" id="logo" aria-label="Click here to go to the home page">
             <h1>Boudoir Studio</h1>
         </a>
         <nav class="navigation">
 
-            <input type="checkbox" id="hamburger" />
+            <input type="checkbox" id="hamburger" aria-label="Click here to open navigation menu">
             <label for="hamburger">&#9776;</label>
 
             <ul id="hamitems">
                 <li>
-                    <a href="index.html">Home</a>
+                    <a href="index.html" aria-label="Click here to go to the home page">Home</a>
                 </li>
                 <li>
-                    <a href="gallery.html" id="active">Gallery</a>
+                    <a href="gallery.html" aria-label="Click here to go to the gallery page" id="active">Gallery</a>
                 </li>
                 <li>
-                    <a href="about.html">About</a>
+                    <a href="about.html" aria-label="Click here to go to the about us page">About</a>
                 </li>
                 <li>
-                    <a href="#form">Contact</a>
+                    <a href="#form" aria-label="Click here to go to the contact section">Contact</a>
                 </li>
             </ul>
         </nav>
@@ -63,22 +63,34 @@
     <section>
         <div class="row">
             <div class="column">
-                <img src="./assets/images/gallery_images/gallery_img_1.jpg" alt="Woman leaning against the wall in beautiful dress">
-                <img src="./assets/images/gallery_images/gallery_img_2.jpg" alt="Woman lying on bed looking at the camera">
-                <img src="./assets/images/gallery_images/gallery_img_3.jpg" alt="Woman tying her hair picture taken behind her">
-                <img src="./assets/images/gallery_images/gallery_img_4.jpg" alt="Beautiful short haired woman half body portrait">
+                <img src="./assets/images/gallery_images/gallery_img_1.jpg"
+                    alt="Woman leaning against the wall in beautiful dress">
+                <img src="./assets/images/gallery_images/gallery_img_2.jpg"
+                    alt="Woman lying on bed looking at the camera">
+                <img src="./assets/images/gallery_images/gallery_img_3.jpg"
+                    alt="Woman tying her hair picture taken behind her">
+                <img src="./assets/images/gallery_images/gallery_img_4.jpg"
+                    alt="Beautiful short haired woman half body portrait">
             </div>
             <div class="column-middle">
-                <img src="./assets/images/gallery_images/gallery_img_5.jpg" alt="Woman with hands behind her head looking out the window">
-                <img src="./assets/images/gallery_images/gallery_img_6.jpg" alt="Sensual woman in summer dress half body portrait">
-                <img src="./assets/images/gallery_images/gallery_img_7.jpg" alt="Woman in white top sitting on ledge of window"> 
-                <img src="./assets/images/gallery_images/gallery_img_8.jpg" alt="Woman with shoulder uncovered on the bridge outside">
+                <img src="./assets/images/gallery_images/gallery_img_5.jpg"
+                    alt="Woman with hands behind her head looking out the window">
+                <img src="./assets/images/gallery_images/gallery_img_6.jpg"
+                    alt="Sensual woman in summer dress half body portrait">
+                <img src="./assets/images/gallery_images/gallery_img_7.jpg"
+                    alt="Woman in white top sitting on ledge of window">
+                <img src="./assets/images/gallery_images/gallery_img_8.jpg"
+                    alt="Woman with shoulder uncovered on the bridge outside">
             </div>
             <div class="column">
-                <img src="./assets/images/gallery_images/gallery_img_9.jpg" alt="Sensual woman in nightrobe standing next to the bed">
-                <img src="./assets/images/gallery_images/gallery_img_10.jpg" alt="Half body portrait of woman lying on bed">
-                <img src="./assets/images/gallery_images/gallery_img_11.jpg" alt="Woman touching window and looking towards the camera">
-                <img src="./assets/images/gallery_images/gallery_img_12.jpg" alt="Sensual woman holding a rose on the bed">
+                <img src="./assets/images/gallery_images/gallery_img_9.jpg"
+                    alt="Sensual woman in nightrobe standing next to the bed">
+                <img src="./assets/images/gallery_images/gallery_img_10.jpg"
+                    alt="Half body portrait of woman lying on bed">
+                <img src="./assets/images/gallery_images/gallery_img_11.jpg"
+                    alt="Woman touching window and looking towards the camera">
+                <img src="./assets/images/gallery_images/gallery_img_12.jpg"
+                    alt="Sensual woman holding a rose on the bed">
             </div>
         </div>
     </section>
@@ -132,19 +144,23 @@
         <h2>Follow us on Social Media!</h2>
         <ul class="socials">
             <li>
-                <a href="https://facebook.com" target="_blank" rel="noopener">
+                <a href="https://facebook.com" target="_blank" rel="noopener"
+                    aria-label="Find us on Facebook (link opens in a new tab)">
                     <i class="fa-brands fa-square-facebook"></i></a>
             </li>
             <li>
-                <a href="https://twitter.com" target="_blank" rel="noopener">
+                <a href="https://twitter.com" target="_blank" rel="noopener"
+                    aria-label="Find us on Twitter (link opens in a new tab)">
                     <i class="fa-brands fa-square-twitter"></i></a>
             </li>
             <li>
-                <a href="https://youtube.com" target="_blank" rel="noopener">
+                <a href="https://youtube.com" target="_blank" rel="noopener"
+                    aria-label="Find us on Youtube (link opens in a new tab)">
                     <i class="fa-brands fa-square-youtube"></i></a>
             </li>
             <li>
-                <a href="https://instagram.com" target="_blank" rel="noopener">
+                <a href="https://instagram.com" target="_blank" rel="noopener"
+                    aria-label="Find us on Instagram (link opens in a new tab)">
                     <i class="fa-brands fa-square-instagram"></i></a>
             </li>
         </ul>
@@ -157,7 +173,8 @@
     <!-- Scroll to top button and javascript copied from W3Schools -->
 
     <!-- Scroll to top button -->
-    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"
+        aria-label="Click here to go to the top of the page">Top</button>
 
     <!-- Scroll to top javascript -->
     <script>
@@ -183,7 +200,7 @@
             document.documentElement.scrollTop = 0;
         }
     </script>
-    
+
 </body>
 
 </html>
