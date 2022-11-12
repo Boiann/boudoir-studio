@@ -20,26 +20,26 @@
 <body id="about">
 
     <header>
-        <a href="index.html" id="logo">
+        <a href="index.html" id="logo" aria-label="Click here to go to the home page">
             <h1>Boudoir Studio</h1>
         </a>
         <nav class="navigation">
 
-            <input type="checkbox" id="hamburger" />
+            <input type="checkbox" id="hamburger" aria-label="Click here to open navigation menu">
             <label for="hamburger">&#9776;</label>
 
             <ul id="hamitems">
                 <li>
-                    <a href="index.html">Home</a>
+                    <a href="index.html" aria-label="Click here to go to the home page">Home</a>
                 </li>
                 <li>
-                    <a href="gallery.html">Gallery</a>
+                    <a href="gallery.html" aria-label="Click here to go to the gallery page">Gallery</a>
                 </li>
                 <li>
-                    <a href="about.html" id="active">About</a>
+                    <a href="about.html" aria-label="Click here to go to the about us page" id="active">About</a>
                 </li>
                 <li>
-                    <a href="#form">Contact</a>
+                    <a href="#form" aria-label="Click here to go to the contact section">Contact</a>
                 </li>
             </ul>
         </nav>
@@ -63,7 +63,8 @@
         <div id="photographer">
             <h4>Bryson Sueai</h4>
             <h2>Photographer</h2>
-            <img src="./assets/images/team_images/photographer.jpg" alt="Half body outside portrait of our photographer Bryson">
+            <img src="./assets/images/team_images/photographer.jpg"
+                alt="Half body outside portrait of our photographer Bryson">
             <br>
             <p>Bryson was born and raised in Ireland, Wexford. After travelling the globe post college (diploma in
                 Photography Art), he found his true passion: Boudoir. He has been empowering women for the last 12
@@ -100,17 +101,18 @@
 
         <div class="container">
             <details>
-                <summary>Is Boudoir Photograpy Expensive?</summary>
+                <summary title="Click here to reveal answer">Is Boudoir Photograpy Expensive?</summary>
                 <div>
                     We have many packages suited for different budgets. We can do a small and short photoshoot (starting
                     at Eur 200) to almost
                     full-day experience in one of our hotel partners (up to Eur 1000). The best thing is to get in <a
-                        href="#form">contact</a> with
+                        href="#form" aria-label="Click here to go to the contact section">contact</a> with
                     us so we can discuss everything!
                 </div>
             </details>
             <details>
-                <summary>What if I'm not confident in my looks? I'm no model...</summary>
+                <summary title="Click here to reveal answer">What if I'm not confident in my looks? I'm no model...
+                </summary>
                 <div>
                     Join the crowd! All of the women we take through the Boudoir Experience think they cannot amount to
                     the "beautiful" standard.
@@ -120,7 +122,7 @@
                 </div>
             </details>
             <details>
-                <summary>Will other people be able to see my pictures?</summary>
+                <summary title="Click here to reveal answer">Will other people be able to see my pictures?</summary>
                 <div>
                     Privacy is something we take very seriously. At the start of the photoshoot we will provide you with
                     a document/contract where you will be able
@@ -130,19 +132,20 @@
                 </div>
             </details>
             <details>
-                <summary>Do you only shoot in your studio?</summary>
+                <summary title="Click here to reveal answer">Do you only shoot in your studio?</summary>
                 <div>
                     No! We are flexible in terms of shoot location. Our studio is set up so there is a lot of natural
                     light coming in and the furniture is minimalistic.
                     But we have also partnered with some of the hotels in Wexford area so we can shoot in their rooms,
                     or better yet, absolutely exquisite
-                    <a href="https://www.riversideparkhotel.com/room/penthouse-suite/" target="_blank">Penthouse
+                    <a href="https://www.riversideparkhotel.com/room/penthouse-suite/" target="_blank"
+                        aria-label="Click here to go to our partner hotel's website (link opens in a new tab)">Penthouse
                         Suites!</a>
                     There is also an option of outside shoot (rain, temperature and sunshine dependant).
                 </div>
             </details>
             <details>
-                <summary>Can I bring someone to the shoot?</summary>
+                <summary title="Click here to reveal answer">Can I bring someone to the shoot?</summary>
                 <div>
                     Absolutely! Having your friends or loved ones see you in a different light will go a long way to
                     boost your confidence. The only thing we wouldn't reccomend is bringing your children - that
@@ -150,7 +153,8 @@
                 </div>
             </details>
             <details>
-                <summary>How will I be able to relax in front of a male photographer?</summary>
+                <summary title="Click here to reveal answer">How will I be able to relax in front of a male
+                    photographer?</summary>
                 <div>
                     Some women actually prefer male photographer, but we understand if you feel uneasy.
                     What we can promise if relaxed and fun environment (there's chocolate and sparkling wine).
@@ -258,19 +262,23 @@
         <h2>Follow us on Social Media!</h2>
         <ul class="socials">
             <li>
-                <a href="https://facebook.com" target="_blank" rel="noopener">
+                <a href="https://facebook.com" target="_blank" rel="noopener"
+                    aria-label="Find us on Facebook (link opens in a new tab)">
                     <i class="fa-brands fa-square-facebook"></i></a>
             </li>
             <li>
-                <a href="https://twitter.com" target="_blank" rel="noopener">
+                <a href="https://twitter.com" target="_blank" rel="noopener"
+                    aria-label="Find us on Twitter (link opens in a new tab)">
                     <i class="fa-brands fa-square-twitter"></i></a>
             </li>
             <li>
-                <a href="https://youtube.com" target="_blank" rel="noopener">
+                <a href="https://youtube.com" target="_blank" rel="noopener"
+                    aria-label="Find us on Youtube (link opens in a new tab)">
                     <i class="fa-brands fa-square-youtube"></i></a>
             </li>
             <li>
-                <a href="https://instagram.com" target="_blank" rel="noopener">
+                <a href="https://instagram.com" target="_blank" rel="noopener"
+                    aria-label="Find us on Instagram (link opens in a new tab)">
                     <i class="fa-brands fa-square-instagram"></i></a>
             </li>
         </ul>
@@ -283,7 +291,8 @@
     <!-- Scroll to top button and javascript copied from W3Schools -->
 
     <!-- Scroll to top button -->
-    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"
+        aria-label="Click here to go to the top of the page">Top</button>
 
     <!-- Scroll to top javascript -->
     <script>
@@ -309,7 +318,7 @@
             document.documentElement.scrollTop = 0;
         }
     </script>
-    
+
 </body>
 
 </html>
