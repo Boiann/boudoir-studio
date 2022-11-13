@@ -329,7 +329,7 @@ h3 {
     background-color: rgba(136, 17, 0, .3);
 }
 
-#textid {
+.textid {
     color: #26282D;
     font-size: 125%;
     font-weight: 700;
@@ -470,11 +470,13 @@ footer h2 {
 #m-statement-bottom-img {
     min-width: 55%;
     border-radius: 20px;
+    width: 100%;
 }
 
 #m-statement-middle-img {
     min-width: 40%;
     border-radius: 20px;
+    width: 100%;
 }
 
 /* = Top mission statement flex & styling */
@@ -670,12 +672,12 @@ details[open] div {
     justify-content: space-between;
 }
 
-#review-container {
+.review-container {
     display: flex;
     justify-content: space-evenly;
 }
 
-#review {
+.review {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1031,12 +1033,12 @@ details[open] div {
         padding: 0 15px;
     }
 
-    #review-container {
+    .review-container {
         flex-direction: column;
         align-items: center;
     }
 
-    #review {
+    .review {
         width: 70%;
     }
 

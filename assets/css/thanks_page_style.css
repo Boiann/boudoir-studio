@@ -229,7 +229,7 @@ footer h2 {
     }
 }
 
-#span-hidden {
+.span-hidden {
     visibility: hidden;
 }
 
