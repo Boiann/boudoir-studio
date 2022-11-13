@@ -1,349 +1,341 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Boudoir Photography Studio Wexford, Ireland">
+        <meta name="keywords" content="boudoir photography, intimate photography, photography studio, Wexford, Ireland ">
+        <meta name="author" content="Bojan Bakaric">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Boudoir Photography Studio Wexford, Ireland">
-    <meta name="keywords" content="boudoir photography, intimate photography, photography studio, Wexford, Ireland ">
-    <meta name="author" content="Bojan Bakaric">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <title>Boudoir Studio Wexford</title>
+        <script src="https://kit.fontawesome.com/4fe3adf97b.js" crossorigin="anonymous"></script>
+        <link rel="icon" href="./assets/images/other_images/favicon.png">
+    </head>
 
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Boudoir Studio Wexford</title>
-    <script src="https://kit.fontawesome.com/4fe3adf97b.js" crossorigin="anonymous"></script>
-    <link rel="icon" href="./assets/images/other_images/favicon.png">
-</head>
+    <body>
+        <!-- Header containing site logo and navigation links -->
+        <header>
+            <a href="index.html" id="logo" aria-label="Click here to go to the home page">
+                <h1>Boudoir Studio</h1>
+            </a>
+            <nav class="navigation">
+                <!-- Hamburger menu for screens up to 900px wide, for larger displays the menu items are displayed on their own. 
+                    Code adapted from Mr. W.S. Toh, https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/ -->
+                <input type="checkbox" id="hamburger" aria-label="Click here to open navigation menu">
+                <label for="hamburger">&#9776;</label>
 
-<body>
-    <!-- Header containing site logo and navigation links -->
-    <header>
-        <a href="index.html" id="logo" aria-label="Click here to go to the home page">
-            <h1>Boudoir Studio</h1>
-        </a>
-        <nav class="navigation">
+                <!-- Navigation links -->
+                <ul id="hamitems">
+                    <li>
+                        <a href="index.html" aria-label="Click here to go to the home page">Home</a>
+                    </li>
+                    <li>
+                        <a href="gallery.html" aria-label="Click here to go to the gallery page">Gallery</a>
+                    </li>
+                    <!-- Link given the id="active" to highlight the page the user is currently on -->
+                    <li>
+                        <a href="about.html" aria-label="Click here to go to the about us page" id="active">About</a>
+                    </li>
+                    <!-- Link taking the user to contact form, used across all three pages (index, gallery and about.html)-->
+                    <li>
+                        <a href="#form" aria-label="Click here to go to the contact section">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
 
-            <!-- Hamburger menu for screens up to 900px wide, for larger displays the menu items are displayed on their own. 
-                Code adapted from Mr. W.S. Toh, https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/ -->
-            <input type="checkbox" id="hamburger" aria-label="Click here to open navigation menu">
-            <label for="hamburger">&#9776;</label>
+        <!-- Hero section containing hero image and cover text. Used across all three pages (index, gallery and about.html) -->
+        <section class="hero-section">
+            <div id="hero-img-about" title="Beautiful woman's close up portrait"></div>
 
-            <!-- Navigation links -->
-            <ul id="hamitems">
-                <li>
-                    <a href="index.html" aria-label="Click here to go to the home page">Home</a>
-                </li>
-                <li>
-                    <a href="gallery.html" aria-label="Click here to go to the gallery page">Gallery</a>
-                </li>
-                <!-- Link given the id="active" to highlight the page the user is currently on -->
-                <li>
-                    <a href="about.html" aria-label="Click here to go to the about us page" id="active">About</a>
-                </li>
-                <!-- Link taking the user to contact form, used across all three pages (index, gallery and about.html)-->
-                <li>
-                    <a href="#form" aria-label="Click here to go to the contact section">Contact</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+            <!-- Cover text used to bring main message and purpose of the site to the user -->
+            <div id="cover-text">
+                <h2>Unleash your beauty</h2>
+                <br>
+                <h3>Celebrate your femininity</h3>
+                <h3>Discover the new you</h3>
+            </div>
+        </section>
 
-    <!-- Hero section containing hero image and cover text. Used across all three pages (index, gallery and about.html) -->
-    <section class="hero-section">
-        <div id="hero-img-about" title="Beautiful woman's close up portrait"></div>
-        <!-- Cover text used to bring main message and purpose of the site to the user -->
-        <div id="cover-text">
-            <h2>Unleash your beauty</h2>
-            <br>
-            <h3>Celebrate your femininity</h3>
-            <h3>Discover the new you</h3>
+        <!-- Main content section of about.html separated into three parts. Used to give the user information about the team, answer any
+            questions the user might have and provide short testimonials from previous business clients -->
+
+        <!-- Statement used do convey purpose of the following content -->
+        <div class="statement-banner">
+            <h2>Meet our team, find some answers, see testimonials...</h2>
         </div>
-    </section>
 
-    <!-- Main content section of about.html separated into three parts. Used to give the user information about the team, answer any
-    questions the user might have and provide short testimonials from previous business clients -->
+        <!-- First section with information about the team -->
+        <section class="team">
+            <div id="photographer">
+                <h4>Bryson Sueai</h4>
+                <h2>Photographer</h2>
+                <img src="./assets/images/team_images/photographer.webp"
+                    alt="Half body outside portrait of our photographer Bryson">
+                <br>
+                <p>Bryson was born and raised in Ireland, Wexford. After travelling the globe post college (diploma in
+                    Photography Art), he found his true passion: Boudoir. He has been empowering women for the last 12
+                    years, giving them a
+                    chance to understand just how beautiful they are.
+                </p>
+            </div>
+            <div id="makeup">
+                <h4>Anda Soee</h4>
+                <h2>Make-up Artist</h2>
+                <img src="./assets/images/team_images/make_up.webp" alt="Close up portrait of our make up artist Anda">
+                <br>
+                <p>Anda was nominated top-tier make up artist last year in her hometown of Johannesburg. She came to Ireland
+                    for a holiday where she met Bryson and the rest is as how they say, history. Their partnership is based
+                    on
+                    mutual respect and love towards the Boudoir art and what it represents.
+                </p>
+            </div>
+            <div id="hair">
+                <h4>Minoa Soffh</h4>
+                <h2>Hair Stylist</h2>
+                <img src="./assets/images/team_images/hair_stylist.webp" alt="Close up portrait of our hair stylist Minoa">
+                <br>
+                <p>Minoa comes as the last (but not the least) addition to the team from Sydney, Australia. Her experience
+                    working on movie sets
+                    translated well to Boudoir. She can apply her knowledge of subtle make-up, just enough,
+                    not to cover and hide but to bring forward your natural beauty.
+                </p>
+            </div>
+        </section>
 
-    <!-- Statement used do convey purpose of the following content -->
-    <div class="statement-banner">
-        <h2>Meet our team, find some answers, see testimonials...</h2>
-    </div>
+        <!-- Second section with frequently asked questions. To create accordion style FaQ code was adapted from Mr. Felix Dusengimana, 
+            https://dev.to/felixdusengimana/lets-create-an-faq-section-with-html-and-css-only-detail-tag-explained-12gf -->
+        <section class="faq">
+            <!-- Small banner explaining the following section to the user -->
+            <h2>Frequently Asked Questions:</h2>
 
-    <!-- First section with information about the team -->
-    <section class="team">
-        <div id="photographer">
-            <h4>Bryson Sueai</h4>
-            <h2>Photographer</h2>
-            <img src="./assets/images/team_images/photographer.webp"
-                alt="Half body outside portrait of our photographer Bryson">
-            <br>
-            <p>Bryson was born and raised in Ireland, Wexford. After travelling the globe post college (diploma in
-                Photography Art), he found his true passion: Boudoir. He has been empowering women for the last 12
-                years, giving them a
-                chance to understand just how beautiful they are.</p>
-        </div>
-        <div id="makeup">
-            <h4>Anda Soee</h4>
-            <h2>Make-up Artist</h2>
-            <img src="./assets/images/team_images/make_up.webp" alt="Close up portrait of our make up artist Anda">
-            <br>
-            <p>Anda was nominated top-tier make up artist last year in her hometown of Johannesburg. She came to Ireland
-                for a holiday where she met Bryson and the rest is as how they say, history. Their partnership is based
-                on
-                mutual respect and love towards the Boudoir art and what it represents.
-            </p>
-        </div>
-        <div id="hair">
-            <h4>Minoa Soffh</h4>
-            <h2>Hair Stylist</h2>
-            <img src="./assets/images/team_images/hair_stylist.webp" alt="Close up portrait of our hair stylist Minoa">
-            <br>
-            <p>Minoa comes as the last (but not the least) addition to the team from Sydney, Australia. Her experience
-                working on movie sets
-                translated well to Boudoir. She can apply her knowledge of subtle make-up, just enough,
-                not to cover and hide but to bring forward your natural beauty.
-            </p>
-        </div>
-    </section>
-
-    <!-- Second section with frequently asked questions. To create accordion style FaQ code was adapted from Mr. Felix Dusengimana, 
-        https://dev.to/felixdusengimana/lets-create-an-faq-section-with-html-and-css-only-detail-tag-explained-12gf -->
-
-    <section class="faq">
-        <!-- Small banner explaining the following section to the user -->
-        <h2>Frequently Asked Questions:</h2>
-
-        <!-- Main content of FaQ section consisting of questions that will reveal the answers when clicked on -->
-        <div class="container">
-            <details>
-                <summary title="Click here to reveal answer">Is Boudoir Photography Expensive?</summary>
-                <div>
-                    We have many packages suited for different budgets. We can do a small and short photo shoot (starting
-                    at Eur 200) to almost
-                    full-day experience in one of our hotel partners (up to Eur 1000). The best thing is to get in <a
-                        href="#form" aria-label="Click here to go to the contact section">contact</a> with
-                    us so we can discuss everything!
-                </div>
-            </details>
-            <details>
-                <summary title="Click here to reveal answer">What if I'm not confident in my looks? I'm no model...
-                </summary>
-                <div>
-                    Join the crowd! All of the women we take through the Boudoir Experience think they cannot amount to
-                    the "beautiful" standard.
-                    The goal of the experience is to prove to you that you are beautiful, unique and special
-                    <strong>because</strong> of who you are.
-                    At the end of the experience it is our promise you will feel like a model!
-                </div>
-            </details>
-            <details>
-                <summary title="Click here to reveal answer">Will other people be able to see my pictures?</summary>
-                <div>
-                    Privacy is something we take very seriously. At the start of the photo shoot we will provide you with
-                    a document/contract where you will be able
-                    to choose if the pictures are for your eyes only (or for someone special), or can they be used in
-                    our website.
-                    Most women are so satisfied that they want the world to see the images!
-                </div>
-            </details>
-            <details>
-                <summary title="Click here to reveal answer">Do you only shoot in your studio?</summary>
-                <div>
-                    No! We are flexible in terms of shoot location. Our studio is set up so there is a lot of natural
-                    light coming in and the furniture and decor is minimalistic.
-                    But we have also partnered with some of the hotels in Wexford area so we can shoot in their rooms,
-                    or better yet, absolutely exquisite
-                    <a href="https://www.riversideparkhotel.com/room/penthouse-suite/" target="_blank"
-                        aria-label="Click here to go to our partner hotel's website (link opens in a new tab)">Penthouse
+            <!-- Main content of FaQ section consisting of questions that will reveal the answers when clicked on -->
+            <div class="container">
+                <details>
+                    <summary title="Click here to reveal answer">Is Boudoir Photography Expensive?</summary>
+                    <div>
+                        We have many packages suited for different budgets. We can do a small and short photo shoot (starting
+                        at Eur 200) to almost
+                        full-day experience in one of our hotel partners (up to Eur 1000). The best thing is to get in <a
+                            href="#form" aria-label="Click here to go to the contact section">contact</a> with
+                        us so we can discuss everything!
+                    </div>
+                </details>
+                <details>
+                    <summary title="Click here to reveal answer">What if I'm not confident in my looks? I'm no model...
+                    </summary>
+                    <div>
+                        Join the crowd! All of the women we take through the Boudoir Experience think they cannot amount to
+                        the "beautiful" standard.
+                        The goal of the experience is to prove to you that you are beautiful, unique and special
+                        <strong>because</strong> of who you are.
+                        At the end of the experience it is our promise you will feel like a model!
+                    </div>
+                </details>
+                <details>
+                    <summary title="Click here to reveal answer">Will other people be able to see my pictures?</summary>
+                    <div>
+                        Privacy is something we take very seriously. At the start of the photo shoot we will provide you with
+                        a document/contract where you will be able
+                        to choose if the pictures are for your eyes only (or for someone special), or can they be used in
+                        our website.
+                        Most women are so satisfied that they want the world to see the images!
+                    </div>
+                </details>
+                <details>
+                    <summary title="Click here to reveal answer">Do you only shoot in your studio?</summary>
+                    <div>
+                        No! We are flexible in terms of shoot location. Our studio is set up so there is a lot of natural
+                        light coming in and the furniture and decor is minimalistic.
+                        But we have also partnered with some of the hotels in Wexford area so we can shoot in their rooms,
+                        or better yet, absolutely exquisite
+                        <a href="https://www.riversideparkhotel.com/room/penthouse-suite/" target="_blank"
+                            aria-label="Click here to go to our partner hotel's website (link opens in a new tab)">Penthouse
                         Suites!</a>
-                    There is also an option of outside shoot (rain, temperature and sunshine dependant).
+                        There is also an option of outside shoot (rain, temperature and sunshine dependant).
+                    </div>
+                </details>
+                <details>
+                    <summary title="Click here to reveal answer">Can I bring someone to the shoot?</summary>
+                    <div>
+                        Absolutely! Having your friends or loved ones see you in a different light will go a long way to
+                        boost your confidence. The only thing we wouldn't recommend is bringing your children - that
+                        is always a bit awkward. And if the kids are younger, it leads to a lot of giggles!
+                    </div>
+                </details>
+                <details>
+                    <summary title="Click here to reveal answer">How will I be able to relax in front of a male
+                        photographer?
+                    </summary>
+                    <div>
+                        Some women actually prefer male photographer, but we understand if you feel uneasy.
+                        What we can promise if relaxed and fun environment (there's chocolate and sparkling wine).
+                        Bryson (our photographer) is very professional and knows how to direct posing with ease.
+                        The choice of clothing, amount of make-up (we recommend minimal) are entirely up to you!
+                    </div>
+                </details>
+            </div>
+        </section>
+
+        <!-- Last section containing the images and short to-the-point client testimonials, used to motivate potential new clients -->
+        <section class="testimonials">
+            <!-- Small banner explaining the following section to the user -->
+            <h2 id="testimonials-banner">What people say about us:</h2>
+
+            <!-- Content of testimonials section, each review consisting of an image, name, occupation and short testimonial -->
+            <div id="review-container">
+                <div id="review">
+                    <img src="./assets/images/testimonial_images/review_img_1.webp" alt="Portrait of our client Mislai">
+                    <h2>Mislai Sinaep</h2>
+                    <h4>Retail Manager</h4>
+                    <p>"Absolutely fantastic, would recommend to any woman!</p>
                 </div>
-            </details>
-            <details>
-                <summary title="Click here to reveal answer">Can I bring someone to the shoot?</summary>
-                <div>
-                    Absolutely! Having your friends or loved ones see you in a different light will go a long way to
-                    boost your confidence. The only thing we wouldn't recommend is bringing your children - that
-                    is always a bit awkward. And if the kids are younger, it leads to a lot of giggles!
+                <div id="review">
+                    <img src="./assets/images/testimonial_images/review_img_2.webp" alt="Portrait of our client Goslaen">
+                    <h2>Goslaen Sibuuh</h2>
+                    <h4>Housewife</h4>
+                    <p>"My confidence grew immensely after the shoot!"</p>
                 </div>
-            </details>
-            <details>
-                <summary title="Click here to reveal answer">How will I be able to relax in front of a male
-                    photographer?</summary>
-                <div>
-                    Some women actually prefer male photographer, but we understand if you feel uneasy.
-                    What we can promise if relaxed and fun environment (there's chocolate and sparkling wine).
-                    Bryson (our photographer) is very professional and knows how to direct posing with ease.
-                    The choice of clothing, amount of make-up (we recommend minimal) are entirely up to you!
+                <div id="review">
+                    <img src="./assets/images/testimonial_images/review_img_5.webp" alt="Portrait of our client Hoitae">
+                    <h2>Hoitae Sfezoo</h2>
+                    <h4>Architect</h4>
+                    <p>"Very rewarding experience in your life!"</p>
                 </div>
-            </details>
-        </div>
-    </section>
-
-    <!-- Last section containing the images and short to-the-point client testimonials, used to motivate potential new clients -->
-    <section class="testimonials">
-
-        <!-- Small banner explaining the following section to the user -->
-        <h2 id="testimonials-banner">What people say about us:</h2>
-
-        <!-- Content of testimonials section, each review consisting of an image, name, occupation and short testimonial -->
-        <div id="review-container">
-            <div id="review">
-                <img src="./assets/images/testimonial_images/review_img_1.webp" alt="Portrait of our client Mislai">
-                <h2>Mislai Sinaep</h2>
-                <h4>Retail Manager</h4>
-                <p>"Absolutely fantastic, would recommend to any woman!</p>
             </div>
-            <div id="review">
-                <img src="./assets/images/testimonial_images/review_img_2.webp" alt="Portrait of our client Goslaen">
-                <h2>Goslaen Sibuuh</h2>
-                <h4>Housewife</h4>
-                <p>"My confidence grew immensely after the shoot!"</p>
+            <div id="review-container">
+                <div id="review">
+                    <img src="./assets/images/testimonial_images/review_img_3.webp" alt="Portrait of our client Bnuti">
+                    <h2>Bnuti Synoof</h2>
+                    <h4>Sales Director</h4>
+                    <p>"See yourself as beautiful with Boudoir Studio!"</p>
+                </div>
+                <div id="review">
+                    <img src="./assets/images/testimonial_images/review_img_4.webp" alt="Portrait of our client Landaaz">
+                    <h2>Landaaz Seumingh</h2>
+                    <h4>Lab Tehnician</h4>
+                    <p>"Did a shoot for a gift, my husband was delighted!"</p>
+                </div>
+                <div id="review">
+                    <img src="./assets/images/testimonial_images/review_img_6.webp" alt="Portrait of our client Reaniae">
+                    <h2>Reaniae Squpii</h2>
+                    <h4>Educator</h4>
+                    <p>"I wish I've done it much sooner than I did!"</p>
+                </div>
             </div>
-            <div id="review">
-                <img src="./assets/images/testimonial_images/review_img_5.webp" alt="Portrait of our client Hoitae">
-                <h2>Hoitae Sfezoo</h2>
-                <h4>Architect</h4>
-                <p>"Very rewarding experience in your life!"</p>
+        </section>
+
+        <!-- Contact section with contact form and business location, address and open times. Used across all three pages (index, gallery and about.html) -->
+
+        <!-- Contact form with required inputs. Upon successful inputs from user it redirects to thanks.html, thanking the user for submission of query -->
+        <section class="contact">
+            <div id="form">
+                <h2>Interested in Boudoir Experience?</h2>
+                <h4>Please do let us know below!</h4>
+                <form action="thanks.html" class="form-inputs">
+                    <label for="fname" id="textid">First Name</label>
+                    <input type="text" id="fname" name="first_name" required class="text-input">
+                    <label for="lname" id="textid">Last Name</label>
+                    <input type="text" id="lname" name="last_name" required class="text-input">
+                    <label for="email" id="textid">Email Address</label>
+                    <input type="email" id="email" name="email_address" required class="text-input">
+                    <textarea name="txtarea" id="txtarea" required
+                        placeholder="Please do let us know if you have any questions!" rows="7" cols="10"></textarea>
+                    <input type="submit" value="Submit!" class="submit-button">
+                </form>
             </div>
-        </div>
-        <div id="review-container">
-            <div id="review">
-                <img src="./assets/images/testimonial_images/review_img_3.webp" alt="Portrait of our client Bnuti">
-                <h2>Bnuti Synoof</h2>
-                <h4>Sales Director</h4>
-                <p>"See yourself as beautiful with Boudoir Studio!"</p>
+            <br>
+
+            <!-- Map, address and business open times -->
+            <div id="map">
+                <h2>Call in to our studio!</h2>
+                <div id="mapaddress">
+                    <ul>
+                        <li><strong>Address:</strong></li>
+                        <li>Ballybaloo Upper</li>
+                        <li>Wexford</li>
+                        <li>Ireland</li>
+                    </ul>
+                    <br>
+                    <ul>
+                        <li><strong>Open Times:</strong></li>
+                        <li>Mon - Fri:</li>
+                        <li>09:00 - 17:00</li>
+                        <li>Sat-Sun: CLOSED</li>
+                    </ul>
+                </div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d19504.18571827323!2d-6.4731900499999995!3d52.33372495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sie!4v1666778127999!5m2!1sen!2sie">
+                </iframe>
             </div>
-            <div id="review">
-                <img src="./assets/images/testimonial_images/review_img_4.webp" alt="Portrait of our client Landaaz">
-                <h2>Landaaz Seumingh</h2>
-                <h4>Lab Tehnician</h4>
-                <p>"Did a shoot for a gift, my husband was delighted!"</p>
-            </div>
-            <div id="review">
-                <img src="./assets/images/testimonial_images/review_img_6.webp" alt="Portrait of our client Reaniae">
-                <h2>Reaniae Squpii</h2>
-                <h4>Educator</h4>
-                <p>"I wish I've done it much sooner than I did!"</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact section with contact form and business location, address and open times. Used across all three pages (index, gallery and about.html) -->
-
-    <!-- Contact form with required inputs. Upon successful inputs from user it redirects to thanks.html, thanking the user for submission of query -->
-    <section class="contact">
-        <div id="form">
-            <h2>Interested in Boudoir Experience?</h2>
-            <h4>Please do let us know below!</h4>
-            <form action="thanks.html" class="form-inputs">
-
-                <label for="fname" id="textid">First Name</label>
-                <input type="text" id="fname" name="first_name" required class="text-input">
-
-                <label for="lname" id="textid">Last Name</label>
-                <input type="text" id="lname" name="last_name" required class="text-input">
-
-                <label for="email" id="textid">Email Address</label>
-                <input type="email" id="email" name="email_address" required class="text-input">
-
-                <textarea name="txtarea" id="txtarea" required
-                    placeholder="Please do let us know if you have any questions!" rows="7" cols="10"></textarea>
-
-                <input type="submit" value="Submit!" class="submit-button">
-            </form>
-        </div>
+        </section>
         <br>
 
-        <!-- Map, address and business open times -->
-        <div id="map">
-            <h2>Call in to our studio!</h2>
-            <div id="mapaddress">
-                <ul>
-                    <li><strong>Address:</strong></li>
-                    <li>Ballybaloo Upper</li>
-                    <li>Wexford</li>
-                    <li>Ireland</li>
-                </ul>
-                <br>
-                <ul>
-                    <li><strong>Open Times:</strong></li>
-                    <li>Mon - Fri:</li>
-                    <li>09:00 - 17:00</li>
-                    <li>Sat-Sun: CLOSED</li>
-                </ul>
-            </div>
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d19504.18571827323!2d-6.4731900499999995!3d52.33372495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sie!4v1666778127999!5m2!1sen!2sie">
-            </iframe>
-        </div>
-    </section>
-    <br>
-
-    <!-- Footer section containing social media links and small copyright and "not real website" note. 
-        Used across all four pages (index, gallery, about and thanks.html) -->
-    <footer>
-        <h2>Follow us on Social Media!</h2>
-        <ul class="socials">
-            <li>
-                <a href="https://facebook.com" target="_blank" rel="noopener"
-                    aria-label="Find us on Facebook (link opens in a new tab)">
+        <!-- Footer section containing social media links and small copyright and "not real website" note. 
+            Used across all four pages (index, gallery, about and thanks.html) -->
+        <footer>
+            <h2>Follow us on Social Media!</h2>
+            <ul class="socials">
+                <li>
+                    <a href="https://facebook.com" target="_blank" rel="noopener"
+                        aria-label="Find us on Facebook (link opens in a new tab)">
                     <i class="fa-brands fa-square-facebook"></i></a>
-            </li>
-            <li>
-                <a href="https://twitter.com" target="_blank" rel="noopener"
-                    aria-label="Find us on Twitter (link opens in a new tab)">
+                </li>
+                <li>
+                    <a href="https://twitter.com" target="_blank" rel="noopener"
+                        aria-label="Find us on Twitter (link opens in a new tab)">
                     <i class="fa-brands fa-square-twitter"></i></a>
-            </li>
-            <li>
-                <a href="https://youtube.com" target="_blank" rel="noopener"
-                    aria-label="Find us on Youtube (link opens in a new tab)">
+                </li>
+                <li>
+                    <a href="https://youtube.com" target="_blank" rel="noopener"
+                        aria-label="Find us on Youtube (link opens in a new tab)">
                     <i class="fa-brands fa-square-youtube"></i></a>
-            </li>
-            <li>
-                <a href="https://instagram.com" target="_blank" rel="noopener"
-                    aria-label="Find us on Instagram (link opens in a new tab)">
+                </li>
+                <li>
+                    <a href="https://instagram.com" target="_blank" rel="noopener"
+                        aria-label="Find us on Instagram (link opens in a new tab)">
                     <i class="fa-brands fa-square-instagram"></i></a>
-            </li>
-        </ul>
-        <div id="copyright">
-            <p>Copyright Bojan Bakaric 2022</p>
-            <p>Portfolio Project, not a real website</p>
-        </div>
-    </footer>
+                </li>
+            </ul>
+            <div id="copyright">
+                <p>Copyright Bojan Bakaric 2022</p>
+                <p>Portfolio Project, not a real website</p>
+            </div>
+        </footer>
 
-    <!-- Scroll to top button and javascript copied from W3Schools.com, https://www.w3schools.com/howto/howto_js_scroll_to_top.asp. 
-        Used across all three pages (index, gallery and about.html) -->
+        <!-- Scroll to top button and javascript copied from W3Schools.com, https://www.w3schools.com/howto/howto_js_scroll_to_top.asp. 
+            Used across all three pages (index, gallery and about.html) -->
 
-    <!-- Scroll to top button -->
-    <button onclick="topFunction()" id="myBtn" title="Go to top"
-        aria-label="Click here to go to the top of the page">Top</button>
+        <!-- Scroll to top button -->
+        <button onclick="topFunction()" id="myBtn" title="Go to top"
+            aria-label="Click here to go to the top of the page">Top</button>
 
-    <!-- Scroll to top javascript -->
-    <script>
-        // Get the button
-        let mybutton = document.getElementById("myBtn");
-
-        // When the user scrolls down 20px from the top of the document, show the button
-        window.onscroll = function () {
-            scrollFunction()
-        };
-
-        function scrollFunction() {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                mybutton.style.display = "block";
-            } else {
-                mybutton.style.display = "none";
+        <!-- Scroll to top javascript -->
+        <script>
+            //  Get the button
+            let mybutton = document.getElementById("myBtn");
+            
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function () {
+                scrollFunction()
+            };
+            
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
             }
-        }
-
-        // When the user clicks on the button, scroll to the top of the document
-        function topFunction() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-        }
-    </script>
-
-</body>
-
+            
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
+    </body>
 </html>
