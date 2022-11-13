@@ -16,17 +16,21 @@
 </head>
 
 <body>
-<!-- Header containing site logo and navigation links -->
+    <!-- Header containing site logo and navigation links -->
     <header>
         <a href="index.html" id="logo" aria-label="Click here to go to the home page">
             <h1>Boudoir Studio</h1>
         </a>
-        <nav class="navigation">
 
+        <nav class="navigation">
+            <!-- Hamburger menu for screens up to 900px wide, for larger displays the menu items are displayed on their own. 
+                Code adapted from Mr. W.S. Toh, https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/. For more details please refer to README -->
             <input type="checkbox" id="hamburger" />
             <label for="hamburger">&#9776;</label>
 
+            <!-- Navigation links -->
             <ul id="hamitems">
+                <!-- Link given the id="active" to highlight the page the user is currently on -->
                 <li>
                     <a href="index.html" aria-label="Click here to go to the home page" id="active">Home</a>
                 </li>
@@ -43,8 +47,10 @@
         </nav>
     </header>
 
+    <!-- Hero section containing hero image and cover text. Used across all three pages (index, gallery and about.html) -->
     <section class="hero-section">
         <div id="hero-img-index" title="Beautiful woman's close up portrait"></div>
+        <!-- Cover text used to bring main message and purpose of the site to the user -->
         <div id="cover-text">
             <h2>Unleash your beauty</h2>
             <br>
@@ -53,10 +59,16 @@
         </div>
     </section>
 
+    <!-- Main content section of index.html separated into three parts. Used to familiarize user with what Boudoir Photography is,
+    the history of it, why would user want to experience it and use this business. -->
+
+    <!-- Statement used do convey purpose of the following content -->
     <section class="mission-statement-main">
         <div class="statement-banner">
             <h2>See for yourself how beautiful you are!</h2>
         </div>
+
+        <!-- First part explaining what Boudoir Photograpy is -->
         <div id="m-statement-top">
             <div id="what-is-boudoir">
                 <h2>What is Boudoir Photography?</h2>
@@ -70,6 +82,8 @@
                 alt="Beautiful dark skinned woman portrait from the side" id="m-statement-top-img">
         </div>
         <br>
+
+        <!-- Second part about Boudoir history and why would user consider doing it -->
         <div id="m-statement-middle">
             <div id="boudoir-history">
                 <h2>History of Boudoir Photography</h2>
@@ -103,6 +117,8 @@
             </div>
         </div>
         <br>
+        
+        <!-- Third and last part explaining why would user use this Boudoir Photography business -->
         <div id="m-statement-bottom">
             <div id="boudoir-why-us">
                 <h2>Why consider us for Boudoir Photography Session?</h2>
@@ -119,6 +135,10 @@
         </div>
     </section>
     <br>
+
+    <!-- Contact section with contact form and business location, address and open times. Used across all three pages (index, gallery and about.html) -->
+
+    <!-- Contact form with required inputs. Upon successful inputs from user it redirects to thanks.html -->
     <section class="contact">
         <div id="form">
             <h2>Interested in Boudoir Experience?</h2>
@@ -141,6 +161,8 @@
             </form>
         </div>
         <br>
+
+        <!-- Map, address and business open times -->
         <div id="map">
             <h2>Call in to our studio!</h2>
             <div id="mapaddress">
@@ -164,6 +186,8 @@
         </div>
     </section>
     <br>
+
+    <!-- Footer section containing social media links and small copyright and "not real website" note. Used across all three pages (index, gallery and about.html) -->
     <footer>
         <h2>Follow us on Social Media!</h2>
         <ul class="socials">
@@ -194,7 +218,8 @@
         </div>
     </footer>
 
-    <!-- Scroll to top button and javascript copied from W3Schools -->
+    <!-- Scroll to top button and javascript copied from W3Schools.com, https://www.w3schools.com/howto/howto_js_scroll_to_top.asp. 
+        Used across all three pages (index, gallery and about.html). -->
 
     <!-- Scroll to top button -->
     <button onclick="topFunction()" id="myBtn" title="Go to top"
