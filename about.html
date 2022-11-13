@@ -4,30 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Boudoir Photography Studio Wexford, Ireland">
     <meta name="keywords" content="boudoir photography, intimate photography, photography studio, Wexford, Ireland ">
     <meta name="author" content="Bojan Bakaric">
+
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Boudoir Studio Wexford</title>
-
     <script src="https://kit.fontawesome.com/4fe3adf97b.js" crossorigin="anonymous"></script>
-
     <link rel="icon" href="./assets/images/other_images/favicon.png">
 </head>
 
 <body>
-
+    <!-- Header containing site logo and navigation links -->
     <header>
         <a href="index.html" id="logo" aria-label="Click here to go to the home page">
             <h1>Boudoir Studio</h1>
         </a>
         <nav class="navigation">
 
+            <!-- Hamburger menu for screens up to 900px wide, for larger displays the menu items are displayed on their own. 
+                Code adapted from Mr. W.S. Toh, https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/ -->
             <input type="checkbox" id="hamburger" aria-label="Click here to open navigation menu">
             <label for="hamburger">&#9776;</label>
 
+            <!-- Navigation links -->
             <ul id="hamitems">
                 <li>
                     <a href="index.html" aria-label="Click here to go to the home page">Home</a>
@@ -35,9 +37,11 @@
                 <li>
                     <a href="gallery.html" aria-label="Click here to go to the gallery page">Gallery</a>
                 </li>
+                <!-- Link given the id="active" to highlight the page the user is currently on -->
                 <li>
                     <a href="about.html" aria-label="Click here to go to the about us page" id="active">About</a>
                 </li>
+                <!-- Link taking the user to contact form, used across all three pages (index, gallery and about.html)-->
                 <li>
                     <a href="#form" aria-label="Click here to go to the contact section">Contact</a>
                 </li>
@@ -45,8 +49,10 @@
         </nav>
     </header>
 
+    <!-- Hero section containing hero image and cover text. Used across all three pages (index, gallery and about.html) -->
     <section class="hero-section">
         <div id="hero-img-about" title="Beautiful woman's close up portrait"></div>
+        <!-- Cover text used to bring main message and purpose of the site to the user -->
         <div id="cover-text">
             <h2>Unleash your beauty</h2>
             <br>
@@ -55,10 +61,15 @@
         </div>
     </section>
 
+    <!-- Main content section of about.html separated into three parts. Used to give the user information about the team, answer any
+    questions the user might have and provide short testimonials from previous business clients -->
+
+    <!-- Statement used do convey purpose of the following content -->
     <div class="statement-banner">
         <h2>Meet our team, find some answers, see testimonials...</h2>
     </div>
 
+    <!-- First section with information about the team -->
     <section class="team">
         <div id="photographer">
             <h4>Bryson Sueai</h4>
@@ -95,10 +106,14 @@
         </div>
     </section>
 
-    <section class="faq">
+    <!-- Second section with frequently asked questions. To create accordion style FaQ code was adapted from Mr. Felix Dusengimana, 
+        https://dev.to/felixdusengimana/lets-create-an-faq-section-with-html-and-css-only-detail-tag-explained-12gf -->
 
+    <section class="faq">
+        <!-- Small banner explaining the following section to the user -->
         <h2>Frequently Asked Questions:</h2>
 
+        <!-- Main content of FaQ section consisting of questions that will reveal the answers when clicked on -->
         <div class="container">
             <details>
                 <summary title="Click here to reveal answer">Is Boudoir Photograpy Expensive?</summary>
@@ -165,10 +180,13 @@
         </div>
     </section>
 
+    <!-- Last section containing the images and short to-the-point client testimonials, used to motivate potential new clients -->
     <section class="testimonials">
 
+        <!-- Small banner explaining the following section to the user -->
         <h2 id="testimonials-banner">What people say about us:</h2>
 
+        <!-- Content of testimonials section, each review consisting of an image, name, occupation and short testimonial -->
         <div id="review-container">
             <div id="review">
                 <img src="./assets/images/testimonial_images/review_img_1.jpg" alt="Portrait of our client Mislai">
@@ -211,8 +229,9 @@
         </div>
     </section>
 
-    </section>
+    <!-- Contact section with contact form and business location, address and open times. Used across all three pages (index, gallery and about.html) -->
 
+    <!-- Contact form with required inputs. Upon successful inputs from user it redirects to thanks.html, thanking the user for submission of query -->
     <section class="contact">
         <div id="form">
             <h2>Interested in Boudoir Experience?</h2>
@@ -235,6 +254,8 @@
             </form>
         </div>
         <br>
+
+        <!-- Map, address and business open times -->
         <div id="map">
             <h2>Call in to our studio!</h2>
             <div id="mapaddress">
@@ -258,6 +279,8 @@
         </div>
     </section>
     <br>
+
+    <!-- Footer section containing social media links and small copyright and "not real website" note. Used across all three pages (index, gallery and about.html) -->
     <footer>
         <h2>Follow us on Social Media!</h2>
         <ul class="socials">
@@ -288,7 +311,8 @@
         </div>
     </footer>
 
-    <!-- Scroll to top button and javascript copied from W3Schools -->
+    <!-- Scroll to top button and javascript copied from W3Schools.com, https://www.w3schools.com/howto/howto_js_scroll_to_top.asp. 
+        Used across all three pages (index, gallery and about.html) -->
 
     <!-- Scroll to top button -->
     <button onclick="topFunction()" id="myBtn" title="Go to top"
