@@ -100,7 +100,7 @@ header {
     width: 100%;
 }
 
-#index #hero-img {
+#hero-img-index {
     background: url(../images/hero_images/hero_img_index.jpg) no-repeat center center;
     background-size: cover;
     height: 750px;
@@ -108,7 +108,7 @@ header {
     background-attachment: fixed;
 }
 
-#gallery #hero-img {
+#hero-img-gallery {
 
     background: url(../images/hero_images/hero_img_gallery.jpg) no-repeat center center;
     background-size: cover;
@@ -117,7 +117,7 @@ header {
     background-attachment: fixed;
 }
 
-#about #hero-img {
+#hero-img-about {
 
     background: url(../images/hero_images/hero_img_about.jpg) no-repeat center center;
     background-size: cover;
@@ -754,16 +754,16 @@ footer h2 {
         margin: 0 45px;
     }
 
-    #index #hero-img {
+    #hero-img-index {
         background: url(../images/hero_images/hero_img_index_resized.jpg) no-repeat center center;
     }
 
-    #gallery #hero-img {
+    #hero-img-gallery {
 
         background: url(../images/hero_images/hero_img_gallery_resized.jpg) no-repeat center center;
     }
 
-    #about #hero-img {
+    #hero-img-about {
 
         background: url(../images/hero_images/hero_img_about_resized.jpg) no-repeat center center;
     }
