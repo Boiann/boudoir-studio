@@ -1,6 +1,73 @@
+/* CSS = NAVIGATION HELPER */
+
+/* CONTENT STRUCTURE OF CSS.STYLE:
+
+    -GLOBAL SETTINGS
+        - Css style reset
+        - Smooth scrolling
+        - Body font and margins
+        - Hidden scrollbar
+        - Logo text and header
+        - Menu navigation
+        - Hamburger icon
+        - Hero image
+        - Cover text
+        - Contact section
+            - Map & address
+            - Form
+        - Footer
+        - Scroll to top button
+
+    - INDEX PAGE SETTINGS
+        - Image styling
+        - Top mission statement
+        - Middle mission statement    
+        - Bottom mission statement
+
+    - GALLERY PAGE SETTINGS ( Image gallery styling )
+        
+    - ABOUT PAGE SETTINGS
+        - Team section
+        - Frequently asked questions
+        - Testimonials
+        
+    - MEDIA QUERY SETTINGS
+        - Larger screens (max-width 1600px)
+        - Big to medium screens (max-width 1400px)
+        - Moderate-large screens (max-width 1200px)
+        - Compact medium screens ( max-width 900px)
+            - Toggle/show hamburger icon             
+        - Small screens (max-width 600px)
+        - Extra-small screens         
+*/
+
+/* HOW TO USE QUICK-JUMP FEATURE:
+
+        The content structure above acts as a guide for this css.style file.
+
+        Each of the items listed in the content structure has a unique first word
+        and that word is paired with = sign in the actual content of the stylesheet.
+
+        If you want to find specific section please use ctrl+f (find in page) and input 
+        =SPACEexample with the word "example" being the first word of any item in the content structure.
+        
+        For example, if you are looking for "Browser", you would need to input the following into the search box:
+        = Browser
+
+        In most cases first 3-4 letters of the word are sufficient to take you to the desired destination in the file.
+        
+        This also works for the main sections ( Global, Index, About, Gallery and Media queries).
+
+        You can use = and NAVIGATION in the same manner for quick return to the content structure (top of the page).
+        */
+
+/* =================== 
+   = GLOBAL SETTINGS = 
+   =================== */
+
 @import url('https://fonts.googleapis.com/css2?family=Fanwood+Text:ital@0;1&family=Quattrocento+Sans:wght@400;700&display=swap');
 
-/* CSS style reset */
+/* = CSS style reset */
 
 * {
     margin: 0%;
@@ -8,18 +75,21 @@
     border: none;
 }
 
-/* Enable smooth scrolling for the whole website */
+/* = Smooth scrolling for the whole website */
 
 html {
     scroll-behavior: smooth;
 }
+
+
+/* = Body font and margins */
 
 body {
     font-family: 'Fanwood Text', serif;
     margin-right: 155px;
     margin-left: 155px;
 
-    /* Hidden scrollbar */
+    /* = Hidden scrollbar */
 
     /* for Internet Explorer, Edge */
     -ms-overflow-style: none;
@@ -34,7 +104,7 @@ body::-webkit-scrollbar {
     display: none;
 }
 
-/* Site logo text and header styling */
+/* = Logo text and header styling */
 
 #logo {
     font-family: 'quattrocento sans', sans-serif;
@@ -59,7 +129,7 @@ header {
     margin: 25px;
 }
 
-/* Navigation menu styling */
+/* = Menu navigation styling */
 
 .navigation {
     font-weight: 300;
@@ -93,7 +163,7 @@ header {
     border-radius: 15px;
 }
 
-/* Hamburger menu icon hidden for device width greater than 900px */
+/* = Hamburger menu icon hidden for device width greater than 900px */
 
 .navigation label,
 #hamburger {
@@ -101,7 +171,7 @@ header {
     cursor: pointer;
 }
 
-/* Hero image styling*/
+/* = Hero image styling*/
 
 .hero-section {
     position: relative;
@@ -133,7 +203,7 @@ header {
     background-attachment: fixed;
 }
 
-/* Cover text styling */
+/* = Cover text styling */
 
 #cover-text {
     background-color: rgba(136, 17, 0, .6);
@@ -159,7 +229,7 @@ h3 {
     text-align: center;
 }
 
-/* Contact section (form and map) flex styling */
+/* = Contact section (form and map) flex styling */
 
 .contact {
     display: flex;
@@ -168,7 +238,7 @@ h3 {
     padding-top: 25px;
 }
 
-/* Map, address and open times styling */
+/* = Map, address and open times styling */
 
 #map {
     display: flex;
@@ -209,7 +279,7 @@ h3 {
     margin: 0 25px;
 }
 
-/* Form styling */
+/* = Form styling */
 
 #form {
     flex-direction: column;
@@ -302,7 +372,7 @@ h3 {
     background-color: rgba(136, 17, 0, .3);
 }
 
-/* Footer styling */
+/* = Footer styling */
 
 footer {
     display: flex;
@@ -349,7 +419,7 @@ footer h2 {
     font-weight: 700;
 }
 
-/* Scroll to top button styling */
+/* = Scroll to top button styling */
 
 #myBtn {
     display: none;
@@ -373,7 +443,9 @@ footer h2 {
 }
 
 
-/* Index page styling */
+/* =======================
+   = INDEX PAGE SETTINGS =
+   ======================= */
 
 .mission-statement-main {
     display: flex;
@@ -392,7 +464,7 @@ footer h2 {
     word-spacing: 7px;
 }
 
-/* Mission statement images styling */
+/* = Image styling for mission statement section */
 
 #m-statement-top-img,
 #m-statement-bottom-img {
@@ -405,7 +477,7 @@ footer h2 {
     border-radius: 20px;
 }
 
-/* Mission statement "What is Boudoir" flex & styling */
+/* = Top mission statement flex & styling */
 
 #m-statement-top {
     display: flex;
@@ -423,7 +495,7 @@ footer h2 {
     color: #881100;
 }
 
-/* Mission statement "Boudoir history and Why consider it" flex & styling */
+/* = Middle mission statement flex & styling */
 
 #m-statement-middle {
     display: flex;
@@ -444,7 +516,7 @@ footer h2 {
     color: #881100;
 }
 
-/* Mission statement "Why consider us for Boudoir Photography Session?" flex & styling */
+/* = Bottom mission statement flex & styling */
 
 #m-statement-bottom {
     display: flex;
@@ -466,7 +538,9 @@ footer h2 {
     color: rgba(136, 17, 0, .9);
 }
 
-/* Gallery page styling */
+/* =========================
+   = GALLERY PAGE SETTINGS =
+   ========================= */
 
 .row {
     display: flex;
@@ -495,9 +569,11 @@ footer h2 {
     transform: scale(1.1);
 }
 
-/* About page styling */
+/* =======================
+   = ABOUT PAGE SETTINGS =
+   ======================= */
 
-/* Team section styling */
+/* = Team section styling */
 
 .team {
     display: flex;
@@ -541,7 +617,7 @@ footer h2 {
     text-align: center;
 }
 
-/* Frequently asked questions section accordion styling */
+/* = Frequently asked questions section accordion styling */
 
 .faq h2 {
     text-align: center;
@@ -586,7 +662,7 @@ details[open] div {
     border-bottom: 1px solid #881100;
 }
 
-/* Testimonials section styling */
+/* = Testimonials section styling */
 
 .testimonials {
     display: flex;
@@ -641,9 +717,11 @@ details[open] div {
     text-transform: none;
 }
 
-/* Media Queries */
+/* ========================
+   = MEDIA QUERY SETTINGS =
+   ======================== */
 
-/* For larger screens */
+/* For = larger screens */
 
 @media screen and (max-width: 1600px) {
 
@@ -665,7 +743,7 @@ details[open] div {
     }
 }
 
-/* For large to medium screens */
+/* For = big to medium screens */
 
 @media screen and (max-width: 1400px) {
 
@@ -688,7 +766,7 @@ details[open] div {
     }
 }
 
-/* For medium-large screens */
+/* For = moderate-large screens */
 
 @media screen and (max-width: 1200px) {
 
@@ -743,7 +821,7 @@ details[open] div {
     }
 }
 
-/* For medium-small screens */
+/* For = compact-medium screens */
 
 @media screen and (max-width: 900px) {
 
@@ -797,7 +875,7 @@ details[open] div {
         border-radius: 15px;
     }
 
-    /* Toggle show/hide menu */
+    /* = Toggle show/hide menu */
     
     #hamitems {
         display: none;
@@ -908,7 +986,7 @@ details[open] div {
     }
 }
 
-/* For small screens */
+/* For = small screens */
 
 @media screen and (max-width: 600px) {
 
@@ -966,7 +1044,7 @@ details[open] div {
     }
 }
 
-/* For extra small screens */
+/* For = extra small screens */
 
 @media screen and (max-width: 400px) {
 
