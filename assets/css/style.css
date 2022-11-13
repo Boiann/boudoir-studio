@@ -7,9 +7,10 @@
     border: none;
 }
 
+/* Enable smooth scrolling for the whole website */
 html {
     scroll-behavior: smooth;
-  }
+}
 
 body {
     font-family: 'Fanwood Text', serif;
@@ -17,17 +18,19 @@ body {
     margin-left: 155px;
 
     /* Hidden scrollbar */
-
+    /* for Internet Explorer, Edge */
     -ms-overflow-style: none;
+    /* for Firefox */
     scrollbar-width: none;
     overflow-y: scroll;
 }
 
+/* Hidden scrollbar for Chrome, Safari, and Opera */
 body::-webkit-scrollbar {
     display: none;
 }
 
-/* logo and header styling */
+/* Site logo text and header styling */
 
 #logo {
     font-family: 'quattrocento sans', sans-serif;
@@ -53,7 +56,6 @@ header {
 }
 
 /* Navigation menu styling */
-
 .navigation {
     font-weight: 300;
     font-size: 150%;
@@ -86,14 +88,14 @@ header {
     border-radius: 15px;
 }
 
+/* Hamburger menu icon hidden for device width greater than 900px */
 .navigation label,
 #hamburger {
     display: none;
     cursor: pointer;
 }
 
-/* Hero image */
-
+/* Hero image styling*/
 .hero-section {
     position: relative;
     height: 750px;
@@ -109,7 +111,6 @@ header {
 }
 
 #hero-img-gallery {
-
     background: url(../images/hero_images/hero_img_gallery.jpg) no-repeat center center;
     background-size: cover;
     height: 750px;
@@ -118,7 +119,6 @@ header {
 }
 
 #hero-img-about {
-
     background: url(../images/hero_images/hero_img_about.jpg) no-repeat center center;
     background-size: cover;
     height: 750px;
@@ -126,11 +126,7 @@ header {
     background-attachment: fixed;
 }
 
-/* Added body id to index and gallery page so I don't need to create separate css
-   file for gallery and about pages. */
-
 /* Cover text styling */
-
 #cover-text {
     background-color: rgba(136, 17, 0, .6);
     padding: 25px;
@@ -155,285 +151,7 @@ h3 {
     text-align: center;
 }
 
-/* Photo gallery styling */
-
-.row {
-    display: flex;
-    justify-content: space-between;
-    margin: 25px 0 0;
-}
-
-.column {
-    max-width: 50%;
-}
-
-.column-middle {
-    max-width: 50%;
-    padding: 0 35px;
-}
-
-.column img,
-.column-middle img {
-    width: 100%;
-    padding: 15px 0;
-    transition: transform .8s;
-}
-
-.column img:hover,
-.column-middle img:hover {
-    transform: scale(1.1);
-}
-
-/* About page styling */
-
-/* Team section styling */
-
-.team {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 25px;
-}
-
-#photographer,
-#makeup,
-#hair {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 90%;
-}
-
-#makeup {
-    padding: 0 30px;
-}
-
-.team img {
-    width: 100%;
-    border-radius: 20px;
-    /* removed padding-top to prevent distortion to imgs,
-    will aplly it to text above */
-}
-
-.team h4 {
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 150%;
-}
-
-.team h2 {
-    font-weight: 700;
-    font-size: 170%;
-    color: #881100;
-    padding-bottom: 20px;
-}
-
-.team p {
-    font-size: 125%;
-    text-align: center;
-}
-
-/* Frequently asked questions section styling */
-
-.faq h2 {
-    text-align: center;
-    padding: 25px 0 15px;
-    color: #881100;
-    font-size: 200%;
-    font-weight: 700;
-    text-decoration: underline;
-}
-
-details {
-    cursor: pointer;
-    text-align: center;
-    font-size: 130%;
-    padding-bottom: 5px;
-}
-
-summary {
-    padding: 25px 0;
-    display: block;
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    color: #881100;
-    font-size: 130%;
-    font-weight: 700;
-    transition: 0.6s;
-}
-
-summary:hover {
-    background-color: rgba(136, 17, 0, .3);
-    border-radius: 25px;
-}
-
-summary::-webkit-details-marker {
-    display: none;
-}
-
-/* details[open] summary {
-      border-top: 1px solid #881100;
-  } */
-
-details[open] div {
-    padding: .5em 1em;
-    border-bottom: 1px solid #881100;
-}
-
-/* Testimonials section styling */
-
-.testimonials {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-#review-container {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-#review {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-}
-
-.testimonials img {
-    width: 60%;
-    border-radius: 50%;
-}
-
-.testimonials h4 {
-    font-weight: 700;
-    font-size: 150%;
-    color: #881100;
-}
-
-.testimonials h2 {
-    font-weight: 700;
-    font-size: 170%;
-    padding-bottom: 5px;
-    text-transform: uppercase;
-    text-align: center;
-}
-
-.testimonials p {
-    font-size: 125%;
-    text-align: center;
-    padding-bottom: 25px;
-}
-
-#testimonials-banner {
-    text-align: center;
-    padding: 25px 0 45px;
-    color: #881100;
-    font-size: 200%;
-    font-weight: 700;
-    text-decoration: underline;
-    text-transform: none;
-}
-
-/* Mission statement styling */
-
-.mission-statement-main {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-/* Mission statement banner styling */
-
-.statement-banner {
-    text-align: center;
-    color: #881100;
-    text-transform: uppercase;
-    font-size: 150%;
-    margin: 20px auto 0;
-    word-spacing: 7px;
-}
-
-/* Mission statement images styling */
-
-#m-statement-top-img {
-    min-width: 55%;
-    border-radius: 20px;
-}
-
-#m-statement-middle-img {
-    min-width: 40%;
-    border-radius: 20px;
-}
-
-#m-statement-bottom-img {
-    min-width: 55%;
-    border-radius: 20px;
-}
-
-/* Mission statement "What is Boudoir" flex & styling */
-
-#m-statement-top {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    margin: 20px auto;
-}
-
-#what-is-boudoir {
-    font-size: 200%;
-    text-align: center;
-}
-
-#what-is-boudoir h2 {
-    color: #881100;
-}
-
-/* Mission statement "Boudoir history and Why consider it" flex & styling */
-
-#m-statement-middle {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: 20px auto;
-}
-
-#boudoir-history,
-#boudoir-why-consider {
-    font-size: 200%;
-    text-align: center;
-    margin: auto 15px;
-}
-
-#boudoir-history h2,
-#boudoir-why-consider h2 {
-    color: #881100;
-}
-
-/* Mission statement "Why consider us for Boudoir Photography Session?" flex & styling */
-
-#m-statement-bottom {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-#boudoir-why-us {
-    font-size: 200%;
-    text-align: center;
-    margin: auto 15px;
-}
-
-#boudoir-why-us h2 {
-    color: #881100;
-}
-
-#boudoir-why-us strong {
-    color: rgba(136, 17, 0, .9);
-}
-
-/* Contact section ( form and contact) flex styling */
+/* Contact section (form and map) flex styling */
 
 .contact {
     display: flex;
@@ -443,7 +161,6 @@ details[open] div {
 }
 
 /* Map, address and open times styling */
-
 #map {
     display: flex;
     flex-direction: column;
@@ -484,7 +201,6 @@ details[open] div {
 }
 
 /* Form styling */
-
 #form {
     flex-direction: column;
     width: 45em;
@@ -622,7 +338,6 @@ footer h2 {
 }
 
 /* Scroll to top button styling */
-
 #myBtn {
     display: none;
     position: fixed;
@@ -636,18 +351,278 @@ footer h2 {
     padding: 15px;
     border-radius: 15px;
     transition: 0.6s ease-in-out;
-  }
-  
-  #myBtn:hover {
+}
+
+#myBtn:hover {
     background-color: #881100;
     font-size: 20px;
     transition: 0.6s ease-in-out;
-  }
+}
+
+
+/* Index page styling */
+
+.mission-statement-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* Mission statement banner styling */
+.statement-banner {
+    text-align: center;
+    color: #881100;
+    text-transform: uppercase;
+    font-size: 150%;
+    margin: 20px auto 0;
+    word-spacing: 7px;
+}
+
+/* Mission statement images styling */
+#m-statement-top-img,
+#m-statement-bottom-img {
+    min-width: 55%;
+    border-radius: 20px;
+}
+
+#m-statement-middle-img {
+    min-width: 40%;
+    border-radius: 20px;
+}
+
+/* Mission statement "What is Boudoir" flex & styling */
+#m-statement-top {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: 20px auto;
+}
+
+#what-is-boudoir {
+    font-size: 200%;
+    text-align: center;
+}
+
+#what-is-boudoir h2 {
+    color: #881100;
+}
+
+/* Mission statement "Boudoir history and Why consider it" flex & styling */
+#m-statement-middle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px auto;
+}
+
+#boudoir-history,
+#boudoir-why-consider {
+    font-size: 200%;
+    text-align: center;
+    margin: auto 15px;
+}
+
+#boudoir-history h2,
+#boudoir-why-consider h2 {
+    color: #881100;
+}
+
+/* Mission statement "Why consider us for Boudoir Photography Session?" flex & styling */
+#m-statement-bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#boudoir-why-us {
+    font-size: 200%;
+    text-align: center;
+    margin: auto 15px;
+}
+
+#boudoir-why-us h2 {
+    color: #881100;
+}
+
+#boudoir-why-us strong {
+    color: rgba(136, 17, 0, .9);
+}
+
+/* Gallery page styling */
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0 0;
+}
+
+.column {
+    max-width: 50%;
+}
+
+.column-middle {
+    max-width: 50%;
+    padding: 0 35px;
+}
+
+.column img,
+.column-middle img {
+    width: 100%;
+    padding: 15px 0;
+    transition: transform .8s;
+}
+
+.column img:hover,
+.column-middle img:hover {
+    transform: scale(1.1);
+}
+
+/* About page styling */
+
+/* Team section styling */
+.team {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+#photographer,
+#makeup,
+#hair {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+}
+
+#makeup {
+    padding: 0 30px;
+}
+
+.team img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.team h4 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 150%;
+}
+
+.team h2 {
+    font-weight: 700;
+    font-size: 170%;
+    color: #881100;
+    padding-bottom: 20px;
+}
+
+.team p {
+    font-size: 125%;
+    text-align: center;
+}
+
+/* Frequently asked questions section accordion styling */
+.faq h2 {
+    text-align: center;
+    padding: 25px 0 15px;
+    color: #881100;
+    font-size: 200%;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+details {
+    cursor: pointer;
+    text-align: center;
+    font-size: 130%;
+    padding-bottom: 5px;
+}
+
+summary {
+    padding: 25px 0;
+    display: block;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #881100;
+    font-size: 130%;
+    font-weight: 700;
+    transition: 0.6s;
+}
+
+summary:hover {
+    background-color: rgba(136, 17, 0, .3);
+    border-radius: 25px;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+details[open] div {
+    padding: .5em 1em;
+    border-bottom: 1px solid #881100;
+}
+
+/* Testimonials section styling */
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#review-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#review {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.testimonials img {
+    width: 60%;
+    border-radius: 50%;
+}
+
+.testimonials h4 {
+    font-weight: 700;
+    font-size: 150%;
+    color: #881100;
+}
+
+.testimonials h2 {
+    font-weight: 700;
+    font-size: 170%;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.testimonials p {
+    font-size: 125%;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+#testimonials-banner {
+    text-align: center;
+    padding: 25px 0 45px;
+    color: #881100;
+    font-size: 200%;
+    font-weight: 700;
+    text-decoration: underline;
+    text-transform: none;
+}
 
 /* Media Queries */
 
 /* For larger screens */
-
 @media screen and (max-width: 1600px) {
 
     #what-is-boudoir {
@@ -669,7 +644,6 @@ footer h2 {
 }
 
 /* For large to medium screens */
-
 @media screen and (max-width: 1400px) {
 
     #what-is-boudoir {
@@ -692,7 +666,6 @@ footer h2 {
 }
 
 /* For medium-large screens */
-
 @media screen and (max-width: 1200px) {
 
     body {
@@ -747,7 +720,6 @@ footer h2 {
 }
 
 /* For medium-small screens */
-
 @media screen and (max-width: 900px) {
 
     body {
@@ -787,137 +759,126 @@ footer h2 {
         margin: 15px 5px;
     }
 
-/* Hamburger menu  */
+    /* Hamburger menu  */
 
-/* Show hamburger icon */
+    /* Show hamburger icon */
+    .navigation label {
+        display: inline-block;
+        color: #fff;
+        background: #881100;
+        font-size: 110%;
+        padding: 5px 12px;
+        border-radius: 15px;
+    }
 
-.navigation label {
-    display: inline-block;
-    color: #fff;
-    background: #881100;
-    font-size: 110%;
-    padding: 5px 12px;
-    border-radius: 15px;
-}
+    /* Toggle show/hide menu */
+    #hamitems {
+        display: none;
+    }
 
-/* Toggle show/hide menu */
+    .navigation input:checked~#hamitems {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-#hamitems {
-    display: none;
-}
+    .navigation {
+        display: flex;
+        align-items: center;
+        position: relative;
+        flex-direction: column;
+    }
 
-.navigation input:checked~#hamitems {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+    .navigation li {
+        margin-right: 0;
+        padding: 5px 0;
+    }
 
-.navigation {
-    display: flex;
-    align-items: center;
-    position: relative;
-    flex-direction: column;
-}
+    #active {
+        color: #881100;
+        padding: 5px 8px;
+        background: rgba(136, 17, 0, .3);
+        border-radius: 15px;
+    }
 
-.navigation li {
-    margin-right: 0;
-    padding: 5px 0;
-}
+    /* Mission statement flex styling */
 
-#active {
-    color: #881100;
-    padding: 5px 8px;
-    background: rgba(136, 17, 0, .3);
-    border-radius: 15px;
-}
+    #m-statement-top,
+    #m-statement-middle {
+        flex-direction: column;
+    }
 
-/* Mission statement flex styling */
+    #m-statement-bottom {
+        flex-direction: column-reverse;
+    }
 
-#m-statement-top {
-    flex-direction: column;
-}
+    #what-is-boudoir,
+    #boudoir-history {
+        padding-bottom: 15px;
+    }
 
-#m-statement-middle {
-    flex-direction: column;
-}
+    #m-statement-middle-img {
+        width: 80%;
+    }
 
-#m-statement-bottom {
-    flex-direction: column-reverse;
-}
+    #boudoir-why-consider,
+    #boudoir-why-us {
+        padding-top: 15px;
+    }
 
-#what-is-boudoir {
-    padding-bottom: 15px;
-}
+    #boudoir-history,
+    #boudoir-why-consider {
+        font-size: 125%;
+    }
 
-#boudoir-history {
-    padding-bottom: 15px;
-}
+    /* Contact section styling */
 
-#m-statement-middle-img {
-    width: 80%;
-}
+    .contact {
+        flex-direction: column;
+    }
 
-#boudoir-why-consider {
-    padding-top: 15px;
-}
+    #map {
+        width: auto;
+        height: auto;
+        margin-left: 0;
+    }
 
-#boudoir-why-us {
-    padding-top: 15px;
-}
+    #form {
+        width: auto;
+        height: auto;
+        margin-right: 0;
+    }
 
-#boudoir-history,
-#boudoir-why-consider {
-    font-size: 125%;
-}
+    /* Photo gallery responsive styling */
 
-/* Contact section styling */
+    .column-middle {
+        max-width: 50%;
+        padding: 0 15px;
+    }
 
-.contact {
-    flex-direction: column;
-}
+    .column img,
+    .column-middle img {
+        width: 100%;
+        padding: 5px 0;
+    }
 
-#map {
-    width: auto;
-    height: auto;
-    margin-left: 0;
-}
+    /* Team section responsive styling */
 
-#form {
-    width: auto;
-    height: auto;
-    margin-right: 0;
-}
+    .team {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 0;
+    }
 
-/* Photo gallery responsive styling */
+    #photographer,
+    #makeup,
+    #hair {
+        padding-top: 25px;
+    }
 
-.column-middle {
-    max-width: 50%;
-    padding: 0 15px;
-}
-
-.column img,
-.column-middle img {
-    width: 100%;
-    padding: 5px 0;
-}
-
-/* Team section responsive styling */
-
-.team {
-    flex-direction: column;
-    align-items: center;
-    padding-top: 0;
-}
-
-#photographer,
-#makeup,
-#hair {
-    padding-top: 25px;
-}
-
-.team img {
-    width: 80%;
-}
+    .team img {
+        width: 80%;
+    }
 }
 
 /* For small screens */
@@ -976,9 +937,6 @@ footer h2 {
     .team img {
         width: 100%;
     }
-
-    /* I would like to keep the images displayed in column a little bit smaller 
-         in width as not to be exact width as hero image, that is why max-width is 90% */
 }
 
 /* For extra small screens */
@@ -997,4 +955,4 @@ footer h2 {
     #m-statement-middle-img {
         width: 100%;
     }
-} 
+}
