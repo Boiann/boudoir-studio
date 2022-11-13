@@ -205,13 +205,13 @@ footer h2 {
 
 /* Flip text animation for "Take me back to home" function */
 
-.waviy {
+.wavy {
     display: flex;
     justify-content: center;
     padding: 20px 0;
 }
 
-.waviy span {
+.wavy span {
     display: inline-block;
     font-size: 220%;
     color: #881100;

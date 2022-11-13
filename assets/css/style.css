@@ -335,7 +335,7 @@ h3 {
     font-weight: 700;
 }
 
-#txarea {
+#txtarea {
     resize: none;
     border: 2px solid #881100;
     border-radius: 5px;
@@ -346,11 +346,11 @@ h3 {
     font-size: 15px;
 }
 
-#txarea:hover {
+#txtarea:hover {
     background-color: rgba(136, 17, 0, .3);
 }
 
-#txarea:hover::placeholder {
+#txtarea:hover::placeholder {
     color: #26282D;
 }
 
