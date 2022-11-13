@@ -180,7 +180,7 @@ header {
 }
 
 #hero-img-index {
-    background: url(../images/hero_images/hero_img_index.jpg) no-repeat center center;
+    background: url(../images/hero_images/hero_img_index.webp) no-repeat center center;
     background-size: cover;
     height: 750px;
     width: 100%;
@@ -188,7 +188,7 @@ header {
 }
 
 #hero-img-gallery {
-    background: url(../images/hero_images/hero_img_gallery.jpg) no-repeat center center;
+    background: url(../images/hero_images/hero_img_gallery.webp) no-repeat center center;
     background-size: cover;
     height: 750px;
     width: 100%;
@@ -196,7 +196,7 @@ header {
 }
 
 #hero-img-about {
-    background: url(../images/hero_images/hero_img_about.jpg) no-repeat center center;
+    background: url(../images/hero_images/hero_img_about.webp) no-repeat center center;
     background-size: cover;
     height: 750px;
     width: 100%;
@@ -830,17 +830,17 @@ details[open] div {
     }
 
     #hero-img-index {
-        background: url(../images/hero_images/hero_img_index_resized.jpg) no-repeat center center;
+        background: url(../images/hero_images/hero_img_index_resized.webp) no-repeat center center;
     }
 
     #hero-img-gallery {
 
-        background: url(../images/hero_images/hero_img_gallery_resized.jpg) no-repeat center center;
+        background: url(../images/hero_images/hero_img_gallery_resized.webp) no-repeat center center;
     }
 
     #hero-img-about {
 
-        background: url(../images/hero_images/hero_img_about_resized.jpg) no-repeat center center;
+        background: url(../images/hero_images/hero_img_about_resized.webp) no-repeat center center;
     }
 
     #cover-text {
@@ -873,6 +873,7 @@ details[open] div {
         font-size: 110%;
         padding: 5px 12px;
         border-radius: 15px;
+        margin-bottom: 5px;
     }
 
     /* = Toggle show/hide menu */
