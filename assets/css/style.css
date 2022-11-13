@@ -299,7 +299,7 @@ h3 {
     margin: 20px auto 10px;
 }
 
-#form h4 {
+#form h3 {
     text-align: center;
     color: #26282D;
     text-transform: uppercase;
@@ -601,15 +601,15 @@ footer h2 {
     border-radius: 20px;
 }
 
-.team h4 {
+.team h2 {
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 150%;
+    font-size: 170%;
 }
 
-.team h2 {
+.team h3 {
     font-weight: 700;
-    font-size: 170%;
+    font-size: 160%;
     color: #881100;
     padding-bottom: 20px;
 }
@@ -689,7 +689,7 @@ details[open] div {
     border-radius: 50%;
 }
 
-.testimonials h4 {
+.testimonials h3 {
     font-weight: 700;
     font-size: 150%;
     color: #881100;
