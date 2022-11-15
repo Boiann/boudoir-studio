@@ -66,6 +66,8 @@ Add a link to the live site here
 ### Business Goals
 ### Client Goals
 
+[Back to top ⇧](#boudoir-studio)
+
 ---
 
 ## User Experience
@@ -74,6 +76,8 @@ Add a link to the live site here
 ### User Stories
 
 Add your user stories here. You want to include first time visitors and returning visitors here as a minimum. Think about each group, and the experience and journey you want them to have on your site.
+
+[Back to top ⇧](#boudoir-studio)
 
 ---
 
@@ -98,6 +102,8 @@ Use this section to explain what sort of imagery you plan to use through your si
 
 Add the images or links for your wireframes here.
 
+[Back to top ⇧](#boudoir-studio)
+
 ---
 
 ## Features
@@ -114,6 +120,8 @@ If there is a feature that appears on all pages of your site, include it here. E
 
 What features would you like to implement in the future on your site?
 
+[Back to top ⇧](#boudoir-studio)
+
 ---
 
 ## Technologies Used
@@ -126,15 +134,15 @@ Make a note here of all the languages used in creating your project. For the fir
 
 Add any frameworks, libraries or programs used while creating your project.
 
+[Back to top ⇧](#boudoir-studio)
+
 ---
 
 ## Deployment
 
-👩🏻‍💻 View an example of a completed Deployment & Local Development section [here](https://github.com/kera-cudmore/TheQuizArms#Deployment)
-
-## Deployment
-
 Include instructions here on how to deploy your project. For your first project you will most likely be using GitHub Pages.
+
+[Back to top ⇧](#boudoir-studio)
 
 ---
 
@@ -155,7 +163,11 @@ Use this part of the README to link to your TESTING.md file - you can view the e
 
 ### BUGS
 #### Known Bugs
+
 #### Solved Bugs
+Asdfsdf. Lorem ipsum.
+
+[Back to top ⇧](#boudoir-studio)
 
 ---
 
@@ -178,3 +190,7 @@ If you have used any media on your site (images, audio, video etc) you can credi
 ###  Acknowledgments
 
 If someone helped you out during your project, you can acknowledge them here!
+
+[Back to top ⇧](#boudoir-studio)
+
+***
