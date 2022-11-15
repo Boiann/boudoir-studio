@@ -333,6 +333,7 @@ Contact link will scroll the page to contact section, allowing the user to be ab
   The link provided in the text opens in a new tab.
   Distinct feature of this page is animated text/link that takes the user back to the home page.
   This specific animation was chosen to bring the attention to this "back to home" ability to the user.
+  This is the only page with its separate css file, made because only the footer was kept from other pages, and to reduce the size and code on the main css file.
 
     <!-- img/gif -->
 
@@ -370,11 +371,23 @@ The repository of this project was cloned at an earlier point to facilitate cont
 
 ### Languages Used
 
-Make a note here of all the languages used in creating your project. For the first project this will most likely just be HTML & CSS.
+* HTML - The website was developed using HTML as the main language.
+* CSS - The website was styled using custom CSS in an external file.
+* JAVASCRIPT - Used to make "Back to Top" button disappear when at the top of the  
+  page, and appear when the user scrolls down.
 
 ### Programs Used
 
-Add any frameworks, libraries or programs used while creating your project.
+* GitHub - Source code hosted on GitHub, deployed using Git Pages.
+* Gitpod Workspaces - Used to commit, comment and push code during the development process.
+* Font Awesome - Icons were obtained from Font Awesome and used for the social media 
+  icons in the footer.
+* Fotor Photo Studio - Used to crop/resize and colour adjust the images used.
+* Balsamiq - Used to create wireframes for the project.
+* Pixillion Image Converter - Used to convert the images into webp format
+* Visual Studio Code + Spell Checker add on - Used to spell-check the html and css code
+* Google Keep - Used to make notes during the project duration
+* LanguageTool - Used to spell-check the contents of README.md
 
 [Back to top ⇧](#boudoir-studio)
 
