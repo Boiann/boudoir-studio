@@ -62,7 +62,7 @@ Visit the live site <a href="https://boiann.github.io/boudoir-studio/index.html"
 
 ---
 
-## Project Overview
+## **Project Overview**
 Boudoir Studio is a fictional photography studio specialized in Boudoir type photography. It is based in Wexford, Ireland, hometown of the photographer/owner of the business.
 The primary purpose of the website is to attract new clients to keep the business profitable. This is achieved with a sleek, clean and gentle look throughout the website. 
 The ability to communicate well with potential clients is necessary and this is achieved with social media links on every page, as well as the ability to contact the studio at any time 
@@ -74,14 +74,14 @@ This project was made for the first Portfolio Project required to complete Code 
 
 Because this is a project made for educational purposes, the images contained are not *true* representation of Boudoir Photography. The images chosen for the project were intentionally selected as not to offend or cause project refusal on a content itself basis. Although the times are more liberal now, the developer chose to respect any and all persons that will have to review and look at the project in depth, and not to expose them to anything explicit.
 
-### Business Goals
+### **Business Goals**
   * Attract new clients
   * Fast and direct communication channel to clients
   * Website that truly represents the business model and capability
   * Provide as much basic info as possible
   * Create online presence
 
-### Client Goals
+### **Client Goals**
   * Find basic information about what Boudoir is, who is it aimed to and what is it's purpose
   * To be able to contact the business in a fast and direct way
   * To be able to see the studio's body of work
@@ -93,12 +93,37 @@ Because this is a project made for educational purposes, the images contained ar
 
 ---
 
-## User Experience
+## **User Experience**
 
-### User Expectations
-### User Stories
+### **User Expectations**
+   * User-friendly website
+   * Intuitive navigation
+   * Fast performance
+   * Accessible to all users
+   * Responsive across many different devices and screen sizes 
+   * Able to find basic informantion and answers
+   * Contact the business directly
+   * Find social media associated with the business
 
-Add your user stories here. You want to include first time visitors and returning visitors here as a minimum. Think about each group, and the experience and journey you want them to have on your site.
+### **User Stories**
+
+  #### **First Time Visitor**
+   * I want to know what Boudoir Photograpy is
+   * I want to navigate the website intuitively
+   * I want to find additional information
+   * I want to check out the social media of the business
+
+  #### **Returning User**
+   * I want to know about the business owner/team
+   * I want to see the portfolio of the Studio
+   * I want to know what other people said about the experience with the business
+   * I want to contact the Studio
+
+  #### **Website Owner**
+   * I want to provide basic information about Boudoir Photography and who is it for
+   * I want potential clients to be able to reach us quickly
+   * I want to provide our body of work
+   * I want potential clients to follow us on social media
 
 [Back to top ⇧](#boudoir-studio)
 
