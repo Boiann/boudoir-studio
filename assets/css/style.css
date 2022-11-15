@@ -833,16 +833,19 @@ details[open] div {
 
     #hero-img-index {
         background: url(../images/hero_images/hero_img_index_resized.webp) no-repeat center center;
+        background-attachment: fixed;
     }
 
     #hero-img-gallery {
 
         background: url(../images/hero_images/hero_img_gallery_resized.webp) no-repeat center center;
+        background-attachment: fixed;
     }
 
     #hero-img-about {
 
         background: url(../images/hero_images/hero_img_about_resized.webp) no-repeat center center;
+        background-attachment: fixed;
     }
 
     #cover-text {

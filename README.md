@@ -173,6 +173,8 @@ Copy of images note from the Introduction part of this readme:
 
 On account of this being potentially sensitive issue and to explain why is there a difference from the real Boudoir Photography the developer found it necessary to put the above paragraph in the Introduction too.
 
+All of the images except the hero and gallery itself have border-radius applied to them to smooth out the edges. Makes for a "softer" feel of the website.
+
 ### **Structure**
 
   * The Boudoir Studio website is structured in a user friendly and easy to navigate way. 
@@ -240,19 +242,125 @@ Distinction Performance wireframes:
 
 ---
 
-## Features
+## **Features**
 
-### General features on Each Page
+All of the features presented in this sections are fully responsive on all devices and screen widths.
 
-If there is a feature that appears on all pages of your site, include it here. Examples of what to include would the the navigation, a footer and a favicon.
+### **General features on Each Page**
 
-### Specific Features on Each Page
+* Responsive header section with links to Home (index.html), Gallery (gallery.html) and About Us (about.html), featuring hover effect of colour change and bottom border, all paired with transition effect. When clicked, the website logo also leads back to Home (index.html).
+User will know on which page it is currently on, achieved by changing the background colour of the page currently in use.
+Contact link will scroll the page to contact section, allowing the user to be able to quickly find it when in need.
 
-### Other Features
+  * Hover effects on navigation menu
 
-### Future Implementations
+    <!-- img/gif -->
 
-What features would you like to implement in the future on your site?
+  * Links working/opening pages
+
+    <!-- img/gif -->
+
+  * Logo click opening Home page   
+
+    <!-- img/gif -->
+
+  * Contact link scrolling to contact section
+
+      <!-- img/gif -->
+
+* Navigation menu turns into hamburger menu below screen size of 900px. This is done to not clutter the header. The hamburger menu links retain their hover and transition effects, as well as retaining active menu background change.
+
+* Hover effects in hamburger navigation menu
+
+    <!-- img/gif -->
+
+  * Links working/opening pages in hamburger menu
+
+    <!-- img/gif -->
+
+  * Logo click opening Home page in hamburger menu  
+
+    <!-- img/gif -->
+
+  * Contact link scrolling to contact section
+
+      <!-- img/gif -->  
+
+* Hero image and cover text "pillow" are fixed in the background, contributing to interesting effect and overall dynamic feel of the page.
+
+<!-- img/gif -->
+
+* Page content descriptor below the hero image is consistent in style and size across the pages
+
+<!-- img/gif -->
+
+* Responsive contact section containing form that the user will use to send the query to the Studio. Features hover background change for the input fields, text area and submit button. The placeholder text inside the text area changes colour on hover as well to allow for good contrast for the user.
+
+<!-- img/gif -->
+
+* On the right to the form section, the map section features responsive map with controls and functions. The user is able to zoom in/out and move the map around.
+
+<!-- img/gif -->
+
+* Lastly, the footer area contains icons for social media links. Each link opens in a separate tab, and has hover background transition, border-radius applied and transition effect applied.
+
+<!-- img/gif -->
+
+### **Specific Features on Each Page**
+
+* Home page (index.html)
+  * The Home page's body content consists of three images and four square-areas with text. Divided into three sections, first section has a image on the left and text on the right, second section has an image in the middle with text on both sides (The link provided in the text opens in a new tab) and the last one has an image on the right and the text on the left. This particular layout was chosen to keep the layout dynamic and engaging. Of all the "body" content in between the pages, the home page has the biggest and most adaptive font size. This is to make the first page more impactful and distinct from the rest of the pages/content.
+
+  <!-- img/gif -->
+
+* Gallery page (galley.html)
+  * Gallery page contains an image gallery consisting of 12 images, each with hover-magnifying effect applied. The border-radius was not applied to them to keep the photography portfolio more professional. The images themselves are grouped in three columns with four images each to allow for better flex styling.  
+
+<!-- img/gif -->
+
+* About Us page (about.html)
+  * About us page has three sections, first being the short description of the Studio staff and the owner/photographer. 
+
+  <!-- img/gif -->
+
+  * The second section is Frequently asked questions with accordion menu styling.
+  Each of the questions hides the answer, revealed after the user clicks on the question. The questions have the hover background change paired with soft transition applied along with edge softening.
+
+  <!-- img/gif -->
+
+* Thank You page (thanks.html)
+  * Thank you page retains only the footer area from previous pages. The page itself consists of a big thank you message, reply-back promise and time frame. The two video iframes serve as a reward of sort for the user, and they are fully responsive.
+  The link provided in the text opens in a new tab.
+  Distinct feature of this page is animated text/link that takes the user back to the home page.
+  This specific animation was chosen to bring the attention to this "back to home" ability to the user.
+
+    <!-- img/gif -->
+
+### **Other Features**
+
+* Hidden Scrollbar is utilized across all of the pages, design choice coming from desire to center the content as best as possible and for being more aesthetically pleasing.
+
+  <!-- img/gif -->
+
+* Back-to-top Button is made by using Javascript, utilized on all pages but the thanks.html (not required because it is single screen size).
+The developer did not intend to use any javascript in this project, but has failed to find an appropriate button using html/css only. The function of hiding the button completely when at the top of the page was just to perfect to miss out on. 
+The button has the now familiar hover color change effect paired with smooth transition. The button has low opacity when not in use as not to impede with the user's view of the page, especially on lower resolutions when the button covers text. 
+
+  <!-- img/gif -->
+
+* Smooth scrolling is enabled for the whole website for better user experience, it pairs nicely with other transition effects found in all of the other pages.
+
+  <!-- img/gif -->
+
+* CSS Quick Jump Feature was implemented born out of developer's own frustration when searching for a particular line of code in the style.css. The feature enables future user/reviewer/employer/assessor to find exactly what is needed quickly.
+
+  <!-- img/gif -->
+
+### **Future Implementations**
+
+For the future implementations, the developer would like to make 404 error page and the splash/intro page for this project.
+
+The repository of this project was cloned at an earlier point to facilitate content change. In the future the developer would like to make a website exactly like this one but with image content more closely related to the actual Boudoir Photography.
 
 [Back to top ⇧](#boudoir-studio)
 
@@ -297,9 +405,9 @@ Use this part of the README to link to your TESTING.md file - you can view the e
 
 ### BUGS
 #### Known Bugs
-
 #### Solved Bugs
-Asdfsdf. Lorem ipsum.
+
+### Browser compatibility
 
 [Back to top ⇧](#boudoir-studio)
 
