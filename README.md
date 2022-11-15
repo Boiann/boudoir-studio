@@ -395,15 +395,26 @@ The repository of this project was cloned at an earlier point to facilitate cont
 
 ## Deployment
 
-Include instructions here on how to deploy your project. For your first project you will most likely be using GitHub Pages.
+This project was developed using [GitPod](https://www.gitpod.io/ "Link to GitPod site"), which was then committed and pushed to GitHub using the GitPod terminal.
+
+### Deploying on GitHub Pages
+To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
+
+1. Log into [GitHub](https://github.com/login "Link to GitHub login page") or [create an account](https://github.com/join "Link to GitHub create account page").
+2. Locate the [GitHub Repository](https://github.com/Boiann/boudoir-studio "Link to GitHub Repo").
+3. At the top of the repository, select Settings from the menu items.
+4. Scroll down the Settings page to the "Pages" section.
+5. Under "Source" click the drop-down menu labelled "None" and select "Main".
+6. Upon selection, the page will automatically refresh meaning that the website is now deployed.
+7. Scroll back down to the "Pages" section to retrieve the deployed link.
 
 [Back to top ⇧](#boudoir-studio)
 
 ---
 
+<!-- Testing will have its own TESTING.md file -->
+
 ## Testing
-  
-Use this part of the README to link to your TESTING.md file - you can view the example TESTING.md file [here](milestone1-testing.md)
 
 ### AUTOMATED TESTING
 #### W3C Validator
