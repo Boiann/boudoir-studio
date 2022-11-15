@@ -149,11 +149,12 @@ The colour choice was made in early planning stages for the project. The develop
 
 <!-- Google Fonts img  -->
 
-The fonts were imported from Google Fonts database, https://fonts.google.com/.
+The fonts were imported from [Google 
+Fonts](https://fonts.google.com/ "Link to Google fonts page") database.
 Fanwood Text is used throughout the site (body), and Quattrocento sans is used for the site logo and submit button in the form. 
 Both fonts have a back-up font in case the selected doesn't load for the user.
 Fanwood Text has a backup of serif and Quattrocento sans has a backup of sans-serif.
-The fonts were chosen on the pairing suggested on the website https://www.fontpair.co/all.
+The fonts were chosen on the pairing suggested on the website [Fontpair](https://www.fontpair.co/all "Link to Fontpair page").
 
 ### **Imagery**
 
@@ -161,7 +162,7 @@ The main (hero) image used is the same across all pages but it changes in colour
 
 <!-- Hero imb, gif or img of all 3 pages together -->
 
-The goal was to present the index (home) page in black and white, second (gallery) with colour accents and third (about) in full colour.
+The goal was to present the [Home](https://boiann.github.io/boudoir-studio/index.html "Link to Boudoir Studio home page") page in black and white, [Gallery](https://boiann.github.io/boudoir-studio/gallery.html "Link to Boudoir Studio gallery page") with colour accents and [About Us](https://boiann.github.io/boudoir-studio/about.html "Link to Boudoir Studio about us page") in full colour.
 This gradual colour addition was meant to give a sense of progression through the website and to keep the website dynamic and attractive.
 After the developer started with gallery and about.html he realized doing colour accent will be very hard to do because picture used doesn't have high contrast
 in the right spots (eyes, lips etc). 
@@ -184,16 +185,16 @@ All of the images except the hero and gallery itself have border-radius applied 
 
   * Below the hero image the user will find a simple description of the following 
      content:
-    * (index.html) SEE FOR YOURSELF HOW BEAUTIFUL YOU ARE! - serves as an additional motivator to explore the page further
-    * (gallery.html) OUR BODY OF WORK SPEAKS FOR ITSELF... - gives a clue to the gallery content that follows
-    * (about.html) MEET OUR TEAM, FIND SOME ANSWERS, SEE TESTIMONIALS... - gives a clue to the page content that follows
+    * [Home](https://boiann.github.io/boudoir-studio/index.html "Link to Boudoir Studio home page") - SEE FOR YOURSELF HOW BEAUTIFUL YOU ARE! - serves as an additional motivator to explore the page further
+    * [Gallery](https://boiann.github.io/boudoir-studio/gallery.html "Link to Boudoir Studio gallery page") - OUR BODY OF WORK SPEAKS FOR ITSELF... - gives a clue to the gallery content that follows
+    * [About Us](https://boiann.github.io/boudoir-studio/about.html "Link to Boudoir Studio about us page") - MEET OUR TEAM, FIND SOME ANSWERS, SEE TESTIMONIALS... - gives a clue to the page content that follows
 
   * Below the content descriptor the user will find "main" content for the each page:
-    * (index.html) What is Boudoir Photography, its history and why should the user consider doing it and why choose this particular Studio
+    * [Home page](https://boiann.github.io/boudoir-studio/index.html "Link to Boudoir Studio home page") - What is Boudoir Photography, its history and why should the user consider doing it and why choose this particular Studio
       Serves as immediate source of essential information for the user, short but to-the-point text.
-    * (gallery.html) Gallery of 12 images as a representation of the photographer's ability and prowess.
+    * [Gallery page](https://boiann.github.io/boudoir-studio/gallery.html "Link to Boudoir Studio gallery page") - Gallery of 12 images as a representation of the photographer's ability and prowess.
       Serves as an Studio's image portfolio, very important in photography-related businesses.
-    * (about.html) Studio team information in a form of short biographies, FaQ section 
+    * [About Us page](https://boiann.github.io/boudoir-studio/about.html "Link to Boudoir Studio about us page") - Studio team information in a form of short biographies, FaQ section 
       with questions answered and testimonials with one-line reviews.
       Serves as a way for the user to get to know a team a little bit, answer any questions before the user is required to input them in a query 
       and short testimonials from previous clients used to reassure and motivate future clients.
@@ -207,7 +208,7 @@ All of the images except the hero and gallery itself have border-radius applied 
   The footer and its content is kept consistent in all four pages, including the thanks.html. 
 
   * Upon successful query submission in the contact form the user is rewarded with a new page thanking the user for the query.
-    * Thanks.html contains a time-frame for the Studio's reply so the user knows when to expect it.
+    * [Thank You page](https://boiann.github.io/boudoir-studio/thanks.html "Link to Boudoir Studio thank you page") - contains a time-frame for the Studio's reply so the user knows when to expect it.
     * User's interaction is rewarded with two videos (linked from Youtube) from the Boudoir Photography expert, providing the user with additional info on how does a Boudoir Photoshoot look like and what to expect, the other video serving as a longer testimonial from a client. 
     * The page also features "Back to Home" link so the user is not required to depend on "back" button of the browser or mouse.      
  
@@ -308,17 +309,17 @@ Contact link will scroll the page to contact section, allowing the user to be ab
 
 ### **Specific Features on Each Page**
 
-* Home page (index.html)
+* [Home page](https://boiann.github.io/boudoir-studio/index.html "Link to Boudoir Studio home page")
   * The Home page's body content consists of three images and four square-areas with text. Divided into three sections, first section has a image on the left and text on the right, second section has an image in the middle with text on both sides (The link provided in the text opens in a new tab) and the last one has an image on the right and the text on the left. This particular layout was chosen to keep the layout dynamic and engaging. Of all the "body" content in between the pages, the home page has the biggest and most adaptive font size. This is to make the first page more impactful and distinct from the rest of the pages/content.
 
   <!-- img/gif -->
 
-* Gallery page (galley.html)
+* [Gallery page](https://boiann.github.io/boudoir-studio/gallery.html "Link to Boudoir Studio gallery page")
   * Gallery page contains an image gallery consisting of 12 images, each with hover-magnifying effect applied. The border-radius was not applied to them to keep the photography portfolio more professional. The images themselves are grouped in three columns with four images each to allow for better flex styling.  
 
 <!-- img/gif -->
 
-* About Us page (about.html)
+* [About Us page](https://boiann.github.io/boudoir-studio/about.html "Link to Boudoir Studio about us page")
   * About us page has three sections, first being the short description of the Studio staff and the owner/photographer. 
 
   <!-- img/gif -->
@@ -328,7 +329,7 @@ Contact link will scroll the page to contact section, allowing the user to be ab
 
   <!-- img/gif -->
 
-* Thank You page (thanks.html)
+* [Thank You page](https://boiann.github.io/boudoir-studio/thanks.html "Link to Boudoir Studio thank you page")
   * Thank you page retains only the footer area from previous pages. The page itself consists of a big thank you message, reply-back promise and time frame. The two video iframes serve as a reward of sort for the user, and they are fully responsive.
   The link provided in the text opens in a new tab.
   Distinct feature of this page is animated text/link that takes the user back to the home page.
@@ -388,6 +389,7 @@ The repository of this project was cloned at an earlier point to facilitate cont
 * Visual Studio Code + Spell Checker add on - Used to spell-check the html and css code
 * Google Keep - Used to make notes during the project duration
 * LanguageTool - Used to spell-check the contents of README.md
+* Google Fonts - Used to import fonts to the project
 
 [Back to top ⇧](#boudoir-studio)
 
