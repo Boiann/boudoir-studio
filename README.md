@@ -129,26 +129,112 @@ Because this is a project made for educational purposes, the images contained ar
 
 ---
 
-## Design
+## **Design**
 
-### Colour Scheme
+### **Colour Scheme**
 
-Add all information about your colour scheme for your site here. You can explain why you choose the colours you did?
+<!-- Colour Palette img  -->
 
-### Typography
+The colours used in the project are Dark Red and its various opacity setting, Raisin Black, Black and White.
 
-If you've imported fonts to use in your project, add some information about them here. You can include information like:
-I also like to include an image of the fonts chosen as a reference.
+Dark Red is used throughout the site to emphasize and bring attention to text/link.
+The various opacity of Dark Red is used as a hover effect and background for text.
+Raisin Black is used sparsely, mostly for navigation links and social media icons to soften the colour contrast against hover effect of red. 
+Pure Black was used for text across the website.
+Pure White is used only for back to top button and for cover text inside hero image to allow for good contrast.
 
-### Imagery
+The colour choice was made in early planning stages for the project. The developer felt that black and red on white background will achieve modern, elegant and attractive look.
 
-Use this section to explain what sort of imagery you plan to use through your site.
+### **Typography**
 
-### Structure
+<!-- Google Fonts img  -->
 
-### Wireframes
+The fonts were imported from Google Fonts database, https://fonts.google.com/.
+Fanwood Text is used throughout the site (body), and Quattrocento sans is used for the site logo and submit button in the form. 
+Both fonts have a back-up font in case the selected doesn't load for the user.
+Fanwood Text has a backup of serif and Quattrocento sans has a backup of sans-serif.
+The fonts were chosen on the pairing suggested on the website https://www.fontpair.co/all.
 
-Add the images or links for your wireframes here.
+### **Imagery**
+
+The main (hero) image used is the same across all pages but it changes in colour. This was a design choice made in early planning stages for the project.
+
+<!-- Hero imb, gif or img of all 3 pages together -->
+
+The goal was to present the index (home) page in black and white, second (gallery) with colour accents and third (about) in full colour.
+This gradual colour addition was meant to give a sense of progression through the website and to keep the website dynamic and attractive.
+After the developer started with gallery and about.html he realized doing colour accent will be very hard to do because picture used doesn't have high contrast
+in the right spots (eyes, lips etc). 
+Hero image was changed to black & white for the index.html, slightly muted colour for the gallery.html and rich colour filter applied for the about.html.
+
+Copy of images note from the Introduction part of this readme:
+
+*Because this is a project made for educational purposes, the images contained are not *true* representation of Boudoir Photography. The images chosen for the project were intentionally selected as not to offend or cause project refusal on a content itself basis. Although the times are more liberal now, the developer chose to respect any and all persons that will have to review and look at the project in depth, and not to expose them to anything explicit.*
+
+On account of this being potentially sensitive issue and to explain why is there a difference from the real Boudoir Photography the developer found it necessary to put the above paragraph in the Introduction too.
+
+### **Structure**
+
+  * The Boudoir Studio website is structured in a user friendly and easy to navigate way. 
+  * When opening the website, the user sees a navigation bar with the logo on the left-hand side and the navigation links to the right. 
+  * The hero image contains simple yet impactful message (cover text) for the potential new client and serves as a call to action.
+  * Both the navigation bar and hero image along with cover text are kept consistent in all three pages, exception being the thanks.html.
+
+  * Below the hero image the user will find a simple description of the following 
+     content:
+    * (index.html) SEE FOR YOURSELF HOW BEAUTIFUL YOU ARE! - serves as an additional motivator to explore the page further
+    * (gallery.html) OUR BODY OF WORK SPEAKS FOR ITSELF... - gives a clue to the gallery content that follows
+    * (about.html) MEET OUR TEAM, FIND SOME ANSWERS, SEE TESTIMONIALS... - gives a clue to the page content that follows
+
+  * Below the content descriptor the user will find "main" content for the each page:
+    * (index.html) What is Boudoir Photography, its history and why should the user consider doing it and why choose this particular Studio
+      Serves as immediate source of essential information for the user, short but to-the-point text.
+    * (gallery.html) Gallery of 12 images as a representation of the photographer's ability and prowess.
+      Serves as an Studio's image portfolio, very important in photography-related businesses.
+    * (about.html) Studio team information in a form of short biographies, FaQ section 
+      with questions answered and testimonials with one-line reviews.
+      Serves as a way for the user to get to know a team a little bit, answer any questions before the user is required to input them in a query 
+      and short testimonials from previous clients used to reassure and motivate future clients.
+
+  * Under the "main" content of each page the user will find the contact section that is kept consistent in all three pages, exception being the thanks.html.
+    * Form section serves as the way for the user to send their query to the Studio
+    * Map and address section with all the necessary info required to find the  
+      Studio's location; map, address and open business hours.
+
+  * Under the contact section the user will find footer section with a short call to action message (FOLLOW US ON SOCIAL MEDIA!) along with icon links to the four giants; Facebook, Twitter, Youtube and Instagram.
+  The footer and its content is kept consistent in all four pages, including the thanks.html. 
+
+  * Upon successful query submission in the contact form the user is rewarded with a new page thanking the user for the query.
+    * Thanks.html contains a time-frame for the Studio's reply so the user knows when to expect it.
+    * User's interaction is rewarded with two videos (linked from Youtube) from the Boudoir Photography expert, providing the user with additional info on how does a Boudoir Photoshoot look like and what to expect, the other video serving as a longer testimonial from a client. 
+    * The page also features "Back to Home" link so the user is not required to depend on "back" button of the browser or mouse.      
+ 
+
+### **Wireframes**
+
+Wireframes for the project were developed right after the idea was scribbled on a piece of paper, the program used being Balsamiq.
+
+Wireframes for Assessment Guide and Project Planning & Ux were made before the ones for the content of the pages themselves.
+
+<!-- Assessment Guide and Project Planning & Ux imgs -->
+
+There are three sets of wireframes for the pages, each set corresponding to the level of learning outcome (grade); Pass Performance, Merit Performance and Distinction Performance.
+
+Differences between outcomes were considered early as to allow flexibility when working on the project. Personal, work, family, dependants and health situations were considered to have impact on time available for the project.
+Ideally, maximum time was to be taken to finish the project making the scope bigger.
+
+Pass Performance wireframes:
+
+<!-- Pass Performance wireframes imgs -->
+
+Merit Performance wireframes:
+
+<!-- Merit Performance wireframes imgs -->
+
+Distinction Performance wireframes:
+
+<!-- Distinction Performance wireframes imgs -->
+
 
 [Back to top ⇧](#boudoir-studio)
 
