@@ -1,10 +1,11 @@
 # BOUDOIR STUDIO
 
-Add a Blurb about the site here, what does it do, why did you build it?
+Boudoir Studio Wexford is a Project 1 for Code Institute Full-stack development program: HTML/CSS Essentials.
+Made with passion for anybody interested in Boudoir Photography and what it represents.
 
-Add an image of the finished site here. 
+<!-- Add an image of the finished site here.  -->
 
-Add a link to the live site here
+Visit the live site <a href="https://boiann.github.io/boudoir-studio/index.html" target="_blank">here.</a>
 
 ---
 
@@ -62,9 +63,31 @@ Add a link to the live site here
 ---
 
 ## Project Overview
+Boudoir Studio is a fictional photography studio specialized in Boudoir type photography. It is based in Wexford, Ireland, hometown of the photographer/owner of the business.
+The primary purpose of the website is to attract new clients to keep the business profitable. This is achieved with a sleek, clean and gentle look throughout the website. 
+The ability to communicate well with potential clients is necessary and this is achieved with social media links on every page, as well as the ability to contact the studio at any time 
+through the contact section present on all pages.
+
+Although fictional, the project is a representative example of a real-world business trying to reach out to new clients and maintain profitability. In this day and age, without online presence it is nearly impossible to succeed. The developer of this project tried to put himself in the shoes of the business owner. Having some experience in Boudoir, he tried his best to bring the vision of a proper Boudoir Photography website to fruition. 
+
+This project was made for the first Portfolio Project required to complete Code Institute's Full-stack development program. The main requirements of this project are to build a responsive and static front-end site to present useful information to users using all the technologies learned so far, namely HTML5 and CSS3.
+
+Because this is a project made for educational purposes, the images contained are not *true* representation of Boudoir Photography. The images chosen for the project were intentionally selected as not to offend or cause project refusal on a content itself basis. Although the times are more liberal now, the developer chose to respect any and all persons that will have to review and look at the project in depth, and not to expose them to anything explicit.
 
 ### Business Goals
+  * Attract new clients
+  * Fast and direct communication channel to clients
+  * Website that truly represents the business model and capability
+  * Provide as much basic info as possible
+  * Create online presence
+
 ### Client Goals
+  * Find basic information about what Boudoir is, who is it aimed to and what is it's purpose
+  * To be able to contact the business in a fast and direct way
+  * To be able to see the studio's body of work
+  * Find basic info about the people running the business
+  * Find answers to basic questions
+  * Find what other people say about the business
 
 [Back to top ⇧](#boudoir-studio)
 
