@@ -335,7 +335,7 @@ h3 {
     font-weight: 700;
 }
 
-#txtarea {
+#textarea {
     resize: none;
     border: 2px solid #881100;
     border-radius: 5px;
@@ -345,11 +345,11 @@ h3 {
     font-size: 15px;
 }
 
-#txtarea:hover {
+#textarea:hover {
     background-color: rgba(136, 17, 0, .3);
 }
 
-#txtarea:hover::placeholder {
+#textarea:hover::placeholder {
     color: #26282D;
 }
 
