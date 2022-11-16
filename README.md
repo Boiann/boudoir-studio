@@ -170,7 +170,7 @@ Hero image was changed to black & white for the index.html, slightly muted colou
 
 Copy of images note from the Introduction part of this readme:
 
-*Because this is a project made for educational purposes, the images contained are not *true* representation of Boudoir Photography. The images chosen for the project were intentionally selected as not to offend or cause project refusal on a content itself basis. Although the times are more liberal now, the developer chose to respect any and all persons that will have to review and look at the project in depth, and not to expose them to anything explicit.*
+*Because this is a project made for educational purposes, the images contained are not true representation of Boudoir Photography. The images chosen for the project were intentionally selected as not to offend or cause project refusal on a content itself basis. Although the times are more liberal now, the developer chose to respect any and all persons that will have to review and look at the project in depth, and not to expose them to anything explicit.*
 
 On account of this being potentially sensitive issue and to explain why is there a difference from the real Boudoir Photography the developer found it necessary to put the above paragraph in the Introduction too.
 
@@ -368,16 +368,16 @@ The repository of this project was cloned at an earlier point to facilitate cont
 
 ---
 
-## Technologies Used
+## **Technologies Used**
 
-### Languages Used
+### **Languages Used**
 
 * HTML - The website was developed using HTML as the main language.
 * CSS - The website was styled using custom CSS in an external file.
 * JAVASCRIPT - Used to make "Back to Top" button disappear when at the top of the  
   page, and appear when the user scrolls down.
 
-### Programs Used
+### **Programs Used**
 
 * GitHub - Source code hosted on GitHub, deployed using Git Pages.
 * Gitpod Workspaces - Used to commit, comment and push code during the development process.
@@ -395,11 +395,11 @@ The repository of this project was cloned at an earlier point to facilitate cont
 
 ---
 
-## Deployment
+## **Deployment**
 
 This project was developed using [GitPod](https://www.gitpod.io/ "Link to GitPod site"), which was then committed and pushed to GitHub using the GitPod terminal.
 
-### Deploying on GitHub Pages
+### **Deploying on GitHub Pages**
 To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
 
 1. Log into [GitHub](https://github.com/login "Link to GitHub login page") or [create an account](https://github.com/join "Link to GitHub create account page").
@@ -416,48 +416,86 @@ To deploy this page to GitHub Pages from its GitHub repository, the following st
 
 <!-- Testing will have its own TESTING.md file -->
 
-## Testing
+## **Testing**
 
-### AUTOMATED TESTING
-#### W3C Validator
-#### Lighthouse
+### **AUTOMATED TESTING**
+#### **W3C Validator**
+#### **Lighthouse**
 
-### ACCESSIBILITY
-#### Wave
+### **ACCESSIBILITY**
+#### **Wave**
 
-### MANUAL TESTING
-#### Testing User Stories
-#### Full Testing
+### **MANUAL TESTING**
+#### **Testing User Stories**
+#### **Full Testing**
 
-### BUGS
-#### Known Bugs
-#### Solved Bugs
+### **BUGS**
+#### **Known Bugs**
+#### **Solved Bugs**
 
-### Browser compatibility
+### **Browser compatibility**
 
 [Back to top ⇧](#boudoir-studio)
 
 ---
 
-## Credits
+## **Credits**
 
-The Credits section is where you can credit all the people and sources you used throughout your project.
+### **Code used and adapted**
 
-### Code Used
+* Hamburger menu -
+https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/
+* Hidden scrollbar - https://blog.hubspot.com/website/hide-scrollbar-css
+* Flip text animation - https://codepen.io/alvarotrigo/pen/bGrXmwM
+* Responsive image grid - https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp
+* FAQ accordion - https://dev.to/felixdusengimana/lets-create-an-faq-section-with-html-and-css-only-detail-tag-explained-12gf
+* Hover transition - https://www.w3schools.com/howto/howto_css_transition_hover.asp
+* Smooth Scroll - https://www.w3schools.com/howto/howto_css_smooth_scroll.asp#section2
+* Back to top button - https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
+* README template - https://github.com/kera-cudmore/readme-examples/blob/main/milestone1-readme.md
+* Back to top text and arrow in README - https://github.com/Irishbecky91/survival-guild/blob/main/README.md
 
-If you have used some code in your project that you didn't write, this is the place to make note of it. Credit the author of the code and if possible a link to where you found the code. You could also add in a brief description of what the code does, or what you are using it for here.
 
-### Content
+### **Websites visited to gather knowledge**
 
-Who wrote the content for the website? Was it yourself - or have you made the site for someone and they specified what the site was to say?
+There were many sites visited during the duration of the project.
+[Google](https://google.com/ "Google home page") was used to produce results of the specific query, and [Stack Overflow](https://stackoverflow.com/ "Stack Overflow home page") proved to be the best source of information for various queries/issues. The website that was of immense help and served as a guide was [A complete guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-flexbox-tricks "Link to Guide to Flexbox") that was almost always open in a tab of the browser.
 
-###  Media
+### **Text Content**
 
-If you have used any media on your site (images, audio, video etc) you can credit them here.
+Most of the text content of [Home page](https://boiann.github.io/boudoir-studio/index.html "Link to Boudoir Studio home page") was adapted from [Wikipedia entry on Boudoir Photography](https://en.wikipedia.org/wiki/Boudoir "Link to Wikipedia Boudoir page") for historical facts.
+
+The names of people in the website, namely the photographer, make-up artist, hair stylist and from testimonials section, are completely made up and yielded no results when using [Google](https://google.com/ "Google home page") search.
+This was purposeful as not to offend anyone by accident. 
+
+The backstory of the Studio team are completely made up too, but written in a manner that made sense.
+
+Most of the motivational text aimed at the future client was made up, adapted and changed when the developer was doing research about Boudoir. Taking a look at other Boudoir Photography websites helped a lot to bring this website to life. 
+* *As previously stated in the project overview and imagery, this is an educational project so there will be no links to outside Boudoir Websites on account of their content.*
+
+###  **Media**
+
+* Hero image used is of Mirjana Bakaric ( wife of the developer ), used with consent, blessing and pride.
+
+* All the rest of the images used for the project come from two free image websites, [Pexels](https://www.pexels.com/ "Pexels home page link") and [Unsplash](https://unsplash.com/ "Unsplash home page link"). 
+
+* Two video files(links) in [Thank You page](https://boiann.github.io/boudoir-studio/thanks.html "Link to Boudoir Studio thank you page") belong to Mr. Michael Sasser.
   
-###  Acknowledgments
+###  **Acknowledgments**
 
-If someone helped you out during your project, you can acknowledge them here!
+Without support I got from other people, this project would never be realized. I'll try and remember to thank everyone and everything I can!
+
+* Mirjana, my wife, thank you for your support and cheering me on, lifting me 
+back up when it got hard and being my source of inspiration for this project. Thank you for taking care of all the housework and food, children and numerous other responsibilities while I was busy with full time job and doing this project on the side. Without you this journey into career change would never be possible.
+* Anja, Gabrijela and Viktorija, my three beautiful girls. Thank you for being so understanding during the project. Thank you from the bottom of my heart for being who you are, wonderful and delightful souls.
+* Boris and Maja, my brother and sister, thank you for testing my project so thoroughly, and for your support.
+* Marija and Boris, my mother and father, thank you for making me feel like a superstar when I announced I'm starting this journey.
+* John, my friend, thank you for starting me on this path, and for your support, chats and sharing the things you learned.
+* Helen from Code Institute, thank you believing in me and making this change possible.
+* Slack community, thank you for being a constant source of good information.
+* Koko, my mentor, thank you for being an incredible source of solutions and good advice, your support meant a great deal during the project.
+* Michael Sasser, thank you for showing me what Boudoir is and what it means, and teaching me how to be a good Boudoir photographer.
+* C8H10N4O2 in a cup. Thank you for existing.
 
 [Back to top ⇧](#boudoir-studio)
 
