@@ -5,7 +5,7 @@ Made with passion for anybody interested in Boudoir Photography and what it repr
 
 <!-- Add an image of the finished site here.  -->
 
-Visit the live site <a href="https://boiann.github.io/boudoir-studio/index.html" target="_blank">here.</a>
+Visit the live site [Here.](https://boiann.github.io/boudoir-studio/index.html "Link to Boudoir Studio home page")
 
 ---
 
