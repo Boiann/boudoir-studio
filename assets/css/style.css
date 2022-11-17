@@ -296,7 +296,7 @@ h3 {
     color: #881100;
     text-transform: uppercase;
     font-size: 150%;
-    margin: 20px auto 10px;
+    margin: 10px auto 10px;
 }
 
 #form h3 {
@@ -424,7 +424,7 @@ footer h2 {
     display: none;
     position: fixed;
     bottom: 20px;
-    right: 20px;
+    right: 15px;
     z-index: 99;
     font-size: 18px;
     background-color: rgba(136, 17, 0, .5);

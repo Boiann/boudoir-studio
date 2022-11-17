@@ -147,8 +147,6 @@ The colour choice was made in early planning stages for the project. The develop
 
 ### **Typography**
 
-<!-- Google Fonts img  -->
-
 The fonts were imported from [Google 
 Fonts](https://fonts.google.com/ "Link to Google fonts page") database.
 Fanwood Text is used throughout the site (body), and Quattrocento sans is used for the site logo and submit button in the form. 
@@ -303,9 +301,15 @@ Contact link will scroll the page to contact section, allowing the user to be ab
 
 <!-- img/gif -->
 
-* Lastly, the footer area contains icons for social media links. Each link opens in a separate tab, and has hover background transition, border-radius applied and transition effect applied.
+* The footer area contains icons for social media links. Each link opens in a separate tab, and has hover background transition, border-radius applied and transition effect applied.
 
 <!-- img/gif -->
+
+* Back-to-top Button is made by using Javascript, utilized on all pages but the thanks.html (not required because it is single screen size).
+The developer did not intend to use any javascript in this project, but has failed to find an appropriate button using html/css only. The function of hiding the button completely when at the top of the page was just to perfect to miss out on. 
+The button has the now familiar hover color change effect paired with smooth transition. The button has low opacity when not in use as not to impede with the user's view of the page, especially on lower resolutions when the button covers text. 
+
+  <!-- img/gif -->
 
 ### **Specific Features on Each Page**
 
@@ -320,12 +324,7 @@ Contact link will scroll the page to contact section, allowing the user to be ab
 <!-- img/gif -->
 
 * [About Us page](https://boiann.github.io/boudoir-studio/about.html "Link to Boudoir Studio about us page")
-  * About us page has three sections, first being the short description of the Studio staff and the owner/photographer. 
-
-  <!-- img/gif -->
-
-  * The second section is Frequently asked questions with accordion menu styling.
-  Each of the questions hides the answer, revealed after the user clicks on the question. The questions have the hover background change paired with soft transition applied along with edge softening.
+  * About us page has three sections, first being the short description of the Studio staff and the owner/photographer. The second section is Frequently asked questions with accordion menu styling. Each of the questions hides the answer, revealed after the user clicks on the question. The questions have the hover background change paired with soft transition applied along with edge softening. The last section are the testimonials of the previous clients.
 
   <!-- img/gif -->
 
@@ -342,17 +341,7 @@ Contact link will scroll the page to contact section, allowing the user to be ab
 
 * Hidden Scrollbar is utilized across all of the pages, design choice coming from desire to center the content as best as possible and for being more aesthetically pleasing.
 
-  <!-- img/gif -->
-
-* Back-to-top Button is made by using Javascript, utilized on all pages but the thanks.html (not required because it is single screen size).
-The developer did not intend to use any javascript in this project, but has failed to find an appropriate button using html/css only. The function of hiding the button completely when at the top of the page was just to perfect to miss out on. 
-The button has the now familiar hover color change effect paired with smooth transition. The button has low opacity when not in use as not to impede with the user's view of the page, especially on lower resolutions when the button covers text. 
-
-  <!-- img/gif -->
-
 * Smooth scrolling is enabled for the whole website for better user experience, it pairs nicely with other transition effects found in all of the other pages.
-
-  <!-- img/gif -->
 
 * CSS Quick Jump Feature was implemented born out of developer's own frustration when searching for a particular line of code in the style.css. The feature enables future user/reviewer/employer/assessor to find exactly what is needed quickly.
 
@@ -390,6 +379,7 @@ The repository of this project was cloned at an earlier point to facilitate cont
 * Google Keep - Used to make notes during the project duration
 * LanguageTool - Used to spell-check the contents of README.md
 * Google Fonts - Used to import fonts to the project
+* GifCap - used to capture gif-s of the project
 
 [Back to top ⇧](#boudoir-studio)
 
