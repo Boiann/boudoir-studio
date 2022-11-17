@@ -3,7 +3,7 @@
 Boudoir Studio Wexford is a Project 1 for Code Institute Full-stack development program: HTML/CSS Essentials.
 Made with passion for anybody interested in Boudoir Photography and what it represents.
 
-<!-- Add an image of the finished site here.  -->
+![Responsive website image](assets/images/readme_images/main/main_images/main_responsive.png)
 
 Visit the live site [Here.](https://boiann.github.io/boudoir-studio/index.html "Link to Boudoir Studio home page")
 
@@ -133,7 +133,7 @@ Because this is a project made for educational purposes, the images contained ar
 
 ### **Colour Scheme**
 
-<!-- Colour Palette img  -->
+![Colour Palette image](assets/images/readme_images/main/main_images/colours.png)
 
 The colours used in the project are Dark Red and its various opacity setting, Raisin Black, Black and White.
 
@@ -158,7 +158,7 @@ The fonts were chosen on the pairing suggested on the website [Fontpair](https:/
 
 The main (hero) image used is the same across all pages but it changes in colour. This was a design choice made in early planning stages for the project.
 
-<!-- Hero imb, gif or img of all 3 pages together -->
+![Hero image colour change](assets/images/readme_images/main/main_images/hero_change.gif)
 
 The goal was to present the [Home](https://boiann.github.io/boudoir-studio/index.html "Link to Boudoir Studio home page") page in black and white, [Gallery](https://boiann.github.io/boudoir-studio/gallery.html "Link to Boudoir Studio gallery page") with colour accents and [About Us](https://boiann.github.io/boudoir-studio/about.html "Link to Boudoir Studio about us page") in full colour.
 This gradual colour addition was meant to give a sense of progression through the website and to keep the website dynamic and attractive.
@@ -216,23 +216,47 @@ All of the images except the hero and gallery itself have border-radius applied 
 Wireframes for the project were developed right after the idea was scribbled on a piece of paper, the program used being Balsamiq.
 
 Wireframes for Assessment Guide and Project Planning & Ux were made before the ones for the content of the pages themselves.
+<details>
+<summary>Assessment wireframe</summary>
 
-<!-- Assessment Guide and Project Planning & Ux imgs -->
+![Assessment guide wireframe](assets/images/readme_images/main/wireframes/portfolio_1_assessment_guide.png)
+</details>
+
+<details>
+<summary>Project planning wireframe</summary>
+
+![Project planning wireframe](assets/images/readme_images/main/wireframes/project_planning.png)
+</details>
 
 There are three sets of wireframes for the pages, each set corresponding to the level of learning outcome (grade); Pass Performance, Merit Performance and Distinction Performance.
 
 Differences between outcomes were considered early as to allow flexibility when working on the project. Personal, work, family, dependants and health situations were considered to have impact on time available for the project.
 Ideally, maximum time was to be taken to finish the project making the scope bigger.
 
-Pass Performance wireframes:
+<details>
+<summary>Pass Performance wireframes</summary>
 
-<!-- Pass Performance wireframes imgs -->
+![Pass wireframe for index page](assets/images/readme_images/main/wireframes/boudoir_index_pass.png)
+![Pass wireframe for gallery page](assets/images/readme_images/main/wireframes/boudoir_gallery_pass.png)
+![Pass wireframe for about us page](assets/images/readme_images/main/wireframes/boudoir_contact_pass.png)
+</details>
 
-Merit Performance wireframes:
+<details>
+<summary>Merit Performance wireframes</summary>
 
-<!-- Merit Performance wireframes imgs -->
+![Merit wireframe for index page](assets/images/readme_images/main/wireframes/boudoir_index_merit.png)
+![Merit wireframe for splash page](assets/images/readme_images/main/wireframes/boudoir_splash_screen_merit.png)
+![Merit wireframe for about us page](assets/images/readme_images/main/wireframes/boudoir_contact_merit.png)
+</details>
 
-Distinction Performance wireframes:
+<details>
+<summary>Distinction Performance wireframes</summary>
+
+![Distinction wireframe for index page](assets/images/readme_images/main/wireframes/boudoir_index_distinction.png)
+![Distinction wireframe for hair studio page](assets/images/readme_images/main/wireframes/boudoir_hair_studio_distinction.png)
+![Distinction wireframe for about us page](assets/images/readme_images/main/wireframes/boudoir_contact_distinction.png)
+![Distinction wireframe for about us page](assets/images/readme_images/main/wireframes/boudoir_voucher_page_distinction.png)
+</details>
 
 <!-- Distinction Performance wireframes imgs -->
 
@@ -251,82 +275,85 @@ All of the features presented in this sections are fully responsive on all devic
 User will know on which page it is currently on, achieved by changing the background colour of the page currently in use.
 Contact link will scroll the page to contact section, allowing the user to be able to quickly find it when in need.
 
-  * Hover effects on navigation menu
+* Hover effects on navigation menu
 
-    <!-- img/gif -->
+![Hover effects on navigation menu gif](assets/images/readme_images/main/features/general/hover_nav.gif)
 
-  * Links working/opening pages
+* Links working/opening pages
 
-    <!-- img/gif -->
+![Links working and opening pages gif](assets/images/readme_images/main/features/general/links_opening.gif)
 
-  * Logo click opening Home page   
+* Logo click opening Home page   
 
-    <!-- img/gif -->
+![Logo click opening Home page gif](assets/images/readme_images/main/features/general/logo_click.gif)
 
-  * Contact link scrolling to contact section
+* Contact link scrolling to contact section
 
-      <!-- img/gif -->
+![Contact link scrolling to contact section gif](assets/images/readme_images/main/features/general/contact_click.gif)
 
 * Navigation menu turns into hamburger menu below screen size of 900px. This is done to not clutter the header. The hamburger menu links retain their hover and transition effects, as well as retaining active menu background change.
 
 * Hover effects in hamburger navigation menu
 
-    <!-- img/gif -->
+![Hover effects in hamburger navigation menu gif](assets/images/readme_images/main/features/general/ham_hover.gif)
 
-  * Links working/opening pages in hamburger menu
+* Links working/opening pages in hamburger menu
 
-    <!-- img/gif -->
+![Links working/opening pages in hamburger menu gif](assets/images/readme_images/main/features/general/ham_click.gif)
 
-  * Logo click opening Home page in hamburger menu  
+* Logo click opening Home page in hamburger menu  
 
-    <!-- img/gif -->
+![Logo click opening Home page in hamburger menu gif](assets/images/readme_images/main/features/general/ham_logo_click.gif)
 
-  * Contact link scrolling to contact section
+* Contact link scrolling to contact section in hamburger menu
 
-      <!-- img/gif -->  
+![Contact link scrolling to contact section in hamburger menu gif](assets/images/readme_images/main/features/general/ham_contact_click.gif)  
 
 * Hero image and cover text "pillow" are fixed in the background, contributing to interesting effect and overall dynamic feel of the page.
 
-<!-- img/gif -->
+![Hero image fixed gif](assets/images/readme_images/main/features/general/hero_fixed.gif)
 
-* Page content descriptor below the hero image is consistent in style and size across the pages
+* Page content descriptor below the hero image is consistent in style, colour and font size across the pages
 
-<!-- img/gif -->
+![Page descriptor for index page image](assets/images/readme_images/main/features/general/pg_descriptor_1.png)
+![Page descriptor for gallery page image](assets/images/readme_images/main/features/general/pg_descriptor_2.png)
+![Page descriptor for about us page image](assets/images/readme_images/main/features/general/pg_descriptor_3.png)
+
 
 * Responsive contact section containing form that the user will use to send the query to the Studio. Features hover background change for the input fields, text area and submit button. The placeholder text inside the text area changes colour on hover as well to allow for good contrast for the user.
 
-<!-- img/gif -->
+![Form section hover effects gif](assets/images/readme_images/main/features/general/form_hover.gif)
 
 * On the right to the form section, the map section features responsive map with controls and functions. The user is able to zoom in/out and move the map around.
 
-<!-- img/gif -->
+![Interactive map gif](assets/images/readme_images/main/features/general/map_use.gif)
 
 * The footer area contains icons for social media links. Each link opens in a separate tab, and has hover background transition, border-radius applied and transition effect applied.
 
-<!-- img/gif -->
+![Footer interactive icons gif](assets/images/readme_images/main/features/general/footer_icons_use.gif)
 
 * Back-to-top Button is made by using Javascript, utilized on all pages but the thanks.html (not required because it is single screen size).
 The developer did not intend to use any javascript in this project, but has failed to find an appropriate button using html/css only. The function of hiding the button completely when at the top of the page was just to perfect to miss out on. 
 The button has the now familiar hover color change effect paired with smooth transition. The button has low opacity when not in use as not to impede with the user's view of the page, especially on lower resolutions when the button covers text. 
 
-  <!-- img/gif -->
+![Back to top button use gif](assets/images/readme_images/main/features/general/back_to_top_working.gif)
 
 ### **Specific Features on Each Page**
 
 * [Home page](https://boiann.github.io/boudoir-studio/index.html "Link to Boudoir Studio home page")
   * The Home page's body content consists of three images and four square-areas with text. Divided into three sections, first section has a image on the left and text on the right, second section has an image in the middle with text on both sides (The link provided in the text opens in a new tab) and the last one has an image on the right and the text on the left. This particular layout was chosen to keep the layout dynamic and engaging. Of all the "body" content in between the pages, the home page has the biggest and most adaptive font size. This is to make the first page more impactful and distinct from the rest of the pages/content.
 
-  <!-- img/gif -->
+  ![Index page content gif](assets/images/readme_images/main/features/specific/index_content.gif)
 
 * [Gallery page](https://boiann.github.io/boudoir-studio/gallery.html "Link to Boudoir Studio gallery page")
   * Gallery page contains an image gallery consisting of 12 images, each with hover-magnifying effect applied. The border-radius was not applied to them to keep the photography portfolio more professional. The images themselves are grouped in three columns with four images each to allow for better flex styling.  
 
-<!-- img/gif -->
+  ![Gallery page content gif](assets/images/readme_images/main/features/specific/gallery_content.gif)
 
 * [About Us page](https://boiann.github.io/boudoir-studio/about.html "Link to Boudoir Studio about us page")
   * About us page has three sections, first being the short description of the Studio staff and the owner/photographer. The second section is Frequently asked questions with accordion menu styling. Each of the questions hides the answer, revealed after the user clicks on the question. The questions have the hover background change paired with soft transition applied along with edge softening. The last section are the testimonials of the previous clients.
 
-  <!-- img/gif -->
+  ![About us page content gif](assets/images/readme_images/main/features/specific/about_content.gif)
 
 * [Thank You page](https://boiann.github.io/boudoir-studio/thanks.html "Link to Boudoir Studio thank you page")
   * Thank you page retains only the footer area from previous pages. The page itself consists of a big thank you message, reply-back promise and time frame. The two video iframes serve as a reward of sort for the user, and they are fully responsive.
@@ -335,7 +362,7 @@ The button has the now familiar hover color change effect paired with smooth tra
   This specific animation was chosen to bring the attention to this "back to home" ability to the user.
   This is the only page with its separate css file, made because only the footer was kept from other pages, and to reduce the size and code on the main css file.
 
-    <!-- img/gif -->
+  ![Thank you page content gif](assets/images/readme_images/main/features/specific/thanks_content.gif)
 
 ### **Other Features**
 
@@ -345,7 +372,7 @@ The button has the now familiar hover color change effect paired with smooth tra
 
 * CSS Quick Jump Feature was implemented born out of developer's own frustration when searching for a particular line of code in the style.css. The feature enables future user/reviewer/employer/assessor to find exactly what is needed quickly.
 
-  <!-- img/gif -->
+  ![CSS quick jump image](assets/images/readme_images/main/features/other/css_guide.png)
 
 ### **Future Implementations**
 
@@ -404,8 +431,6 @@ To deploy this page to GitHub Pages from its GitHub repository, the following st
 
 ---
 
-<!-- Testing will have its own TESTING.md file -->
-
 ## **Testing**
 
 Testing information can be found in a separate testing file [TESTING.md](/TESTING.md).
@@ -418,8 +443,7 @@ Testing information can be found in a separate testing file [TESTING.md](/TESTIN
 
 ### **Code used and adapted**
 
-* Hamburger menu -
-https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/
+* Hamburger menu - https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/
 * Hidden scrollbar - https://blog.hubspot.com/website/hide-scrollbar-css
 * Flip text animation - https://codepen.io/alvarotrigo/pen/bGrXmwM
 * Responsive image grid - https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp
