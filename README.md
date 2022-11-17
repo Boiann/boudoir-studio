@@ -439,7 +439,7 @@ https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/
 * Back to top button - https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
 * README template - https://github.com/kera-cudmore/readme-examples/blob/main/milestone1-readme.md
 * Back to top text and arrow in README - https://github.com/Irishbecky91/survival-guild/blob/main/README.md
-
+* CSS file quick jump - https://perishablepress.com/obsessive-css-code-formatting-organization-comments-and-signatures/
 
 ### **Websites visited to gather knowledge**
 

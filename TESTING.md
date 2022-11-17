@@ -242,12 +242,47 @@ Responsiveness test for each page:
 ---
 
 ## **Bugs**
+
 ### **Known Bugs**
+
+* Bug reported by Boris B. (developer's brother):
+On his mobile phone Samsung Galaxy A30s there are no pop-up warnings about missing name/surname/email/text when trying to submit contact form.
+The form is still working as expected (not allowing submission) but the notifications are absent.
+Upon about it the developer spent time on Google and Stack Overflow but has failed to come to a satisfactory answer/fix. 
+
+The bug however, is not present on any other devices used to check the form: Samsung Galaxy A50, Samsung Galaxy A51, Samsung Galaxy S8+.
+The bug is also absent when using Chrome Developer Tools Device Toolbar.
+
+Due to the nature of the bug, the developer feels it is safe to proceed with finalization of the project. 
+
 ### **Solved Bugs**
+
+There were many bugs/issues encountered during the development of this website. The major ones are listed below.
+All of them were solved with [Google](https://google.com/ "Google home page") and in most cases with the help of the community on [Stack Overflow](https://stackoverflow.com/ "Stack Overflow home page") website.
+
+* Images display issue with images not displayed properly or distorted. 
+* Map issue with trying to have the interactive map working and display properly.
+* Video embedding issue when trying to have it working and display properly. Problem was caused mostly with the design choice by the developer choosing to have two videos side by side.
+* Images not loading when the website was published, fix visible from commits for this project repository named "Fix image paths for website deployment." The bug was was caused by not investigating the issue properly and multiple attempts to fix the issue were made without refreshing the cache and resetting internet connection.
+* Bug with Javascript integration in the project. The developer was writing the Javascript code into the head of the HTML files, thinking that is where it belongs. Numerous hours later, tens of Javascript code tryouts and finally investigating in Chrome Developer Tools the developer found out the script should be at the bottom of the HTML code, at the end of the body section. The solution was found here: https://bobbyhadz.com/blog/javascript-cannot-read-property-style-of-null#:~:text=To%20resolve%20the%20%22Cannot%20read,the%20getElementById%20method%20returns%20null%20.
+* Issue raised when using [WAVE WebAIM](https://wave.webaim.org/ "Link to WAVE WebAIM home page") tool to check the website accessibility. The test showed one error: missing label for the text area in the form. The developer applied a quick fix without properly investigating the issue, visible from multiple commits needed. After proper investigation correct label was implemented and styled into the website.
 
 ---
 
 ## **Browser compatibility**
+The website was tested on the following browsers with no issues found:
+
+* Google Chrome:
+<!-- img -->
+
+* Mozzilla Firefox:
+<!-- img -->
+
+* Microsoft Edge:
+<!-- img -->
+
+* Opera Browser:
+<!-- img -->
 
 ---
 
