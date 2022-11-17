@@ -36,26 +36,27 @@ The [W3C Markup Validator](https://validator.w3.org/) service was used to valida
 
 Results of the HTML test of [Home page](https://boiann.github.io/boudoir-studio/index.html "Link to Boudoir Studio home page"):
 
-<!-- img -->
+![Validator home page test result image](assets/images/readme_images/testing/validator/validation_index.png)
 
 Results of the HTML test of [Gallery page](https://boiann.github.io/boudoir-studio/gallery.html "Link to Boudoir Studio gallery page"):
 
-<!-- img -->
+![Validator gallery page test result image](assets/images/readme_images/testing/validator/validation_gallery.png)
 
 Results of the HTML test of [About Us page](https://boiann.github.io/boudoir-studio/about.html "Link to Boudoir Studio about us page"):
 
-<!-- img -->
+![Validator about us page test result image](assets/images/readme_images/testing/validator/validation_about.png)
 
 Results of the HTML test of [Thank You page](https://boiann.github.io/boudoir-studio/thanks.html "Link to Boudoir Studio thank you page"):
 
-<!-- img -->
+![Validator thank you page test result image](assets/images/readme_images/testing/validator/validation_thanks.png)
 
 Results of the CSS test of [style.css](assets/css/style.css "Link to main style.css file"):
 
-<!-- img -->
+![Validator main css file test result image](assets/images/readme_images/testing/validator/validation_main_css.png)
+
 Results of the CSS test of [thanks_page_style.css](assets/css/thanks_page_style.css "Link to thanks_page_style.css for Thank You Page"):
 
-<!-- img -->
+![Validator thanki you css file test result image](assets/images/readme_images/testing/validator/validation_thanks_css.png)
 
 ### **Lighthouse**
 The performance test of all the pages was done with Lighthouse through Google Chrome Developer Tools, both for desktop and mobile devices.
@@ -64,41 +65,41 @@ Lighthouse test results for [Home page](https://boiann.github.io/boudoir-studio/
 
 * Desktop:
 
-<!-- img -->
+![Lighthouse test result image for home page on desktop device](assets/images/readme_images/testing/lighthouse/index_desktop.png)
 
 * Mobile:
 
-<!-- img -->
+![Lighthouse test result image for home page on mobile device](assets/images/readme_images/testing/lighthouse/index_mobile.png)
 
 Lighthouse test results for [Gallery page](https://boiann.github.io/boudoir-studio/gallery.html "Link to Boudoir Studio gallery page"):
 
 * Desktop:
 
-<!-- img -->
+![Lighthouse test result image for gallery page on desktop device](assets/images/readme_images/testing/lighthouse/gallery_desktop.png)
 
 * Mobile:
 
-<!-- img -->
+![Lighthouse test result image for gallery page on mobile device](assets/images/readme_images/testing/lighthouse/gallery_mobile.png)
 
 Lighthouse test results for [About Us page](https://boiann.github.io/boudoir-studio/about.html "Link to Boudoir Studio about us page"):
 
 * Desktop:
 
-<!-- img -->
+![Lighthouse test result image for about us page on desktop device](assets/images/readme_images/testing/lighthouse/about_desktop.png)
 
 * Mobile:
 
-<!-- img -->
+![Lighthouse test result image for about us page on mobile device](assets/images/readme_images/testing/lighthouse/about_mobile.png)
 
 Lighthouse test results for [Thank You page](https://boiann.github.io/boudoir-studio/thanks.html "Link to Boudoir Studio thank you page"):
 
 * Desktop:
 
-<!-- img -->
+![Lighthouse test result image for thank you page on desktop device](assets/images/readme_images/testing/lighthouse/thanks_desktop.png)
 
 * Mobile:
 
-<!-- img -->
+![Lighthouse test result image for thank you page on mobile device](assets/images/readme_images/testing/lighthouse/thanks_mobile.png)
 
 ---
 
@@ -108,19 +109,19 @@ The [WAVE WebAIM](https://wave.webaim.org/ "Link to WAVE WebAIM home page") web 
 
 Results of the evaluation test of [Home page](https://boiann.github.io/boudoir-studio/index.html "Link to Boudoir Studio home page"):
 
-<!-- img -->
+![WAVE WebAim test result image for home page](assets/images/readme_images/testing/wave/wave_index.png)
 
 Results of the evaluation test of [Gallery page](https://boiann.github.io/boudoir-studio/gallery.html "Link to Boudoir Studio gallery page"):
 
-<!-- img -->
+![WAVE WebAim test result image for gallery page](assets/images/readme_images/testing/wave/wave_gallery.png)
 
 Results of the evaluation test of [About Us page](https://boiann.github.io/boudoir-studio/about.html "Link to Boudoir Studio about us page"):
 
-<!-- img -->
+![WAVE WebAim test result image for about us page](assets/images/readme_images/testing/wave/wave_about.png)
 
 Results of the evaluation test of [Thank You page](https://boiann.github.io/boudoir-studio/thanks.html "Link to Boudoir Studio thank you page"):
 
-<!-- img -->
+![WAVE WebAim test result image for home page](assets/images/readme_images/testing/wave/wave_thanks.png)
 
 ---
 
@@ -228,16 +229,16 @@ The website still works on a device 230px wide, with visible problems with foote
 
 Responsiveness test for each page:
 * [Home page](https://boiann.github.io/boudoir-studio/index.html "Link to Boudoir Studio home page"):
-   <!-- img -->
+  ![Home page responsiveness image](assets/images/readme_images/testing/responsive/responsive_index.gif)
 
 * [Gallery page](https://boiann.github.io/boudoir-studio/gallery.html "Link to Boudoir Studio gallery page"):
-  <!-- img -->   
+  ![Gallery page responsiveness image](assets/images/readme_images/testing/responsive/responsive_gallery.gif)   
 
 * [About Us page](https://boiann.github.io/boudoir-studio/about.html "Link to Boudoir Studio about us page"):
-  <!-- img -->  
+  ![About us page responsiveness image](assets/images/readme_images/testing/responsive/responsive_about.gif)  
 
 * [Thank You page](https://boiann.github.io/boudoir-studio/thanks.html "Link to Boudoir Studio thank you page"):
-  <!-- img -->
+  ![Thank you page responsiveness image](assets/images/readme_images/testing/responsive/responsive_thanks.gif)
 
 ---
 
@@ -273,16 +274,16 @@ All of them were solved with [Google](https://google.com/ "Google home page") an
 The website was tested on the following browsers with no issues found:
 
 * Google Chrome:
-<!-- img -->
+![Chrome browser in use image](assets/images/readme_images/testing/browsers/chrome.png)
 
 * Mozzilla Firefox:
-<!-- img -->
+![Firefox browser in use image](assets/images/readme_images/testing/browsers/firefox.png)
 
 * Microsoft Edge:
-<!-- img -->
+![Edge browser in use image](assets/images/readme_images/testing/browsers/edge.png)
 
 * Opera Browser:
-<!-- img -->
+![Opera browser in use image](assets/images/readme_images/testing/browsers/opera.png)
 
 ---
 

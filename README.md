@@ -258,9 +258,6 @@ Ideally, maximum time was to be taken to finish the project making the scope big
 ![Distinction wireframe for about us page](assets/images/readme_images/main/wireframes/boudoir_voucher_page_distinction.png)
 </details>
 
-<!-- Distinction Performance wireframes imgs -->
-
-
 [Back to top ⇧](#boudoir-studio)
 
 ---
