@@ -159,8 +159,85 @@ Results of the evaluation test of [Thank You page](https://boiann.github.io/boud
     * The footer section present on all pages serves to provide user with links to the social media of the website.
 
 ### **Full Testing**
+
 #### **Features**
+
+**Testing features present on all pages of the website:**
+
+* Navigation bar links opening pages and hover effect:
+<!-- img -->
+
+* Navigation bar contact link scrolling to contact section:
+<!-- img -->
+
+* Hero image fixed effect:
+<!-- img -->
+
+* Contact section hover effect:
+<!-- img -->
+
+* Map section interaction with the map:
+<!-- img -->
+
+* Social media icons hover effect:
+<!-- img -->
+
+* Social media icons opening in a new tab:
+  * Facebook:
+  <!-- img -->
+
+  * Twitter:
+  <!-- img -->
+
+  * Youtube:
+  <!-- img -->
+
+  * Instagram:
+  <!-- img -->
+
+* Back to top button appearing, dissapearing, hover effect
+  <!-- img -->
+
+* Hamburger menu working/opening links:
+  <!-- img -->
+
+**Testing features present on specific pages of the website:**
+
+ * [Home page](https://boiann.github.io/boudoir-studio/index.html "Link to Boudoir Studio home page"):
+   * Wiki link for named artist in Boudoir History opening in a new tab
+   <!-- img -->
+
+* [Gallery page](https://boiann.github.io/boudoir-studio/gallery.html "Link to Boudoir Studio gallery page"):
+  * Gallery images hover effect:
+  <!-- img -->
+
+* [About Us page](https://boiann.github.io/boudoir-studio/about.html "Link to Boudoir Studio about us page"):
+  * FAQ section accordion and hover effect:
+  <!-- img -->
+
+* [Thank You page](https://boiann.github.io/boudoir-studio/thanks.html "Link to Boudoir Studio thank you page"):
+  * Controls present and no autoplay on videos:
+  <!-- img -->
+  * Back to home link animation and opening home page working:
+  <!-- img -->
+
 #### **Responsiveness**
+
+Responsiveness of the whole website was thoroughly tested for devices up to 320px wide. 
+The website still works on a device 230px wide, with visible problems with footer social media icons below that width.
+
+Responsiveness test for each page:
+* [Home page](https://boiann.github.io/boudoir-studio/index.html "Link to Boudoir Studio home page"):
+   <!-- img -->
+
+* [Gallery page](https://boiann.github.io/boudoir-studio/gallery.html "Link to Boudoir Studio gallery page"):
+  <!-- img -->   
+
+* [About Us page](https://boiann.github.io/boudoir-studio/about.html "Link to Boudoir Studio about us page"):
+  <!-- img -->  
+
+* [Thank You page](https://boiann.github.io/boudoir-studio/thanks.html "Link to Boudoir Studio thank you page"):
+  <!-- img -->
 
 ---
 
