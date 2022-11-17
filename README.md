@@ -418,22 +418,7 @@ To deploy this page to GitHub Pages from its GitHub repository, the following st
 
 ## **Testing**
 
-### **AUTOMATED TESTING**
-#### **W3C Validator**
-#### **Lighthouse**
-
-### **ACCESSIBILITY**
-#### **Wave**
-
-### **MANUAL TESTING**
-#### **Testing User Stories**
-#### **Full Testing**
-
-### **BUGS**
-#### **Known Bugs**
-#### **Solved Bugs**
-
-### **Browser compatibility**
+Testing information can be found in a separate testing file [TESTING.md](/TESTING.md).
 
 [Back to top ⇧](#boudoir-studio)
 
