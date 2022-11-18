@@ -165,62 +165,75 @@ Results of the evaluation test of [Thank You page](https://boiann.github.io/boud
 
 **Testing features present on all pages of the website:**
 
-* Navigation bar links opening pages and hover effect:
-<!-- img -->
+* Navigation bar links hover effect:
+![Navigation bar links hover effect gif](assets/images/readme_images/testing/features/general/hover_nav.gif)
+
+* Navigation bar links opening pages:
+![Navigation bar links opening pages gif](assets/images/readme_images/testing/features/general/links_opening.gif)
+
+* Logo link opening and hover effect:
+![Logo link opening and hover effect gif](assets/images/readme_images/testing/features/general/logo_click.gif)
 
 * Navigation bar contact link scrolling to contact section:
-<!-- img -->
+![Navigation bar contact link scrolling to contact section gif](assets/images/readme_images/testing/features/general/contact_click.gif)
+
+* Navigation hamburger menu opening and hover effect:
+![Navigation hamburger menu opening and hover effect gif](assets/images/readme_images/testing/features/general/ham_hover.gif)
+
+* Navigation hamburger menu opening pages:
+![Navigation hamburger menu opening pages gif](assets/images/readme_images/testing/features/general/ham_click.gif)
+
+* Navigation hamburger menu logo working:
+![Navigation hamburger menu logo working gif](assets/images/readme_images/testing/features/general/ham_logo_click.gif)
+
+* Navigation hamburger menu contact link scrolling to contact section:
+![Navigation hamburger menu contact link scrolling to contact section gif](assets/images/readme_images/testing/features/general/ham_contact_click.gif)
 
 * Hero image fixed effect:
-<!-- img -->
+![Hero image fixed effect gif](assets/images/readme_images/testing/features/general/hero_fixed.gif)
 
 * Contact section hover effect:
-<!-- img -->
+![Contact section hover effect gif](assets/images/readme_images/testing/features/general/form_hover.gif)
 
 * Map section interaction with the map:
-<!-- img -->
+![Map section interaction with the map gif](assets/images/readme_images/testing/features/general/map_use.gif)
 
 * Social media icons hover effect:
-<!-- img -->
+![Social media icons hover effect gif](assets/images/readme_images/testing/features/general/footer_hover.gif)
 
 * Social media icons opening in a new tab:
   * Facebook:
-  <!-- img -->
+  ![Facebook opening in a new tab gif](assets/images/readme_images/testing/features/general/open_facebook.gif)
 
   * Twitter:
-  <!-- img -->
+  ![Twitter opening in a new tab gif](assets/images/readme_images/testing/features/general/open_twitter.gif)
 
   * Youtube:
-  <!-- img -->
+  ![Youtube opening in a new tab gif](assets/images/readme_images/testing/features/general/open_youtube.gif)
 
   * Instagram:
-  <!-- img -->
+  ![Instagram opening in a new tab gif](assets/images/readme_images/testing/features/general/open_instagram.gif)
 
 * Back to top button appearing, dissapearing, hover effect
-  <!-- img -->
-
-* Hamburger menu working/opening links:
-  <!-- img -->
+  ![Back to top button appearing, dissapearing, hover effect gif](assets/images/readme_images/main/features/general/back_to_top_working.gif)
 
 **Testing features present on specific pages of the website:**
 
  * [Home page](https://boiann.github.io/boudoir-studio/index.html "Link to Boudoir Studio home page"):
    * Wiki link for named artist in Boudoir History opening in a new tab
-   <!-- img -->
+   ![Wiki link opening in a separate tab gif](assets/images/readme_images/testing/features/specific/index_link_opening.gif)
 
 * [Gallery page](https://boiann.github.io/boudoir-studio/gallery.html "Link to Boudoir Studio gallery page"):
   * Gallery images hover effect:
-  <!-- img -->
+  ![Gallery images hover effect gif](assets/images/readme_images/testing/features/specific/gallery_hover_effect.gif)
 
 * [About Us page](https://boiann.github.io/boudoir-studio/about.html "Link to Boudoir Studio about us page"):
   * FAQ section accordion and hover effect:
-  <!-- img -->
+  ![FAQ section accordion and hover effect gif](assets/images/readme_images/testing/features/specific/faq_accordion_working.gif)
 
 * [Thank You page](https://boiann.github.io/boudoir-studio/thanks.html "Link to Boudoir Studio thank you page"):
-  * Controls present and no autoplay on videos:
-  <!-- img -->
-  * Back to home link animation and opening home page working:
-  <!-- img -->
+  * Controls present and no autoplay on videos, back to home link animation and opening home page working:
+  ![Thank you page video controls, animation and link opening gif](assets/images/readme_images/testing/features/specific/thanks_content.gif)
 
 #### **Responsiveness**
 
