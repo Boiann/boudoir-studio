@@ -162,6 +162,7 @@ All of the images except the hero and gallery itself have border-radius applied 
 ### **Structure**
 
   * The Boudoir Studio website is structured in a user friendly and easy to navigate way. 
+    ![Website Structure Map](assets/images/readme_images/main/main_images/site_map.png)
   * When opening the website, the user sees a navigation bar with the logo on the left-hand side and the navigation links to the right. 
   * The hero image contains simple yet impactful message (cover text) for the potential new client and serves as a call to action.
   * Both the navigation bar and hero image along with cover text are kept consistent in all three pages, exception being the thanks.html.
@@ -385,7 +386,7 @@ The repository of this project was cloned at an earlier point to facilitate cont
 * [Font Awesome](https://fontawesome.com/ "Link to Font Awesome page") - Icons were obtained from Font Awesome and used for the social media 
   icons in the footer.
 * [Fotor Photo Studio](https://www.fotor.com/ "Link to Fotor page") - Used to crop/resize and colour adjust the images used.
-* [Balsamiq](https://balsamiq.com/ "Link to Balsamiq page") - Used to create wireframes for the project.
+* [Balsamiq](https://balsamiq.com/ "Link to Balsamiq page") - Used to create wireframes and website structure map for the project.
 * [Pixillion Image Converter](https://www.nchsoftware.com/imageconverter/index.html?ns=true&kw=pixillion%20image%20converter&gclid=Cj0KCQiA99ybBhD9ARIsALvZavXKEsfJf5-WRUHKOv8Luf35hSJFHVg7l8SLYQtDfGnAyDrmVsToYwgaAtHqEALw_wcB "Link to Pixillion download page") - Used to convert the images into webp format
 * [Visual Studio Code + Spell Checker add on](https://code.visualstudio.com/ "Link to Visual Studio page") - Used to spell-check the html and css code
 * [Google Keep](https://keep.google.com/ "Link to Google Keep page") - Used to make notes during the project duration
