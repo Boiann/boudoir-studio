@@ -266,41 +266,41 @@ Contact link will scroll the page to contact section, allowing the user to be ab
 
 * Hover effects on navigation menu
 
-![Hover effects on navigation menu gif](assets/images/readme_images/main/features/general/hover_nav.gif)
+![Hover effects on navigation menu gif](assets/images/readme_images/shared/hover_nav.gif)
 
 * Links working/opening pages
 
-![Links working and opening pages gif](assets/images/readme_images/main/features/general/links_opening.gif)
+![Links working and opening pages gif](assets/images/readme_images/shared/links_opening.gif)
 
 * Logo click opening Home page   
 
-![Logo click opening Home page gif](assets/images/readme_images/main/features/general/logo_click.gif)
+![Logo click opening Home page gif](assets/images/readme_images/shared/logo_click.gif)
 
 * Contact link scrolling to contact section
 
-![Contact link scrolling to contact section gif](assets/images/readme_images/main/features/general/contact_click.gif)
+![Contact link scrolling to contact section gif](assets/images/readme_images/shared/contact_click.gif)
 
 * Navigation menu turns into hamburger menu below screen size of 900px. This is done to not clutter the header. The hamburger menu links retain their hover and transition effects, as well as retaining active menu background change.
 
 * Hover effects in hamburger navigation menu
 
-![Hover effects in hamburger navigation menu gif](assets/images/readme_images/main/features/general/ham_hover.gif)
+![Hover effects in hamburger navigation menu gif](assets/images/readme_images/shared/ham_hover.gif)
 
 * Links working/opening pages in hamburger menu
 
-![Links working/opening pages in hamburger menu gif](assets/images/readme_images/main/features/general/ham_click.gif)
+![Links working/opening pages in hamburger menu gif](assets/images/readme_images/shared/ham_click.gif)
 
 * Logo click opening Home page in hamburger menu  
 
-![Logo click opening Home page in hamburger menu gif](assets/images/readme_images/main/features/general/ham_logo_click.gif)
+![Logo click opening Home page in hamburger menu gif](assets/images/readme_images/shared/ham_logo_click.gif)
 
 * Contact link scrolling to contact section in hamburger menu
 
-![Contact link scrolling to contact section in hamburger menu gif](assets/images/readme_images/main/features/general/ham_contact_click.gif)  
+![Contact link scrolling to contact section in hamburger menu gif](assets/images/readme_images/shared/ham_contact_click.gif)  
 
 * Hero image and cover text "pillow" are fixed in the background, contributing to interesting effect and overall dynamic feel of the page.
 
-![Hero image fixed gif](assets/images/readme_images/main/features/general/hero_fixed.gif)
+![Hero image fixed gif](assets/images/readme_images/shared/hero_fixed.gif)
 
 * Page content descriptor below the hero image is consistent in style, colour and font size across the pages
 
@@ -308,11 +308,11 @@ Contact link will scroll the page to contact section, allowing the user to be ab
 
 * Responsive contact section containing form that the user will use to send the query to the Studio. Features hover background change for the input fields, text area and submit button. The placeholder text inside the text area changes colour on hover as well to allow for good contrast for the user.
 
-![Form section hover effects gif](assets/images/readme_images/main/features/general/form_hover.gif)
+![Form section hover effects gif](assets/images/readme_images/shared/form_hover.gif)
 
 * On the right to the form section, the map section features responsive map with controls and functions. The user is able to zoom in/out and move the map around.
 
-![Interactive map gif](assets/images/readme_images/main/features/general/map_use.gif)
+![Interactive map gif](assets/images/readme_images/shared/map_use.gif)
 
 * The footer area contains icons for social media links. Each link opens in a separate tab, and has hover background transition, border-radius applied and transition effect applied.
 
@@ -322,7 +322,7 @@ Contact link will scroll the page to contact section, allowing the user to be ab
 The developer did not intend to use any javascript in this project, but has failed to find an appropriate button using html/css only. The function of hiding the button completely when at the top of the page was just to perfect to miss out on. 
 The button has the now familiar hover color change effect paired with smooth transition. The button has low opacity when not in use as not to impede with the user's view of the page, especially on lower resolutions when the button covers text. 
 
-![Back to top button use gif](assets/images/readme_images/main/features/general/back_to_top_working.gif)
+![Back to top button use gif](assets/images/readme_images/shared/back_to_top_working.gif)
 
 ### **Specific Features on Each Page**
 
@@ -460,7 +460,7 @@ Most of the motivational text aimed at the future client was made up, adapted an
 
 ###  **Media**
 
-* Hero image used is of Mirjana Bakaric ( wife of the developer ), used with consent, blessing and pride.
+* Hero image used is of Mirjana ( wife of the developer ), used with consent, blessing and pride.
 
 * All the rest of the images used for the project come from two free image websites, [Pexels](https://www.pexels.com/ "Pexels home page link") and [Unsplash](https://unsplash.com/ "Unsplash home page link"). 
 
@@ -471,13 +471,14 @@ Most of the motivational text aimed at the future client was made up, adapted an
 Without support I got from other people, this project would never be realized. I'll try and remember to thank everyone and everything I can!
 
 * Mirjana, my wife, thank you for your support and cheering me on, lifting me 
-back up when it got hard and being my source of inspiration for this project. Thank you for taking care of all the housework and food, children and numerous other responsibilities while I was busy with full time job and doing this project on the side. Without you this journey into career change would never be possible.
-* Anja, Gabrijela and Viktorija, my three beautiful girls. Thank you for being so understanding during the project. Thank you from the bottom of my heart for being who you are, wonderful and delightful souls.
+back up when it got hard and being my source of inspiration for this project. Your beauty was ehat inspired this project idea. Thank you for taking care of all the housework and food, children and numerous other responsibilities while I was busy with full time job and doing this project on the side. Without you this journey into career change would never be possible.
+* A., G. and V., my three beautiful girls. Thank you for being so understanding during the project. Thank you from the bottom of my heart for being who you are, wonderful and delightful souls. You make me proud to be your dad.
 * Boris and Maja, my brother and sister, thank you for testing my project so thoroughly, and for your support.
 * Marija and Boris, my mother and father, thank you for making me feel like a superstar when I announced I'm starting this journey.
 * John, my friend, thank you for starting me on this path, and for your support, chats and sharing the things you learned.
 * Helen from Code Institute, thank you believing in me and making this change possible.
 * Slack community, thank you for being a constant source of good information.
+* Kate L_5P, thank you very much for pointing out the issues when the project was submitted for peer review.
 * Koko, my mentor, thank you for being an incredible source of solutions and good advice, your support meant a great deal during the project.
 * Michael Sasser, thank you for showing me what Boudoir is and what it means, and teaching me how to be a good Boudoir photographer.
 * C8H10N4O2 in a cup. Thank you for existing.

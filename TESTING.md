@@ -166,37 +166,37 @@ Results of the evaluation test of [Thank You page](https://boiann.github.io/boud
 **Testing features present on all pages of the website:**
 
 * Navigation bar links hover effect:
-![Navigation bar links hover effect gif](assets/images/readme_images/testing/features/general/hover_nav.gif)
+![Navigation bar links hover effect gif](assets/images/readme_images/shared/hover_nav.gif)
 
 * Navigation bar links opening pages:
-![Navigation bar links opening pages gif](assets/images/readme_images/testing/features/general/links_opening.gif)
+![Navigation bar links opening pages gif](assets/images/readme_images/shared/links_opening.gif)
 
 * Logo link opening and hover effect:
-![Logo link opening and hover effect gif](assets/images/readme_images/testing/features/general/logo_click.gif)
+![Logo link opening and hover effect gif](assets/images/readme_images/shared/logo_click.gif)
 
 * Navigation bar contact link scrolling to contact section:
-![Navigation bar contact link scrolling to contact section gif](assets/images/readme_images/testing/features/general/contact_click.gif)
+![Navigation bar contact link scrolling to contact section gif](assets/images/readme_images/shared/contact_click.gif)
 
 * Navigation hamburger menu opening and hover effect:
-![Navigation hamburger menu opening and hover effect gif](assets/images/readme_images/testing/features/general/ham_hover.gif)
+![Navigation hamburger menu opening and hover effect gif](assets/images/readme_images/shared/ham_hover.gif)
 
 * Navigation hamburger menu opening pages:
-![Navigation hamburger menu opening pages gif](assets/images/readme_images/testing/features/general/ham_click.gif)
+![Navigation hamburger menu opening pages gif](assets/images/readme_images/shared/ham_click.gif)
 
 * Navigation hamburger menu logo working:
-![Navigation hamburger menu logo working gif](assets/images/readme_images/testing/features/general/ham_logo_click.gif)
+![Navigation hamburger menu logo working gif](assets/images/readme_images/shared/ham_logo_click.gif)
 
 * Navigation hamburger menu contact link scrolling to contact section:
-![Navigation hamburger menu contact link scrolling to contact section gif](assets/images/readme_images/testing/features/general/ham_contact_click.gif)
+![Navigation hamburger menu contact link scrolling to contact section gif](assets/images/readme_images/shared/ham_contact_click.gif)
 
 * Hero image fixed effect:
-![Hero image fixed effect gif](assets/images/readme_images/testing/features/general/hero_fixed.gif)
+![Hero image fixed effect gif](assets/images/readme_images/shared/hero_fixed.gif)
 
 * Contact section hover effect:
-![Contact section hover effect gif](assets/images/readme_images/testing/features/general/form_hover.gif)
+![Contact section hover effect gif](assets/images/readme_images/shared/form_hover.gif)
 
 * Map section interaction with the map:
-![Map section interaction with the map gif](assets/images/readme_images/testing/features/general/map_use.gif)
+![Map section interaction with the map gif](assets/images/readme_images/shared/map_use.gif)
 
 * Social media icons hover effect:
 ![Social media icons hover effect gif](assets/images/readme_images/testing/features/general/footer_hover.gif)
@@ -215,7 +215,7 @@ Results of the evaluation test of [Thank You page](https://boiann.github.io/boud
   ![Instagram opening in a new tab gif](assets/images/readme_images/testing/features/general/open_instagram.gif)
 
 * Back to top button appearing, dissapearing, hover effect
-  ![Back to top button appearing, dissapearing, hover effect gif](assets/images/readme_images/main/features/general/back_to_top_working.gif)
+  ![Back to top button appearing, dissapearing, hover effect gif](assets/images/readme_images/shared/back_to_top_working.gif)
 
 **Testing features present on specific pages of the website:**
 
@@ -280,7 +280,10 @@ All of them were solved with [Google](https://google.com/ "Google home page") an
 * Images not loading when the website was published, fix visible from commits for this project repository named "Fix image paths for website deployment." The bug was was caused by not investigating the issue properly and multiple attempts to fix the issue were made without refreshing the cache and resetting internet connection.
 * Bug with Javascript integration in the project. The developer was writing the Javascript code into the head of the HTML files, thinking that is where it belongs. Numerous hours later, tens of Javascript code tryouts and finally investigating in Chrome Developer Tools the developer found out the script should be at the bottom of the HTML code, at the end of the body section. The solution was found here: https://bobbyhadz.com/blog/javascript-cannot-read-property-style-of-null#:~:text=To%20resolve%20the%20%22Cannot%20read,the%20getElementById%20method%20returns%20null%20.
 * Issue raised when using [WAVE WebAIM](https://wave.webaim.org/ "Link to WAVE WebAIM home page") tool to check the website accessibility. The test showed one error: missing label for the text area in the form. The developer applied a quick fix without properly investigating the issue, visible from multiple commits needed. After proper investigation correct label was implemented and styled into the website.
-
+* Issues raised by Kate L_5P from slack community when presenting this project for peer review:
+"This is a nicely styled site, really clean. My only feedback would be that the images take a little while to load so you might find (if you haven't done it yet) that your lighthouse scores for performance might be affected. Maybe think about converting them to webp files?
+I really like the burger menu on smaller devices too but I think maybe there could be a tad more spacing between the background shadow and the burger menu icon (see pic)."
+The spacing was corrected and the images converted to webp format as per advice.
 ---
 
 ## **Browser compatibility**
