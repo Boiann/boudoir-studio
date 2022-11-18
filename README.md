@@ -39,20 +39,6 @@ Visit the live site [Here.](https://boiann.github.io/boudoir-studio/index.html "
 * [Deployment](#deployment)
 
 * [Testing](#testing)
-  * [AUTOMATED TESTING](#automated-testing)
-    * [W3C Validator](#w3c-validator)
-    * [Lighthouse](#lighthouse)
-
-  * [ACCESSIBILITY](#accessibility)  
-    * [Wave](#wave)
-
-  * [MANUAL TESTING](#manual-testing)
-    * [Testing User Stories](#testing-user-stories)
-    * [Full Testing](#full-testing)
-
-  * [BUGS](#bugs)
-    * [Known Bugs](#known-bugs)
-    * [Solved Bugs](#solved-bugs)
 
 * [Credits](#credits)
   * [Code Used](#code-used)
@@ -147,8 +133,7 @@ The colour choice was made in early planning stages for the project. The develop
 
 ### **Typography**
 
-The fonts were imported from [Google 
-Fonts](https://fonts.google.com/ "Link to Google fonts page") database.
+The fonts were imported from [Google Fonts](https://fonts.google.com/ "Link to Google fonts page") database.
 Fanwood Text is used throughout the site (body), and Quattrocento sans is used for the site logo and submit button in the form. 
 Both fonts have a back-up font in case the selected doesn't load for the user.
 Fanwood Text has a backup of serif and Quattrocento sans has a backup of sans-serif.
@@ -213,7 +198,7 @@ All of the images except the hero and gallery itself have border-radius applied 
 
 ### **Wireframes**
 
-Wireframes for the project were developed right after the idea was scribbled on a piece of paper, the program used being Balsamiq.
+Wireframes for the project were developed right after the idea was scribbled on a piece of paper, the program used being Balsamiq. Wireframe for mobile devices was made at later stage of the project.
 
 Wireframes for Assessment Guide and Project Planning & Ux were made before the ones for the content of the pages themselves.
 <details>
@@ -256,6 +241,12 @@ Ideally, maximum time was to be taken to finish the project making the scope big
 ![Distinction wireframe for hair studio page](assets/images/readme_images/main/wireframes/boudoir_hair_studio_distinction.png)
 ![Distinction wireframe for about us page](assets/images/readme_images/main/wireframes/boudoir_contact_distinction.png)
 ![Distinction wireframe for about us page](assets/images/readme_images/main/wireframes/boudoir_voucher_page_distinction.png)
+</details>
+
+<details>
+<summary>Mobile wireframes</summary>
+
+![Mobile device wireframe image](assets/images/readme_images/main/wireframes/mobile_wireframe.png)
 </details>
 
 [Back to top ⇧](#boudoir-studio)
@@ -312,10 +303,7 @@ Contact link will scroll the page to contact section, allowing the user to be ab
 
 * Page content descriptor below the hero image is consistent in style, colour and font size across the pages
 
-![Page descriptor for index page image](assets/images/readme_images/main/features/general/pg_descriptor_1.png)
-![Page descriptor for gallery page image](assets/images/readme_images/main/features/general/pg_descriptor_2.png)
-![Page descriptor for about us page image](assets/images/readme_images/main/features/general/pg_descriptor_3.png)
-
+![Page descriptors for each page image](assets/images/readme_images/main/features/general/pg_descriptor.png)
 
 * Responsive contact section containing form that the user will use to send the query to the Studio. Features hover background change for the input fields, text area and submit button. The placeholder text inside the text area changes colour on hover as well to allow for good contrast for the user.
 
@@ -385,25 +373,25 @@ The repository of this project was cloned at an earlier point to facilitate cont
 
 ### **Languages Used**
 
-* HTML - The website was developed using HTML as the main language.
-* CSS - The website was styled using custom CSS in an external file.
-* JAVASCRIPT - Used to make "Back to Top" button disappear when at the top of the  
+* [HTML](https://en.wikipedia.org/wiki/HTML "Link to html wikipedia page") - The website was developed using HTML as the main language.
+* [CSS](https://en.wikipedia.org/wiki/CSS "Link to css wikipedia page") - The website was styled using custom CSS in an external file.
+* [JAVASCRIPT](https://en.wikipedia.org/wiki/JavaScript "Link to javascript wikipedia page") - Used to make "Back to Top" button disappear when at the top of the  
   page, and appear when the user scrolls down.
 
 ### **Programs Used**
 
-* GitHub - Source code hosted on GitHub, deployed using Git Pages.
-* Gitpod Workspaces - Used to commit, comment and push code during the development process.
-* Font Awesome - Icons were obtained from Font Awesome and used for the social media 
+* [GitHub](https://github.com/ "Link to GitHub page") - Source code hosted on GitHub, deployed using Git Pages.
+* [GitPod](https://www.gitpod.io/ "Link to GitPod page") - Used to commit, comment and push code during the development process.
+* [Font Awesome](https://fontawesome.com/ "Link to Font Awesome page") - Icons were obtained from Font Awesome and used for the social media 
   icons in the footer.
-* Fotor Photo Studio - Used to crop/resize and colour adjust the images used.
-* Balsamiq - Used to create wireframes for the project.
-* Pixillion Image Converter - Used to convert the images into webp format
-* Visual Studio Code + Spell Checker add on - Used to spell-check the html and css code
-* Google Keep - Used to make notes during the project duration
-* LanguageTool - Used to spell-check the contents of README.md
-* Google Fonts - Used to import fonts to the project
-* GifCap - used to capture gif-s of the project
+* [Fotor Photo Studio](https://www.fotor.com/ "Link to Fotor page") - Used to crop/resize and colour adjust the images used.
+* [Balsamiq](https://balsamiq.com/ "Link to Balsamiq page") - Used to create wireframes for the project.
+* [Pixillion Image Converter](https://www.nchsoftware.com/imageconverter/index.html?ns=true&kw=pixillion%20image%20converter&gclid=Cj0KCQiA99ybBhD9ARIsALvZavXKEsfJf5-WRUHKOv8Luf35hSJFHVg7l8SLYQtDfGnAyDrmVsToYwgaAtHqEALw_wcB "Link to Pixillion download page") - Used to convert the images into webp format
+* [Visual Studio Code + Spell Checker add on](https://code.visualstudio.com/ "Link to Visual Studio page") - Used to spell-check the html and css code
+* [Google Keep](https://keep.google.com/ "Link to Google Keep page") - Used to make notes during the project duration
+* [LanguageTool](https://languagetool.org/ "Link to Language Tool page") - Used to spell-check the contents of README.md
+* [Google Fonts](https://fonts.google.com/ "Link to Google fonts page") - Used to import fonts to the project
+* [GifCap](https://gifcap.dev/ "Link to GifCap page") - used to capture gif-s of the project
 
 [Back to top ⇧](#boudoir-studio)
 
