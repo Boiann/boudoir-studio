@@ -296,14 +296,14 @@ h3 {
     color: #881100;
     text-transform: uppercase;
     font-size: 150%;
-    margin: 10px auto 10px;
+    margin: 10px auto 5px;
 }
 
 #form h3 {
     text-align: center;
     color: #26282D;
     text-transform: uppercase;
-    margin: 10px auto 10px;
+    margin: 5px auto 5px;
     font-weight: 700;
 }
 
@@ -333,6 +333,7 @@ h3 {
     color: #26282D;
     font-size: 125%;
     font-weight: 700;
+    padding-top: 2px;
 }
 
 #textarea {
@@ -359,7 +360,7 @@ h3 {
     align-self: center;
     color: #26282D;
     font-size: 125%;
-    margin: 15px auto 5px;
+    margin: 12px auto 5px;
     text-align: center;
     padding: 5px 10px;
     font-family: 'quattrocento sans', sans-serif;

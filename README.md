@@ -87,14 +87,14 @@ Because this is a project made for educational purposes, the images contained ar
    * Fast performance
    * Accessible to all users
    * Responsive across many different devices and screen sizes 
-   * Able to find basic informantion and answers
+   * Able to find basic information and answers
    * Contact the business directly
    * Find social media associated with the business
 
 ### **User Stories**
 
   #### **First Time Visitor**
-   * I want to know what Boudoir Photograpy is
+   * I want to know what Boudoir Photography is
    * I want to navigate the website intuitively
    * I want to find additional information
    * I want to check out the social media of the business
@@ -470,8 +470,8 @@ Most of the motivational text aimed at the future client was made up, adapted an
 
 Without support I got from other people, this project would never be realized. I'll try and remember to thank everyone and everything I can!
 
-* Mirjana, my wife, thank you for your support and cheering me on, lifting me 
-back up when it got hard and being my source of inspiration for this project. Your beauty was ehat inspired this project idea. Thank you for taking care of all the housework and food, children and numerous other responsibilities while I was busy with full time job and doing this project on the side. Without you this journey into career change would never be possible.
+* Mirjana, my wife, your beauty was what inspired this project idea. Thank you for your support and cheering me on, lifting me 
+back up when it got hard and being my source of inspiration for this project. Thank you for taking care of all the housework and food, children and numerous other responsibilities while I was busy with full time job and doing this project on the side. Without you this journey into career change would never be possible.
 * A., G. and V., my three beautiful girls. Thank you for being so understanding during the project. Thank you from the bottom of my heart for being who you are, wonderful and delightful souls. You make me proud to be your dad.
 * Boris and Maja, my brother and sister, thank you for testing my project so thoroughly, and for your support.
 * Marija and Boris, my mother and father, thank you for making me feel like a superstar when I announced I'm starting this journey.

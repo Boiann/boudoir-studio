@@ -56,7 +56,7 @@ Results of the CSS test of [style.css](assets/css/style.css "Link to main style.
 
 Results of the CSS test of [thanks_page_style.css](assets/css/thanks_page_style.css "Link to thanks_page_style.css for Thank You Page"):
 
-![Validator thanki you css file test result image](assets/images/readme_images/testing/validator/validation_thanks_css.png)
+![Validator thank you css file test result image](assets/images/readme_images/testing/validator/validation_thanks_css.png)
 
 ### **Lighthouse**
 The performance test of all the pages was done with Lighthouse through Google Chrome Developer Tools, both for desktop and mobile devices.
@@ -129,7 +129,7 @@ Results of the evaluation test of [Thank You page](https://boiann.github.io/boud
 ### **Testing User Stories**
 
 #### **First Time Visitor**
-  * **I want to know what Boudoir Photograpy is**
+  * **I want to know what Boudoir Photography is**
     * The [Home page](https://boiann.github.io/boudoir-studio/index.html "Link to Boudoir Studio home page") contains the needed info even without the user interaction. As soon as the page loads the cover text in the hero image will tell the user what is the Studio about: "Unleash your beauty, celebrate your femininity, discover the new you." This is enough to spark interest in the user and when scrolling down, the user is greeted with a banner text "See For Yourself How Beautiful You Are!" This is another short motivator, followed by a section that explains exactly what Boudoir Photography is. Users interested in more content can learn about Boudoir history and why its benefits, as well as why should the user consider using this business.
   * **I want to navigate the website intuitively**
     * The navigation bar is clearly defined and discernable. As per industry standards, it is located in the upper right section of the header. Hovering over the links in the navigation bar will change in colour and transform in size slightly, adding to the interaction. When selecting another page the user will be shown the active one with changed background. The "Back to Top" button will also appear when the user scrolls down enabling the user to quickly navigate to the top of the page. The button will present itself with a low opacity as to appear non-intrusive to the user, but when hovered over and/or used, it will transition into high opacity colour. The contact link in the navigation bar is present in all pages and quickly leads the user to the contact form.   
